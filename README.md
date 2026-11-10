@@ -142,27 +142,7 @@ Restricciones del usuario (código, en `comparacion.py`):
 
   El LLM redactor explica la decisión, pero no la toma ni calcula cifras: recibe las diferencias ya calculadas.
 
-## 6. Requisitos del enunciado y dónde se cumplen
-
-| Requisito | Implementación |
-|---|---|
-| Flujo ejecutable en LangGraph con componentes LLM y herramientas programáticas | `grafo.py` (9 nodos, aristas condicionales, `Send`, `interrupt`); 3 componentes LLM; proveedores y cálculos en código |
-| Identificar producto, cantidad, unidad, marca, presentación, calidad, ciudad y proveedores | `SolicitudInterpretada` / `ItemInterpretado` (`schemas.py`) con salida estructurada estricta |
-| Aclaración o suposición explícita cuando falta un dato | `pedir_aclaracion` con `interrupt()`; si no hay interacción, `normalizar_solicitud` registra suposiciones (sección 1 del reporte) |
-| Al menos dos proveedores | Olímpica y Jumbo, consultados en paralelo |
-| Mecanismos permitidos, sin eludir protecciones ni usar endpoints internos | JSON-LD público con robots.txt (RFC 9309) y catálogo CSV de referencia (sección 3) |
-| Nombre, presentación, precio, moneda, proveedor, URL, fecha y disponibilidad | Modelo `Oferta`; tablas de las secciones 2 y 3 del reporte; JSON |
-| Convertir unidades y comparar precio por unidad | `unidades.py`; columna «Precio por unidad» |
-| Distinguir equivalentes de sustitutos | Juez LLM con reglas de respaldo (`comparacion.py`) |
-| Respetar marca, presentación y especificación | `comparacion.evaluar_oferta`; ejemplo 02 |
-| Marcar como no comparable lo que no tiene información suficiente | Clasificación `no_comparable` con su motivo |
-| Tabla de productos y ofertas | Sección 3 del reporte |
-| Presupuesto por proveedor, compra combinada, total y costos adicionales | Sección 4 |
-| Productos sin cotización y condiciones no verificadas | Sección 5 |
-| Recomendación explicada y enlaces a las fuentes | Secciones 6 y 7 |
-| No interpretar envío desconocido como cero; separar subtotal de total confirmado | `CostoAdicional.valor = None` → «No confirmado» |
-
-## 7. Pruebas
+## 6. Pruebas
 
 `uv run pytest` ejecuta 47 pruebas sin red ni API (LLM falso, catálogos de prueba y un cliente HTTP falso):
 
@@ -171,7 +151,7 @@ Restricciones del usuario (código, en `comparacion.py`):
 - `test_comparacion_presupuesto.py`: clasificación, restricciones, empaques, envío desconocido frente a conocido, umbral de la compra combinada y sustitutos.
 - `test_grafo.py`: grafo completo con `Send`, `interrupt` y reanudación, suposiciones, proveedor no soportado, juez que falla, producto sin cotización y marca obligatoria.
 
-## 8. Limitaciones conocidas
+## 7. Limitaciones conocidas
 
 - **Precios por ciudad:** las tiendas muestran el precio de su tienda en línea sin elegir sede. No se verificó que sea el mismo en la ciudad pedida; el reporte lo declara como condición no verificada.
 - **Cobertura de búsqueda:** solo se lee la primera página de resultados (15 a 28 productos). Algunos términos no tienen página con datos estructurados en una tienda (por ejemplo, «sal» o «detergente» en Olímpica) y quedan *sin cotización*.
@@ -180,7 +160,7 @@ Restricciones del usuario (código, en `comparacion.py`):
 - **Envío:** siempre desconocido, porque solo se calcula en el checkout. Si una tienda publicara una tarifa fija, basta con poner su `valor` en `config/proveedores.json`.
 - El modo `--sin-llm` usa reglas simples: sirve para pruebas y demostración, pero entiende menos que el LLM.
 
-## 9. Estructura
+## 8. Estructura
 
 ```
 cotizador-compras/
