@@ -1,0 +1,72 @@
+{
+  "dominio": "mercado",
+  "ciudad_por_defecto": "Medellín",
+  "proveedores": [
+    {
+      "id": "olimpica",
+      "nombre": "Olímpica",
+      "alias": ["olimpica", "olímpica", "sao", "supertiendas olimpica"],
+      "tipo": "web_jsonld",
+      "base_url": "https://www.olimpica.com",
+      "plantillas_busqueda": ["/{termino}?map=ft", "/{plural}"],
+      "sitemap_categorias": "https://www.olimpica.com/sitemap/category-0.xml",
+      "prefijo_categorias": "/supermercado/",
+      "catalogo_respaldo": "data/catalogos/referencia_mercado.csv",
+      "justificacion_acceso": "La página pública de búsqueda (/{termino}?map=ft) publica un ItemList schema.org con nombre, marca, precio, moneda, disponibilidad y URL de cada producto. robots.txt (User-agent: *) solo prohíbe /secret, /*?orderFormId=, /*& y /*%: la URL usada no contiene '&' ni '%'. Si la búsqueda no trae productos, se usa la página de la categoría correspondiente, tomada del sitemap público de categorías.",
+      "envio": {
+        "valor": null,
+        "fuente": "https://www.olimpica.com",
+        "nota": "El costo del domicilio depende de la dirección, la franja y el valor del pedido y solo se calcula en el carrito/checkout, que este sistema no consulta."
+      },
+      "condiciones_no_verificadas": [
+        "Olímpica: el precio es el publicado en la tienda en línea sin seleccionar sede ni dirección; no se verificó que sea igual en {ciudad}.",
+        "Olímpica: no se verificó cobertura de domicilio en {ciudad}.",
+        "Olímpica: promociones condicionadas (tarjeta propia, 'lleve X pague Y') no se consideran."
+      ]
+    },
+    {
+      "id": "jumbo",
+      "nombre": "Jumbo",
+      "alias": ["jumbo", "tiendas jumbo", "jumbo colombia", "cencosud"],
+      "tipo": "web_jsonld",
+      "base_url": "https://www.jumbocolombia.com",
+      "plantillas_busqueda": ["/{termino}?map=ft", "/{plural}"],
+      "sitemap_categorias": "https://www.jumbocolombia.com/sitemap/category-0.xml",
+      "prefijo_categorias": "/supermercado/",
+      "catalogo_respaldo": "data/catalogos/referencia_mercado.csv",
+      "justificacion_acceso": "La página pública de búsqueda (/{termino}?map=ft) publica un ItemList schema.org con precio, moneda, disponibilidad y URL. robots.txt prohíbe /busca*, /checkout/, /account* y parámetros en la raíz ('/?*ft', '/?*map'...); la URL usada no coincide con ninguna de esas reglas.",
+      "envio": {
+        "valor": null,
+        "fuente": "https://www.jumbocolombia.com",
+        "nota": "El costo del domicilio depende de la dirección, la franja y el valor del pedido y solo se calcula en el checkout (/checkout/ está prohibido por robots.txt)."
+      },
+      "condiciones_no_verificadas": [
+        "Jumbo: el precio es el publicado en la tienda en línea sin seleccionar sede ni dirección; no se verificó que sea igual en {ciudad}.",
+        "Jumbo: no se verificó cobertura de domicilio en {ciudad}.",
+        "Jumbo: promociones condicionadas (tarjeta Cencosud, cantidad mínima) no se consideran."
+      ]
+    }
+  ],
+  "no_soportados": {
+    "exito": {
+      "alias": ["exito", "éxito", "almacenes exito"],
+      "motivo": "Las páginas públicas de exito.com no traen los productos: el navegador los pide a un endpoint interno (/api/), que el enunciado prohíbe tratar como API pública y que el robots.txt del sitio declara no rastreable (igual que la búsqueda /s?)."
+    },
+    "carulla": {
+      "alias": ["carulla"],
+      "motivo": "Usa la misma plataforma que Éxito: los productos solo llegan desde el endpoint interno /api/."
+    },
+    "d1": {
+      "alias": ["d1", "tiendas d1"],
+      "motivo": "La tienda en línea redirige las búsquedas a páginas sin productos del término consultado; no publica resultados en datos estructurados."
+    },
+    "ara": {
+      "alias": ["ara", "tiendas ara"],
+      "motivo": "No se encontró un catálogo público con precios en datos estructurados."
+    },
+    "makro": {
+      "alias": ["makro"],
+      "motivo": "La página de búsqueda no publica productos en datos estructurados."
+    }
+  }
+}

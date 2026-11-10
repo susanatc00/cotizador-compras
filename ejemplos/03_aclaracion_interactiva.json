@@ -1,0 +1,4882 @@
+{
+  "texto_usuario": "Necesito arroz y aceite para la casa, cotiza en Olímpica\nAclaración del usuario: 3 kg de arroz y 1 litro de aceite, en Bello",
+  "modo_interactivo": true,
+  "rondas_aclaracion": 1,
+  "interpretacion": {
+    "items": [
+      {
+        "texto_original": "3 kg de arroz",
+        "producto": "arroz",
+        "termino_busqueda": "arroz",
+        "cantidad": 3.0,
+        "unidad": "kg",
+        "especificaciones": [],
+        "marca": null,
+        "marca_obligatoria": false,
+        "presentacion_cantidad": null,
+        "presentacion_unidad": null,
+        "presentacion_obligatoria": false
+      },
+      {
+        "texto_original": "1 litro de aceite",
+        "producto": "aceite",
+        "termino_busqueda": "aceite",
+        "cantidad": 1.0,
+        "unidad": "L",
+        "especificaciones": [],
+        "marca": null,
+        "marca_obligatoria": false,
+        "presentacion_cantidad": null,
+        "presentacion_unidad": null,
+        "presentacion_obligatoria": false
+      }
+    ],
+    "ciudad": "Bello",
+    "proveedores_mencionados": [
+      "Olímpica"
+    ],
+    "cantidad_proveedores": null,
+    "observaciones": []
+  },
+  "faltantes": [],
+  "solicitud": {
+    "items": [
+      {
+        "idx": 0,
+        "texto_original": "3 kg de arroz",
+        "producto": "arroz",
+        "termino_busqueda": "arroz",
+        "cantidad": 3.0,
+        "dimension": "masa",
+        "unidad_base": "kg",
+        "cantidad_texto": "3 kg",
+        "especificaciones": [],
+        "marca": null,
+        "marca_obligatoria": false,
+        "presentacion_base": null,
+        "presentacion_obligatoria": false
+      },
+      {
+        "idx": 1,
+        "texto_original": "1 litro de aceite",
+        "producto": "aceite",
+        "termino_busqueda": "aceite",
+        "cantidad": 1.0,
+        "dimension": "volumen",
+        "unidad_base": "L",
+        "cantidad_texto": "1 L",
+        "especificaciones": [],
+        "marca": null,
+        "marca_obligatoria": false,
+        "presentacion_base": null,
+        "presentacion_obligatoria": false
+      }
+    ],
+    "ciudad": "Bello",
+    "proveedores_ids": [
+      "olimpica",
+      "jumbo"
+    ]
+  },
+  "suposiciones": [
+    "Para comparar al menos 2 proveedores se agregó: Jumbo."
+  ],
+  "resultados_consulta": [
+    {
+      "proveedor_id": "olimpica",
+      "proveedor": "Olímpica",
+      "item_idx": 0,
+      "termino": "arroz",
+      "estado": "ok",
+      "url_consulta": "https://www.olimpica.com/arroz?map=ft",
+      "fecha_consulta": "2026-11-09T20:29:38-05:00",
+      "mensaje": "15 productos leídos del JSON-LD de la búsqueda pública.",
+      "ofertas": [
+        {
+          "id": "olimpica:2000025",
+          "proveedor_id": "olimpica",
+          "proveedor": "Olímpica",
+          "nombre": "Arroz Sabrosón 5 Kg",
+          "marca": "Sabroson",
+          "presentacion_texto": "Arroz Sabrosón 5 Kg",
+          "precio": 20990.0,
+          "moneda": "COP",
+          "url": "https://www.olimpica.com/arroz-sabroson-5-kg-7707105805105-2000025/p",
+          "sku": "2000025",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
+        },
+        {
+          "id": "olimpica:566554",
+          "proveedor_id": "olimpica",
+          "proveedor": "Olímpica",
+          "nombre": "Arroz Diana 5 Kg",
+          "marca": "Diana",
+          "presentacion_texto": "Arroz Diana 5 Kg",
+          "precio": 21950.0,
+          "moneda": "COP",
+          "url": "https://www.olimpica.com/arroz-diana-5-kg-7702511000045-566554/p",
+          "sku": "566554",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
+        },
+        {
+          "id": "olimpica:2000024",
+          "proveedor_id": "olimpica",
+          "proveedor": "Olímpica",
+          "nombre": "Arroz Sabrosón 3 Kg",
+          "marca": "Sabroson",
+          "presentacion_texto": "Arroz Sabrosón 3 Kg",
+          "precio": 11990.0,
+          "moneda": "COP",
+          "url": "https://www.olimpica.com/arroz-sabroson-3-kg-7707105805068-2000024/p",
+          "sku": "2000024",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
+        },
+        {
+          "id": "olimpica:518233",
+          "proveedor_id": "olimpica",
+          "proveedor": "Olímpica",
+          "nombre": "Arroz Diana 3 Kg",
+          "marca": "Diana",
+          "presentacion_texto": "Arroz Diana 3 Kg",
+          "precio": 13100.0,
+          "moneda": "COP",
+          "url": "https://www.olimpica.com/arroz-diana-3-kg-7702511000038-518233/p",
+          "sku": "518233",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
+        },
+        {
+          "id": "olimpica:2317851",
+          "proveedor_id": "olimpica",
+          "proveedor": "Olímpica",
+          "nombre": "Arroz Diana Paca 12,5 Kg X25 Unds",
+          "marca": "Diana",
+          "presentacion_texto": "Arroz Diana Paca 12,5 Kg X25 Unds",
+          "precio": 49990.0,
+          "moneda": "COP",
+          "url": "https://www.olimpica.com/arroz-diana-paca-25-und-12-500-g/p",
+          "sku": "2317851",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
+        },
+        {
+          "id": "olimpica:518231",
+          "proveedor_id": "olimpica",
+          "proveedor": "Olímpica",
+          "nombre": "Arroz Diana 500 G",
+          "marca": "Diana",
+          "presentacion_texto": "Arroz Diana 500 G",
+          "precio": 2100.0,
+          "moneda": "COP",
+          "url": "https://www.olimpica.com/arroz-diana-500-gr-7702511000014-518231/p",
+          "sku": "518231",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
+        },
+        {
+          "id": "olimpica:2331765",
+          "proveedor_id": "olimpica",
+          "proveedor": "Olímpica",
+          "nombre": "ARROZ TAILANDES 2.500 G",
+          "marca": "Tailandes",
+          "presentacion_texto": "ARROZ TAILANDES 2.500 G",
+          "precio": 13650.0,
+          "moneda": "COP",
+          "url": "https://www.olimpica.com/arroz-tailandes-2-500-g/p",
+          "sku": "2331765",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
+        },
+        {
+          "id": "olimpica:1515360",
+          "proveedor_id": "olimpica",
+          "proveedor": "Olímpica",
+          "nombre": "Arroz Diana Premium 2,5 Kg",
+          "marca": "Diana",
+          "presentacion_texto": "Arroz Diana Premium 2,5 Kg",
+          "precio": 15990.0,
+          "moneda": "COP",
+          "url": "https://www.olimpica.com/arroz-diana-premiun-2-5-kg-7702511000748-1515360/p",
+          "sku": "1515360",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
+        },
+        {
+          "id": "olimpica:2282035",
+          "proveedor_id": "olimpica",
+          "proveedor": "Olímpica",
+          "nombre": "Arroz Olimpica Paca Económica 500 G X25 Unds",
+          "marca": "Olimpica",
+          "presentacion_texto": "Arroz Olimpica Paca Económica 500 G X25 Unds",
+          "precio": 41200.0,
+          "moneda": "COP",
+          "url": "https://www.olimpica.com/arroz-olimpica-paca-econ-500g-x25-un/p",
+          "sku": "2282035",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
+        },
+        {
+          "id": "olimpica:518232",
+          "proveedor_id": "olimpica",
+          "proveedor": "Olímpica",
+          "nombre": "Arroz Diana 1 Kg",
+          "marca": "Diana",
+          "presentacion_texto": "Arroz Diana 1 Kg",
+          "precio": 4200.0,
+          "moneda": "COP",
+          "url": "https://www.olimpica.com/arroz-diana-1-kg-7702511000021-518232/p",
+          "sku": "518232",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
+        },
+        {
+          "id": "olimpica:1176741",
+          "proveedor_id": "olimpica",
+          "proveedor": "Olímpica",
+          "nombre": "Arroz Diana Premium 1 Kg",
+          "marca": "Diana",
+          "presentacion_texto": "Arroz Diana Premium 1 Kg",
+          "precio": 6500.0,
+          "moneda": "COP",
+          "url": "https://www.olimpica.com/arroz-diana-premium-1-kg-7702511000427-1176741/p",
+          "sku": "1176741",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
+        },
+        {
+          "id": "olimpica:2281376",
+          "proveedor_id": "olimpica",
+          "proveedor": "Olímpica",
+          "nombre": "ARROZ  O 500 GRS",
+          "marca": "Olimpica",
+          "presentacion_texto": "ARROZ  O 500 GRS",
+          "precio": 1650.0,
+          "moneda": "COP",
+          "url": "https://www.olimpica.com/arroz--o-500-grs/p",
+          "sku": "2281376",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
+        },
+        {
+          "id": "olimpica:1392071",
+          "proveedor_id": "olimpica",
+          "proveedor": "Olímpica",
+          "nombre": "Arroz Mi Arroz Paca Económica 11,35 Kg x25 Unds",
+          "marca": "Mi Arroz",
+          "presentacion_texto": "Arroz Mi Arroz Paca Económica 11,35 Kg x25 Unds",
+          "precio": 29990.0,
+          "moneda": "COP",
+          "url": "https://www.olimpica.com/arroz-mi-arroz-econ-paca-25un-11-35kg-7707105814244-1392071/p",
+          "sku": "1392071",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
+        },
+        {
+          "id": "olimpica:2327554",
+          "proveedor_id": "olimpica",
+          "proveedor": "Olímpica",
+          "nombre": "ARROZ OLIMPICA 2500 G",
+          "marca": "Olimpica",
+          "presentacion_texto": "ARROZ OLIMPICA 2500 G",
+          "precio": 8990.0,
+          "moneda": "COP",
+          "url": "https://www.olimpica.com/arroz-olimpica-2500-g/p",
+          "sku": "2327554",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
+        },
+        {
+          "id": "olimpica:872597",
+          "proveedor_id": "olimpica",
+          "proveedor": "Olímpica",
+          "nombre": "Arroz Diana Premium 4 Kg",
+          "marca": "Diana",
+          "presentacion_texto": "Arroz Diana Premium 4 Kg",
+          "precio": 26500.0,
+          "moneda": "COP",
+          "url": "https://www.olimpica.com/arroz-diana-premium-4-kg-7702511000991-872597/p",
+          "sku": "872597",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
+        }
+      ]
+    },
+    {
+      "proveedor_id": "olimpica",
+      "proveedor": "Olímpica",
+      "item_idx": 1,
+      "termino": "aceite",
+      "estado": "ok",
+      "url_consulta": "https://www.olimpica.com/aceites",
+      "fecha_consulta": "2026-11-09T20:29:39-05:00",
+      "mensaje": "15 productos leídos del JSON-LD de la búsqueda pública (https://www.olimpica.com/aceite?map=ft no publica productos en JSON-LD).",
+      "ofertas": [
+        {
+          "id": "olimpica:1646719",
+          "proveedor_id": "olimpica",
+          "proveedor": "Olímpica",
+          "nombre": "Aceite Medalla de Oro Mezcla 3 Lt",
+          "marca": "Medalla De Oro",
+          "presentacion_texto": "Aceite Medalla de Oro Mezcla 3 Lt",
+          "precio": 20490.0,
+          "moneda": "COP",
+          "url": "https://www.olimpica.com/aceite-medalla-oro-mezcla-3-l/p",
+          "sku": "1646719",
+          "fecha_consulta": "2026-11-09T20:29:39-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.olimpica.com/aceites"
+        },
+        {
+          "id": "olimpica:1646730",
+          "proveedor_id": "olimpica",
+          "proveedor": "Olímpica",
+          "nombre": "Aceite Medalla de Oro Mezcla 900 Ml",
+          "marca": "Medalla De Oro",
+          "presentacion_texto": "Aceite Medalla de Oro Mezcla 900 Ml",
+          "precio": 6490.0,
+          "moneda": "COP",
+          "url": "https://www.olimpica.com/aceite-medalla-oro-mezc-900-cm3/p",
+          "sku": "1646730",
+          "fecha_consulta": "2026-11-09T20:29:39-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.olimpica.com/aceites"
+        },
+        {
+          "id": "olimpica:1651648",
+          "proveedor_id": "olimpica",
+          "proveedor": "Olímpica",
+          "nombre": "Aceite Olimpica de Soya 3 Lt",
+          "marca": "Olimpica",
+          "presentacion_texto": "Aceite Olimpica de Soya 3 Lt",
+          "precio": 26190.0,
+          "moneda": "COP",
+          "url": "https://www.olimpica.com/aceite-de-soya-olimpica-3-l-7701008625204--1651648/p",
+          "sku": "1651648",
+          "fecha_consulta": "2026-11-09T20:29:39-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.olimpica.com/aceites"
+        },
+        {
+          "id": "olimpica:2209538",
+          "proveedor_id": "olimpica",
+          "proveedor": "Olímpica",
+          "nombre": "Aceite Diana Mezcla Vegetal Vitamina A/D 900 Ml",
+          "marca": "Diana-Aceite",
+          "presentacion_texto": "Aceite Diana Mezcla Vegetal Vitamina A/D 900 Ml",
+          "precio": 10800.0,
+          "moneda": "COP",
+          "url": "https://www.olimpica.com/aceite-diana-mezcla-vegetal-vit-ayd-900ml-7702028000330-2209538/p",
+          "sku": "2209538",
+          "fecha_consulta": "2026-11-09T20:29:39-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.olimpica.com/aceites"
+        },
+        {
+          "id": "olimpica:2001145",
+          "proveedor_id": "olimpica",
+          "proveedor": "Olímpica",
+          "nombre": "Aceite Riquísimo 3000 Ml",
+          "marca": "Riquisimo",
+          "presentacion_texto": "Aceite Riquísimo 3000 Ml",
+          "precio": 34390.0,
+          "moneda": "COP",
+          "url": "https://www.olimpica.com/aceite-riquisimo-3-l/p",
+          "sku": "2001145",
+          "fecha_consulta": "2026-11-09T20:29:39-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.olimpica.com/aceites"
+        },
+        {
+          "id": "olimpica:2010298",
+          "proveedor_id": "olimpica",
+          "proveedor": "Olímpica",
+          "nombre": "Aceite Diana Mezcla Vegetales Vitamina A-D 3000 Ml",
+          "marca": "Diana",
+          "presentacion_texto": "Aceite Diana Mezcla Vegetales Vitamina A-D 3000 Ml",
+          "precio": 37550.0,
+          "moneda": "COP",
+          "url": "https://www.olimpica.com/aceite-diana-mezcla-vegetalales-vit-a-d-3000ml-7702028000378-2010298/p",
+          "sku": "2010298",
+          "fecha_consulta": "2026-11-09T20:29:39-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.olimpica.com/aceites"
+        },
+        {
+          "id": "olimpica:2290819",
+          "proveedor_id": "olimpica",
+          "proveedor": "Olímpica",
+          "nombre": "ACEITE RIQUISIMO 1900 ML",
+          "marca": "Riquisimo",
+          "presentacion_texto": "ACEITE RIQUISIMO 1900 ML",
+          "precio": 21400.0,
+          "moneda": "COP",
+          "url": "https://www.olimpica.com/aceite-riquisimo-1900-ml/p",
+          "sku": "2290819",
+          "fecha_consulta": "2026-11-09T20:29:39-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.olimpica.com/aceites"
+        },
+        {
+          "id": "olimpica:2034081",
+          "proveedor_id": "olimpica",
+          "proveedor": "Olímpica",
+          "nombre": "Aceite Olimpica de Soya 900 Ml",
+          "marca": "Olimpica",
+          "presentacion_texto": "Aceite Olimpica de Soya 900 Ml",
+          "precio": 7890.0,
+          "moneda": "COP",
+          "url": "https://www.olimpica.com/aceite-de-soya-olimpica-900-ml-7701008626058--2034081/p",
+          "sku": "2034081",
+          "fecha_consulta": "2026-11-09T20:29:39-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.olimpica.com/aceites"
+        },
+        {
+          "id": "olimpica:2297762",
+          "proveedor_id": "olimpica",
+          "proveedor": "Olímpica",
+          "nombre": "Aceite de Coco Fithub Orgánico 200 Ml",
+          "marca": "FITHUB",
+          "presentacion_texto": "Aceite de Coco Fithub Orgánico 200 Ml",
+          "precio": 24500.0,
+          "moneda": "COP",
+          "url": "https://www.olimpica.com/aceite-fithub-coco-organic-200ml/p",
+          "sku": "2297762",
+          "fecha_consulta": "2026-11-09T20:29:39-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.olimpica.com/aceites"
+        },
+        {
+          "id": "olimpica:2297769",
+          "proveedor_id": "olimpica",
+          "proveedor": "Olímpica",
+          "nombre": "Aceite de Coco Dans Le Food Orgánico Virgen 225 Ml",
+          "marca": "FITHUB",
+          "presentacion_texto": "Aceite de Coco Dans Le Food Orgánico Virgen 225 Ml",
+          "precio": 31650.0,
+          "moneda": "COP",
+          "url": "https://www.olimpica.com/aceite-fithub-coco-dans-le-food-225ml/p",
+          "sku": "2297769",
+          "fecha_consulta": "2026-11-09T20:29:39-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.olimpica.com/aceites"
+        },
+        {
+          "id": "olimpica:2315088",
+          "proveedor_id": "olimpica",
+          "proveedor": "Olímpica",
+          "nombre": "Aceite Premier de Girasol 2700 Ml",
+          "marca": "Premier",
+          "presentacion_texto": "Aceite Premier de Girasol 2700 Ml",
+          "precio": 58300.0,
+          "moneda": "COP",
+          "url": "https://www.olimpica.com/aceite-premier-girasol-2700ml/p",
+          "sku": "2315088",
+          "fecha_consulta": "2026-11-09T20:29:39-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.olimpica.com/aceites"
+        },
+        {
+          "id": "olimpica:2241874",
+          "proveedor_id": "olimpica",
+          "proveedor": "Olímpica",
+          "nombre": "Aceite Medalla de Oro de Oliva 1000 Ml",
+          "marca": "Medalla De Oro",
+          "presentacion_texto": "Aceite Medalla de Oro de Oliva 1000 Ml",
+          "precio": 32590.0,
+          "moneda": "COP",
+          "url": "https://www.olimpica.com/aceite-oliva-medalla-oro-1000ml/p",
+          "sku": "2241874",
+          "fecha_consulta": "2026-11-09T20:29:39-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.olimpica.com/aceites"
+        },
+        {
+          "id": "olimpica:2134354",
+          "proveedor_id": "olimpica",
+          "proveedor": "Olímpica",
+          "nombre": "Aceite Medalla de Oro de Oliva Extra Virgen 500 Ml Pet",
+          "marca": "Medalla De Oro",
+          "presentacion_texto": "Aceite Medalla de Oro de Oliva Extra Virgen 500 Ml Pet",
+          "precio": 16950.0,
+          "moneda": "COP",
+          "url": "https://www.olimpica.com/aceite-de-oliva-medalla-de-oro-500-ml-7701008626997--2134354/p",
+          "sku": "2134354",
+          "fecha_consulta": "2026-11-09T20:29:39-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.olimpica.com/aceites"
+        },
+        {
+          "id": "olimpica:2315087",
+          "proveedor_id": "olimpica",
+          "proveedor": "Olímpica",
+          "nombre": "Aceite Premier de Girasol 1800 Ml",
+          "marca": "Premier",
+          "presentacion_texto": "Aceite Premier de Girasol 1800 Ml",
+          "precio": 40190.0,
+          "moneda": "COP",
+          "url": "https://www.olimpica.com/aceite-premier-girasol-1800ml/p",
+          "sku": "2315087",
+          "fecha_consulta": "2026-11-09T20:29:39-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.olimpica.com/aceites"
+        },
+        {
+          "id": "olimpica:2315084",
+          "proveedor_id": "olimpica",
+          "proveedor": "Olímpica",
+          "nombre": "Aceite Premier de Girasol 900 Ml",
+          "marca": "Premier",
+          "presentacion_texto": "Aceite Premier de Girasol 900 Ml",
+          "precio": 20590.0,
+          "moneda": "COP",
+          "url": "https://www.olimpica.com/aceite-premier-girasol-900ml/p",
+          "sku": "2315084",
+          "fecha_consulta": "2026-11-09T20:29:39-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.olimpica.com/aceites"
+        }
+      ]
+    },
+    {
+      "proveedor_id": "jumbo",
+      "proveedor": "Jumbo",
+      "item_idx": 0,
+      "termino": "arroz",
+      "estado": "ok",
+      "url_consulta": "https://www.jumbocolombia.com/arroz?map=ft",
+      "fecha_consulta": "2026-11-09T20:29:38-05:00",
+      "mensaje": "28 productos leídos del JSON-LD de la búsqueda pública.",
+      "ofertas": [
+        {
+          "id": "jumbo:13396",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Arroz Diana blanco x5kg",
+          "marca": "DIANA",
+          "presentacion_texto": "Arroz Diana blanco x5kg",
+          "precio": 21990.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/arroz-diana-x-5-kg/p",
+          "sku": "13396",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+        },
+        {
+          "id": "jumbo:13395",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Arroz Diana blanco x3kg",
+          "marca": "DIANA",
+          "presentacion_texto": "Arroz Diana blanco x3kg",
+          "precio": 11990.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/arroz-diana-x-3-kg/p",
+          "sku": "13395",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+        },
+        {
+          "id": "jumbo:13412",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Arroz Diana Premium blanco x4000g",
+          "marca": "DIANA",
+          "presentacion_texto": "Arroz Diana Premium blanco x4000g",
+          "precio": 30710.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/arroz-diana-premium-x-4000-g/p",
+          "sku": "13412",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+        },
+        {
+          "id": "jumbo:295180",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Arroz Diana blanco x25und x500g c-u",
+          "marca": "DIANA",
+          "presentacion_texto": "Arroz Diana blanco x25und x500g c-u",
+          "precio": 44990.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/arroz-diana-blanco-x25und-x500g-c-u/p",
+          "sku": "295180",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+        },
+        {
+          "id": "jumbo:13397",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Arroz Diana blanco x10kg",
+          "marca": "DIANA",
+          "presentacion_texto": "Arroz Diana blanco x10kg",
+          "precio": 44290.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/arroz-diana-x-10-kg/p",
+          "sku": "13397",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+        },
+        {
+          "id": "jumbo:22039",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Arroz Castellano Premium blanco x2.5kg",
+          "marca": "CASTELLANO",
+          "presentacion_texto": "Arroz Castellano Premium blanco x2.5kg",
+          "precio": 29880.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/arroz-castellano-x-2-5-kg/p",
+          "sku": "22039",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+        },
+        {
+          "id": "jumbo:13410",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Arroz Diana Premium blanco x2.5kg",
+          "marca": "DIANA",
+          "presentacion_texto": "Arroz Diana Premium blanco x2.5kg",
+          "precio": 19920.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/arroz-diana-premium-x-2-5-kg/p",
+          "sku": "13410",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+        },
+        {
+          "id": "jumbo:56415",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Arroz Roa x5kg",
+          "marca": "ROA",
+          "presentacion_texto": "Arroz Roa x5kg",
+          "precio": 24430.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/arroz-5kg-roa/p",
+          "sku": "56415",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+        },
+        {
+          "id": "jumbo:13389",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Arroz Roa x10kg",
+          "marca": "ROA",
+          "presentacion_texto": "Arroz Roa x10kg",
+          "precio": 48570.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/arroz-roa-x-10kg/p",
+          "sku": "13389",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+        },
+        {
+          "id": "jumbo:326736",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Arroz Sonora x10kg",
+          "marca": "SONORA",
+          "presentacion_texto": "Arroz Sonora x10kg",
+          "precio": 47600.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/arroz-sonora-x10kg/p",
+          "sku": "326736",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+        },
+        {
+          "id": "jumbo:13402",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Arroz Florhuila Platino blanco x2.5kg",
+          "marca": "FLORHUILA",
+          "presentacion_texto": "Arroz Florhuila Platino blanco x2.5kg",
+          "precio": 13850.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/arroz-florhuila-platino-blanco-x-2-5-kg/p",
+          "sku": "13402",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+        },
+        {
+          "id": "jumbo:13378",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Arroz Florhuila x5kg",
+          "marca": "FLORHUILA",
+          "presentacion_texto": "Arroz Florhuila x5kg",
+          "precio": 24150.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/arroz-florhuila-x-5-kg/p",
+          "sku": "13378",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+        },
+        {
+          "id": "jumbo:22037",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Arroz Castellano Premium blanco x1000g",
+          "marca": "CASTELLANO",
+          "presentacion_texto": "Arroz Castellano Premium blanco x1000g",
+          "precio": 11950.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/arroz-castellano-premium-oryzica-x-1000g/p",
+          "sku": "22037",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+        },
+        {
+          "id": "jumbo:140189",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Arroz Castellano Premium jazmín x500g",
+          "marca": "CASTELLANO",
+          "presentacion_texto": "Arroz Castellano Premium jazmín x500g",
+          "precio": 12800.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/arroz-castellano-premum-jazmin-x500g/p",
+          "sku": "140189",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+        },
+        {
+          "id": "jumbo:341031",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Arroz Cuisine & Co Blanco x5000grs",
+          "marca": "CUISINE & CO NBE MP",
+          "presentacion_texto": "Arroz Cuisine & Co Blanco x5000grs",
+          "precio": 17990.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/arroz-cuisine-and-co-blanco-x5000grs-3650924/p",
+          "sku": "341031",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+        },
+        {
+          "id": "jumbo:50668",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Arroz Doña Pepa parbolizado x3000g",
+          "marca": "DONA PEPA",
+          "presentacion_texto": "Arroz Doña Pepa parbolizado x3000g",
+          "precio": 17610.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/arroz-parbolizado-dona-pepa-x-3000g/p",
+          "sku": "50668",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+        },
+        {
+          "id": "jumbo:140195",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Arroz Castellano Premium blanco x4000g",
+          "marca": "CASTELLANO",
+          "presentacion_texto": "Arroz Castellano Premium blanco x4000g",
+          "precio": 49150.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/arroz-castellano-premium-blanco-x4000g/p",
+          "sku": "140195",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+        },
+        {
+          "id": "jumbo:13405",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Arroz Diana Premium blanco x1000g",
+          "marca": "DIANA",
+          "presentacion_texto": "Arroz Diana Premium blanco x1000g",
+          "precio": 8300.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/arroz-blanco-diana-premium-x-1000-g/p",
+          "sku": "13405",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+        },
+        {
+          "id": "jumbo:140191",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Arroz Castellano Premium basmati x500g",
+          "marca": "CASTELLANO",
+          "presentacion_texto": "Arroz Castellano Premium basmati x500g",
+          "precio": 17990.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/arroz-castellano-premum-basmati-x500g/p",
+          "sku": "140191",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+        },
+        {
+          "id": "jumbo:13379",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Arroz Florhuila x10kg",
+          "marca": "FLORHUILA",
+          "presentacion_texto": "Arroz Florhuila x10kg",
+          "precio": 48000.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/arroz-florhuila-x-10-kg/p",
+          "sku": "13379",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+        },
+        {
+          "id": "jumbo:50669",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Arroz Doña Pepa parbolizado x1000g",
+          "marca": "DONA PEPA",
+          "presentacion_texto": "Arroz Doña Pepa parbolizado x1000g",
+          "precio": 6290.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/arroz-parbolizado-dona-pepa-1000g/p",
+          "sku": "50669",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+        },
+        {
+          "id": "jumbo:13409",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Arroz Roa 10 x2.5kg",
+          "marca": "ROA",
+          "presentacion_texto": "Arroz Roa 10 x2.5kg",
+          "precio": 13790.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/arroz-roa-10-x-2-5kg/p",
+          "sku": "13409",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+        },
+        {
+          "id": "jumbo:35595",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Arroz Sonora x5kg",
+          "marca": "SONORA",
+          "presentacion_texto": "Arroz Sonora x5kg",
+          "precio": 23920.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/arroz-sonora-x5kg/p",
+          "sku": "35595",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+        },
+        {
+          "id": "jumbo:50670",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Arroz Doña Pepa parbolizado x5000g",
+          "marca": "DONA PEPA",
+          "presentacion_texto": "Arroz Doña Pepa parbolizado x5000g",
+          "precio": 33250.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/arroz-parbolizado-dona-pepa-x-5000g/p",
+          "sku": "50670",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+        },
+        {
+          "id": "jumbo:13381",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Arroz Diana blanco x1kg",
+          "marca": "DIANA",
+          "presentacion_texto": "Arroz Diana blanco x1kg",
+          "precio": 4690.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/arroz-diana-x-1-kg/p",
+          "sku": "13381",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+        },
+        {
+          "id": "jumbo:56416",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Arroz Roa Fortiplus blanco x3000g",
+          "marca": "ROA",
+          "presentacion_texto": "Arroz Roa Fortiplus blanco x3000g",
+          "precio": 14820.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/arroz-roa-blanco-fortiplus-x3000g/p",
+          "sku": "56416",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+        },
+        {
+          "id": "jumbo:326734",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Arroz Sonora Super Premium x2.5kg",
+          "marca": "SONORA",
+          "presentacion_texto": "Arroz Sonora Super Premium x2.5kg",
+          "precio": 23900.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/arroz-sonora-super-premium-x2-5kg/p",
+          "sku": "326734",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+        },
+        {
+          "id": "jumbo:140194",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Arroz Castellano Premium sushi x500g",
+          "marca": "CASTELLANO",
+          "presentacion_texto": "Arroz Castellano Premium sushi x500g",
+          "precio": 12900.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/arroz-castellano-premium-sushi-x500g/p",
+          "sku": "140194",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+        }
+      ]
+    },
+    {
+      "proveedor_id": "jumbo",
+      "proveedor": "Jumbo",
+      "item_idx": 1,
+      "termino": "aceite",
+      "estado": "ok",
+      "url_consulta": "https://www.jumbocolombia.com/aceites",
+      "fecha_consulta": "2026-11-09T20:29:38-05:00",
+      "mensaje": "28 productos leídos del JSON-LD de la búsqueda pública (https://www.jumbocolombia.com/aceite?map=ft no publica productos en JSON-LD).",
+      "ofertas": [
+        {
+          "id": "jumbo:330927",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Aceite Cuisine&Co Mezcla Vegetal x3000Ml",
+          "marca": "CUISINE & CO NBE MP",
+          "presentacion_texto": "Aceite Cuisine&Co Mezcla Vegetal x3000Ml",
+          "precio": 22890.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/aceite-cuisine-co-mezcla-vegetal-x3000ml/p",
+          "sku": "330927",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        },
+        {
+          "id": "jumbo:288561",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Aceite Premier girasol x2700ml",
+          "marca": "PREMIER",
+          "presentacion_texto": "Aceite Premier girasol x2700ml",
+          "precio": 58300.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/aceite-premier-girasol-x2700ml/p",
+          "sku": "288561",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        },
+        {
+          "id": "jumbo:22333",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Aceite Ybarra oliva extra virgen x3L",
+          "marca": "YBARRA",
+          "presentacion_texto": "Aceite Ybarra oliva extra virgen x3L",
+          "precio": 132990.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/aceite-de-oliva-extra-virgen-ybarra-x-3-lt/p",
+          "sku": "22333",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        },
+        {
+          "id": "jumbo:330935",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Aceite Cuisine&Co Girasol x3000Ml",
+          "marca": "CUISINE & CO NBE MP",
+          "presentacion_texto": "Aceite Cuisine&Co Girasol x3000Ml",
+          "precio": 28890.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/aceite-cuisine-co-girasol-x3000ml/p",
+          "sku": "330935",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        },
+        {
+          "id": "jumbo:22331",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Aceite Ybarra oliva extra virgen x1L",
+          "marca": "YBARRA",
+          "presentacion_texto": "Aceite Ybarra oliva extra virgen x1L",
+          "precio": 47990.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/aceite-de-oliva-extra-virgen-ybarra-x-1-lt/p",
+          "sku": "22331",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        },
+        {
+          "id": "jumbo:229641",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Aceite Gourmet Familia Multiusos x2600ml",
+          "marca": "GOURMET",
+          "presentacion_texto": "Aceite Gourmet Familia Multiusos x2600ml",
+          "precio": 66200.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/aceite-gourmet-familia-multiusos-x2600ml/p",
+          "sku": "229641",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        },
+        {
+          "id": "jumbo:266101",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Aceite Gourmet Familia Multiusos 2Und 1800ml",
+          "marca": "GOURMET",
+          "presentacion_texto": "Aceite Gourmet Familia Multiusos 2Und 1800ml",
+          "precio": 75930.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/aceite-gourmet-familia-multiusos-2und-1800ml-266101/p",
+          "sku": "266101",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        },
+        {
+          "id": "jumbo:151516",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Aceite Bucatti oliva extra virgen x750ml",
+          "marca": "BUCATTI",
+          "presentacion_texto": "Aceite Bucatti oliva extra virgen x750ml",
+          "precio": 81360.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/aceite-oliva-extra-bucatti-x-750-ml/p",
+          "sku": "151516",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        },
+        {
+          "id": "jumbo:288562",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Aceite Premier girasol x900ml",
+          "marca": "PREMIER",
+          "presentacion_texto": "Aceite Premier girasol x900ml",
+          "precio": 21050.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/aceite-premier-girasol-x900ml/p",
+          "sku": "288562",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        },
+        {
+          "id": "jumbo:22385",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Aceite Riquisimo garrafa x3000ml",
+          "marca": "RIQUISIMO",
+          "presentacion_texto": "Aceite Riquisimo garrafa x3000ml",
+          "precio": 34790.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/aceite-riquisimo-garrafa-x-3000-cm3/p",
+          "sku": "22385",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        },
+        {
+          "id": "jumbo:220183",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Aceite Gourmet Familia x900ml",
+          "marca": "GOURMET",
+          "presentacion_texto": "Aceite Gourmet Familia x900ml",
+          "precio": 22240.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/aceite-gourmet-familia-x900ml/p",
+          "sku": "220183",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        },
+        {
+          "id": "jumbo:341596",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Aceite Cuisine & Co Oliva Extra Virgen x1Lt",
+          "marca": "CUISINE & CO NBE MP",
+          "presentacion_texto": "Aceite Cuisine & Co Oliva Extra Virgen x1Lt",
+          "precio": 55990.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/aceite-cuisine-and-co-oliva-extra-virgen-x1lt-3651517/p",
+          "sku": "341596",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        },
+        {
+          "id": "jumbo:22361",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Aceite Oleocali girasol x3000ml",
+          "marca": "OLEOCALI",
+          "presentacion_texto": "Aceite Oleocali girasol x3000ml",
+          "precio": 50250.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/aceite-girasol-oleocali-x-3000-cm3/p",
+          "sku": "22361",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        },
+        {
+          "id": "jumbo:330913",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Aceite Cuisine&Co Mezcla Vegetal x900Ml",
+          "marca": "CUISINE & CO NBE MP",
+          "presentacion_texto": "Aceite Cuisine&Co Mezcla Vegetal x900Ml",
+          "precio": 7890.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/aceite-cuisine-co-mezcla-vegetal-x900ml/p",
+          "sku": "330913",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        },
+        {
+          "id": "jumbo:22375",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Aceite Oleocali garrafa x3000ml",
+          "marca": "OLEOCALI",
+          "presentacion_texto": "Aceite Oleocali garrafa x3000ml",
+          "precio": 34790.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/aceite-oleocali-garrafa-x-3000-cm3/p",
+          "sku": "22375",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        },
+        {
+          "id": "jumbo:60429",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Aceite Diana vitaminas x3000ml",
+          "marca": "DIANA",
+          "presentacion_texto": "Aceite Diana vitaminas x3000ml",
+          "precio": 38040.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/aceite-diana-vitaminas-x-3000-ml/p",
+          "sku": "60429",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        },
+        {
+          "id": "jumbo:368595",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Aceite Canola Life 1800ml",
+          "marca": "CANOLA LIFE",
+          "presentacion_texto": "Aceite Canola Life 1800ml",
+          "precio": 49590.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/aceite-canola-life-1800ml-368595/p",
+          "sku": "368595",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        },
+        {
+          "id": "jumbo:301980",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Aceite Olivetto Oliva Virgen Suave x1000ml",
+          "marca": "OLIVETTO",
+          "presentacion_texto": "Aceite Olivetto Oliva Virgen Suave x1000ml",
+          "precio": 108290.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/aceite-olivetto-oliva-virgen-suave-x1000ml-3610550/p",
+          "sku": "301980",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        },
+        {
+          "id": "jumbo:53305",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Aceite Carbonell oliva extra virgen x750ml",
+          "marca": "CARBONELL",
+          "presentacion_texto": "Aceite Carbonell oliva extra virgen x750ml",
+          "precio": 45990.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/aceite-carbonell-oliva-extra-virgen-x-750-ml/p",
+          "sku": "53305",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        },
+        {
+          "id": "jumbo:412318",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Aceite Olivetto Mezcla Vegetal Oliva Freir 1800ml",
+          "marca": "OLIVETTO",
+          "presentacion_texto": "Aceite Olivetto Mezcla Vegetal Oliva Freir 1800ml",
+          "precio": 70490.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/ac-olivetto-para-freir-6x1800-ml-412318/p",
+          "sku": "412318",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        },
+        {
+          "id": "jumbo:171365",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Aceite Diana Premium canola y girasol x2000ml",
+          "marca": "DIANA",
+          "presentacion_texto": "Aceite Diana Premium canola y girasol x2000ml",
+          "precio": 35150.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/aceite-diana-premium-girasol-canola-x-2000ml/p",
+          "sku": "171365",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        },
+        {
+          "id": "jumbo:22332",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Aceite Ybarra oliva extra virgen x750ml",
+          "marca": "YBARRA",
+          "presentacion_texto": "Aceite Ybarra oliva extra virgen x750ml",
+          "precio": 48390.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/aceite-de-oliva-extra-virgen-ybarra-x-750-ml/p",
+          "sku": "22332",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        },
+        {
+          "id": "jumbo:398247",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Aceite Cuisine&Co Oliva 500ml",
+          "marca": "CUISINE&CO",
+          "presentacion_texto": "Aceite Cuisine&Co Oliva 500ml",
+          "precio": 22590.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/aceite-cuisineco-oliva-500ml-398247/p",
+          "sku": "398247",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        },
+        {
+          "id": "jumbo:22300",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Aceite Canola Life bajo en grasa saturada x1L",
+          "marca": "CANOLA LIFE",
+          "presentacion_texto": "Aceite Canola Life bajo en grasa saturada x1L",
+          "precio": 29910.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/aceite-canola-life-bajo-en-grasa-saturado-x-1l/p",
+          "sku": "22300",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        },
+        {
+          "id": "jumbo:398242",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Aceite Cuisine&Co Oliva 3000ml",
+          "marca": "CUISINE&CO",
+          "presentacion_texto": "Aceite Cuisine&Co Oliva 3000ml",
+          "precio": 125990.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/aceite-cuisineco-oliva-3000ml-398242/p",
+          "sku": "398242",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        },
+        {
+          "id": "jumbo:283037",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Aceite Premier girasol x1800ml",
+          "marca": "PREMIER",
+          "presentacion_texto": "Aceite Premier girasol x1800ml",
+          "precio": 41090.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/aceite-premier-girasol-x1800ml/p",
+          "sku": "283037",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        },
+        {
+          "id": "jumbo:22349",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Aceite Ybarra oliva x3L",
+          "marca": "YBARRA",
+          "presentacion_texto": "Aceite Ybarra oliva x3L",
+          "precio": 136690.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/aceite-de-oliva-puro-ybarra-pet-x-3-l/p",
+          "sku": "22349",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        },
+        {
+          "id": "jumbo:22337",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Aceite Sublime oliva Español x500ml",
+          "marca": "SUBLIME",
+          "presentacion_texto": "Aceite Sublime oliva Español x500ml",
+          "precio": 35000.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/sublime-aceite-de-oliva-x-500-ml/p",
+          "sku": "22337",
+          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        }
+      ]
+    }
+  ],
+  "evaluadas": [
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "olimpica:2281376",
+        "proveedor_id": "olimpica",
+        "proveedor": "Olímpica",
+        "nombre": "ARROZ  O 500 GRS",
+        "marca": "Olimpica",
+        "presentacion_texto": "ARROZ  O 500 GRS",
+        "precio": 1650.0,
+        "moneda": "COP",
+        "url": "https://www.olimpica.com/arroz--o-500-grs/p",
+        "sku": "2281376",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Arroz blanco común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 0.5,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "500 grs = 0.5 kg",
+        "inferida": false
+      },
+      "precio_unitario": 3300.0,
+      "empaques": 6,
+      "costo": 9900.0,
+      "excedente": 0.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "olimpica:2000024",
+        "proveedor_id": "olimpica",
+        "proveedor": "Olímpica",
+        "nombre": "Arroz Sabrosón 3 Kg",
+        "marca": "Sabroson",
+        "presentacion_texto": "Arroz Sabrosón 3 Kg",
+        "precio": 11990.0,
+        "moneda": "COP",
+        "url": "https://www.olimpica.com/arroz-sabroson-3-kg-7707105805068-2000024/p",
+        "sku": "2000024",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Arroz blanco común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 3.0,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "3 kg = 3 kg",
+        "inferida": false
+      },
+      "precio_unitario": 3996.6666666666665,
+      "empaques": 1,
+      "costo": 11990.0,
+      "excedente": 0.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "jumbo:13395",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Arroz Diana blanco x3kg",
+        "marca": "DIANA",
+        "presentacion_texto": "Arroz Diana blanco x3kg",
+        "precio": 11990.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/arroz-diana-x-3-kg/p",
+        "sku": "13395",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Arroz blanco común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 3.0,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "3 kg = 3 kg",
+        "inferida": false
+      },
+      "precio_unitario": 3996.6666666666665,
+      "empaques": 1,
+      "costo": 11990.0,
+      "excedente": 0.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "olimpica:518231",
+        "proveedor_id": "olimpica",
+        "proveedor": "Olímpica",
+        "nombre": "Arroz Diana 500 G",
+        "marca": "Diana",
+        "presentacion_texto": "Arroz Diana 500 G",
+        "precio": 2100.0,
+        "moneda": "COP",
+        "url": "https://www.olimpica.com/arroz-diana-500-gr-7702511000014-518231/p",
+        "sku": "518231",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Arroz blanco común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 0.5,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "500 g = 0.5 kg",
+        "inferida": false
+      },
+      "precio_unitario": 4200.0,
+      "empaques": 6,
+      "costo": 12600.0,
+      "excedente": 0.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "olimpica:518232",
+        "proveedor_id": "olimpica",
+        "proveedor": "Olímpica",
+        "nombre": "Arroz Diana 1 Kg",
+        "marca": "Diana",
+        "presentacion_texto": "Arroz Diana 1 Kg",
+        "precio": 4200.0,
+        "moneda": "COP",
+        "url": "https://www.olimpica.com/arroz-diana-1-kg-7702511000021-518232/p",
+        "sku": "518232",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Arroz blanco común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 1.0,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "1 kg = 1 kg",
+        "inferida": false
+      },
+      "precio_unitario": 4200.0,
+      "empaques": 3,
+      "costo": 12600.0,
+      "excedente": 0.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "olimpica:518233",
+        "proveedor_id": "olimpica",
+        "proveedor": "Olímpica",
+        "nombre": "Arroz Diana 3 Kg",
+        "marca": "Diana",
+        "presentacion_texto": "Arroz Diana 3 Kg",
+        "precio": 13100.0,
+        "moneda": "COP",
+        "url": "https://www.olimpica.com/arroz-diana-3-kg-7702511000038-518233/p",
+        "sku": "518233",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Arroz blanco común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 3.0,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "3 kg = 3 kg",
+        "inferida": false
+      },
+      "precio_unitario": 4366.666666666667,
+      "empaques": 1,
+      "costo": 13100.0,
+      "excedente": 0.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "jumbo:13381",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Arroz Diana blanco x1kg",
+        "marca": "DIANA",
+        "presentacion_texto": "Arroz Diana blanco x1kg",
+        "precio": 4690.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/arroz-diana-x-1-kg/p",
+        "sku": "13381",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Arroz blanco común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 1.0,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "1 kg = 1 kg",
+        "inferida": false
+      },
+      "precio_unitario": 4690.0,
+      "empaques": 3,
+      "costo": 14070.0,
+      "excedente": 0.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "jumbo:56416",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Arroz Roa Fortiplus blanco x3000g",
+        "marca": "ROA",
+        "presentacion_texto": "Arroz Roa Fortiplus blanco x3000g",
+        "precio": 14820.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/arroz-roa-blanco-fortiplus-x3000g/p",
+        "sku": "56416",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Arroz blanco común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 3.0,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "3000 g = 3 kg",
+        "inferida": false
+      },
+      "precio_unitario": 4940.0,
+      "empaques": 1,
+      "costo": 14820.0,
+      "excedente": 0.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "olimpica:2327554",
+        "proveedor_id": "olimpica",
+        "proveedor": "Olímpica",
+        "nombre": "ARROZ OLIMPICA 2500 G",
+        "marca": "Olimpica",
+        "presentacion_texto": "ARROZ OLIMPICA 2500 G",
+        "precio": 8990.0,
+        "moneda": "COP",
+        "url": "https://www.olimpica.com/arroz-olimpica-2500-g/p",
+        "sku": "2327554",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Arroz blanco común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 2.5,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "2500 g = 2.5 kg",
+        "inferida": false
+      },
+      "precio_unitario": 3596.0,
+      "empaques": 2,
+      "costo": 17980.0,
+      "excedente": 2.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "jumbo:341031",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Arroz Cuisine & Co Blanco x5000grs",
+        "marca": "CUISINE & CO NBE MP",
+        "presentacion_texto": "Arroz Cuisine & Co Blanco x5000grs",
+        "precio": 17990.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/arroz-cuisine-and-co-blanco-x5000grs-3650924/p",
+        "sku": "341031",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Arroz blanco común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 5.0,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "5000 grs = 5 kg",
+        "inferida": false
+      },
+      "precio_unitario": 3598.0,
+      "empaques": 1,
+      "costo": 17990.0,
+      "excedente": 2.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "olimpica:1176741",
+        "proveedor_id": "olimpica",
+        "proveedor": "Olímpica",
+        "nombre": "Arroz Diana Premium 1 Kg",
+        "marca": "Diana",
+        "presentacion_texto": "Arroz Diana Premium 1 Kg",
+        "precio": 6500.0,
+        "moneda": "COP",
+        "url": "https://www.olimpica.com/arroz-diana-premium-1-kg-7702511000427-1176741/p",
+        "sku": "1176741",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Arroz blanco común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 1.0,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "1 kg = 1 kg",
+        "inferida": false
+      },
+      "precio_unitario": 6500.0,
+      "empaques": 3,
+      "costo": 19500.0,
+      "excedente": 0.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "olimpica:2000025",
+        "proveedor_id": "olimpica",
+        "proveedor": "Olímpica",
+        "nombre": "Arroz Sabrosón 5 Kg",
+        "marca": "Sabroson",
+        "presentacion_texto": "Arroz Sabrosón 5 Kg",
+        "precio": 20990.0,
+        "moneda": "COP",
+        "url": "https://www.olimpica.com/arroz-sabroson-5-kg-7707105805105-2000025/p",
+        "sku": "2000025",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Arroz blanco común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 5.0,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "5 kg = 5 kg",
+        "inferida": false
+      },
+      "precio_unitario": 4198.0,
+      "empaques": 1,
+      "costo": 20990.0,
+      "excedente": 2.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "olimpica:566554",
+        "proveedor_id": "olimpica",
+        "proveedor": "Olímpica",
+        "nombre": "Arroz Diana 5 Kg",
+        "marca": "Diana",
+        "presentacion_texto": "Arroz Diana 5 Kg",
+        "precio": 21950.0,
+        "moneda": "COP",
+        "url": "https://www.olimpica.com/arroz-diana-5-kg-7702511000045-566554/p",
+        "sku": "566554",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Arroz blanco común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 5.0,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "5 kg = 5 kg",
+        "inferida": false
+      },
+      "precio_unitario": 4390.0,
+      "empaques": 1,
+      "costo": 21950.0,
+      "excedente": 2.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "jumbo:13396",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Arroz Diana blanco x5kg",
+        "marca": "DIANA",
+        "presentacion_texto": "Arroz Diana blanco x5kg",
+        "precio": 21990.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/arroz-diana-x-5-kg/p",
+        "sku": "13396",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Arroz blanco común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 5.0,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "5 kg = 5 kg",
+        "inferida": false
+      },
+      "precio_unitario": 4398.0,
+      "empaques": 1,
+      "costo": 21990.0,
+      "excedente": 2.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "jumbo:35595",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Arroz Sonora x5kg",
+        "marca": "SONORA",
+        "presentacion_texto": "Arroz Sonora x5kg",
+        "precio": 23920.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/arroz-sonora-x5kg/p",
+        "sku": "35595",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Arroz blanco común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 5.0,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "5 kg = 5 kg",
+        "inferida": false
+      },
+      "precio_unitario": 4784.0,
+      "empaques": 1,
+      "costo": 23920.0,
+      "excedente": 2.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "jumbo:13378",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Arroz Florhuila x5kg",
+        "marca": "FLORHUILA",
+        "presentacion_texto": "Arroz Florhuila x5kg",
+        "precio": 24150.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/arroz-florhuila-x-5-kg/p",
+        "sku": "13378",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Arroz blanco común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 5.0,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "5 kg = 5 kg",
+        "inferida": false
+      },
+      "precio_unitario": 4830.0,
+      "empaques": 1,
+      "costo": 24150.0,
+      "excedente": 2.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "jumbo:56415",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Arroz Roa x5kg",
+        "marca": "ROA",
+        "presentacion_texto": "Arroz Roa x5kg",
+        "precio": 24430.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/arroz-5kg-roa/p",
+        "sku": "56415",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Arroz blanco común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 5.0,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "5 kg = 5 kg",
+        "inferida": false
+      },
+      "precio_unitario": 4886.0,
+      "empaques": 1,
+      "costo": 24430.0,
+      "excedente": 2.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "jumbo:13405",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Arroz Diana Premium blanco x1000g",
+        "marca": "DIANA",
+        "presentacion_texto": "Arroz Diana Premium blanco x1000g",
+        "precio": 8300.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/arroz-blanco-diana-premium-x-1000-g/p",
+        "sku": "13405",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Arroz blanco común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 1.0,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "1000 g = 1 kg",
+        "inferida": false
+      },
+      "precio_unitario": 8300.0,
+      "empaques": 3,
+      "costo": 24900.0,
+      "excedente": 0.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "olimpica:872597",
+        "proveedor_id": "olimpica",
+        "proveedor": "Olímpica",
+        "nombre": "Arroz Diana Premium 4 Kg",
+        "marca": "Diana",
+        "presentacion_texto": "Arroz Diana Premium 4 Kg",
+        "precio": 26500.0,
+        "moneda": "COP",
+        "url": "https://www.olimpica.com/arroz-diana-premium-4-kg-7702511000991-872597/p",
+        "sku": "872597",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Arroz blanco común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 4.0,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "4 kg = 4 kg",
+        "inferida": false
+      },
+      "precio_unitario": 6625.0,
+      "empaques": 1,
+      "costo": 26500.0,
+      "excedente": 1.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "jumbo:13409",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Arroz Roa 10 x2.5kg",
+        "marca": "ROA",
+        "presentacion_texto": "Arroz Roa 10 x2.5kg",
+        "precio": 13790.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/arroz-roa-10-x-2-5kg/p",
+        "sku": "13409",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Arroz blanco común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 2.5,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "2.5 kg = 2.5 kg",
+        "inferida": false
+      },
+      "precio_unitario": 5516.0,
+      "empaques": 2,
+      "costo": 27580.0,
+      "excedente": 2.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "jumbo:13402",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Arroz Florhuila Platino blanco x2.5kg",
+        "marca": "FLORHUILA",
+        "presentacion_texto": "Arroz Florhuila Platino blanco x2.5kg",
+        "precio": 13850.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/arroz-florhuila-platino-blanco-x-2-5-kg/p",
+        "sku": "13402",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Arroz blanco común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 2.5,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "2.5 kg = 2.5 kg",
+        "inferida": false
+      },
+      "precio_unitario": 5540.0,
+      "empaques": 2,
+      "costo": 27700.0,
+      "excedente": 2.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "olimpica:1392071",
+        "proveedor_id": "olimpica",
+        "proveedor": "Olímpica",
+        "nombre": "Arroz Mi Arroz Paca Económica 11,35 Kg x25 Unds",
+        "marca": "Mi Arroz",
+        "presentacion_texto": "Arroz Mi Arroz Paca Económica 11,35 Kg x25 Unds",
+        "precio": 29990.0,
+        "moneda": "COP",
+        "url": "https://www.olimpica.com/arroz-mi-arroz-econ-paca-25un-11-35kg-7707105814244-1392071/p",
+        "sku": "1392071",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Arroz blanco común sin especificaciones",
+        "presentación inferida del nombre: 11,35 kg en total (25 unidades)"
+      ],
+      "presentacion": {
+        "cantidad_base": 11.35,
+        "dimension": "masa",
+        "unidades_por_empaque": 25,
+        "texto": "11,35 kg en total (25 unidades)",
+        "inferida": true
+      },
+      "precio_unitario": 2642.2907488986784,
+      "empaques": 1,
+      "costo": 29990.0,
+      "excedente": 8.35
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "jumbo:13412",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Arroz Diana Premium blanco x4000g",
+        "marca": "DIANA",
+        "presentacion_texto": "Arroz Diana Premium blanco x4000g",
+        "precio": 30710.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/arroz-diana-premium-x-4000-g/p",
+        "sku": "13412",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Arroz blanco común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 4.0,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "4000 g = 4 kg",
+        "inferida": false
+      },
+      "precio_unitario": 7677.5,
+      "empaques": 1,
+      "costo": 30710.0,
+      "excedente": 1.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "olimpica:1515360",
+        "proveedor_id": "olimpica",
+        "proveedor": "Olímpica",
+        "nombre": "Arroz Diana Premium 2,5 Kg",
+        "marca": "Diana",
+        "presentacion_texto": "Arroz Diana Premium 2,5 Kg",
+        "precio": 15990.0,
+        "moneda": "COP",
+        "url": "https://www.olimpica.com/arroz-diana-premiun-2-5-kg-7702511000748-1515360/p",
+        "sku": "1515360",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Arroz blanco común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 2.5,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "2,5 kg = 2.5 kg",
+        "inferida": false
+      },
+      "precio_unitario": 6396.0,
+      "empaques": 2,
+      "costo": 31980.0,
+      "excedente": 2.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "jumbo:22037",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Arroz Castellano Premium blanco x1000g",
+        "marca": "CASTELLANO",
+        "presentacion_texto": "Arroz Castellano Premium blanco x1000g",
+        "precio": 11950.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/arroz-castellano-premium-oryzica-x-1000g/p",
+        "sku": "22037",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Arroz blanco común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 1.0,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "1000 g = 1 kg",
+        "inferida": false
+      },
+      "precio_unitario": 11950.0,
+      "empaques": 3,
+      "costo": 35850.0,
+      "excedente": 0.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "jumbo:13410",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Arroz Diana Premium blanco x2.5kg",
+        "marca": "DIANA",
+        "presentacion_texto": "Arroz Diana Premium blanco x2.5kg",
+        "precio": 19920.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/arroz-diana-premium-x-2-5-kg/p",
+        "sku": "13410",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Arroz blanco común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 2.5,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "2.5 kg = 2.5 kg",
+        "inferida": false
+      },
+      "precio_unitario": 7968.0,
+      "empaques": 2,
+      "costo": 39840.0,
+      "excedente": 2.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "olimpica:2282035",
+        "proveedor_id": "olimpica",
+        "proveedor": "Olímpica",
+        "nombre": "Arroz Olimpica Paca Económica 500 G X25 Unds",
+        "marca": "Olimpica",
+        "presentacion_texto": "Arroz Olimpica Paca Económica 500 G X25 Unds",
+        "precio": 41200.0,
+        "moneda": "COP",
+        "url": "https://www.olimpica.com/arroz-olimpica-paca-econ-500g-x25-un/p",
+        "sku": "2282035",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Arroz blanco común sin especificaciones",
+        "presentación inferida del nombre: 25 x 500 g = 12.5 kg"
+      ],
+      "presentacion": {
+        "cantidad_base": 12.5,
+        "dimension": "masa",
+        "unidades_por_empaque": 25,
+        "texto": "25 x 500 g = 12.5 kg",
+        "inferida": true
+      },
+      "precio_unitario": 3296.0,
+      "empaques": 1,
+      "costo": 41200.0,
+      "excedente": 9.5
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "jumbo:13397",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Arroz Diana blanco x10kg",
+        "marca": "DIANA",
+        "presentacion_texto": "Arroz Diana blanco x10kg",
+        "precio": 44290.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/arroz-diana-x-10-kg/p",
+        "sku": "13397",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Arroz blanco común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 10.0,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "10 kg = 10 kg",
+        "inferida": false
+      },
+      "precio_unitario": 4429.0,
+      "empaques": 1,
+      "costo": 44290.0,
+      "excedente": 7.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "jumbo:295180",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Arroz Diana blanco x25und x500g c-u",
+        "marca": "DIANA",
+        "presentacion_texto": "Arroz Diana blanco x25und x500g c-u",
+        "precio": 44990.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/arroz-diana-blanco-x25und-x500g-c-u/p",
+        "sku": "295180",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Arroz blanco común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 12.5,
+        "dimension": "masa",
+        "unidades_por_empaque": 25,
+        "texto": "25 x 500 g = 12.5 kg",
+        "inferida": false
+      },
+      "precio_unitario": 3599.2,
+      "empaques": 1,
+      "costo": 44990.0,
+      "excedente": 9.5
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "jumbo:326736",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Arroz Sonora x10kg",
+        "marca": "SONORA",
+        "presentacion_texto": "Arroz Sonora x10kg",
+        "precio": 47600.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/arroz-sonora-x10kg/p",
+        "sku": "326736",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Arroz blanco común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 10.0,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "10 kg = 10 kg",
+        "inferida": false
+      },
+      "precio_unitario": 4760.0,
+      "empaques": 1,
+      "costo": 47600.0,
+      "excedente": 7.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "jumbo:326734",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Arroz Sonora Super Premium x2.5kg",
+        "marca": "SONORA",
+        "presentacion_texto": "Arroz Sonora Super Premium x2.5kg",
+        "precio": 23900.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/arroz-sonora-super-premium-x2-5kg/p",
+        "sku": "326734",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Arroz blanco común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 2.5,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "2.5 kg = 2.5 kg",
+        "inferida": false
+      },
+      "precio_unitario": 9560.0,
+      "empaques": 2,
+      "costo": 47800.0,
+      "excedente": 2.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "jumbo:13379",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Arroz Florhuila x10kg",
+        "marca": "FLORHUILA",
+        "presentacion_texto": "Arroz Florhuila x10kg",
+        "precio": 48000.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/arroz-florhuila-x-10-kg/p",
+        "sku": "13379",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Arroz blanco común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 10.0,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "10 kg = 10 kg",
+        "inferida": false
+      },
+      "precio_unitario": 4800.0,
+      "empaques": 1,
+      "costo": 48000.0,
+      "excedente": 7.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "jumbo:13389",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Arroz Roa x10kg",
+        "marca": "ROA",
+        "presentacion_texto": "Arroz Roa x10kg",
+        "precio": 48570.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/arroz-roa-x-10kg/p",
+        "sku": "13389",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Arroz blanco común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 10.0,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "10 kg = 10 kg",
+        "inferida": false
+      },
+      "precio_unitario": 4857.0,
+      "empaques": 1,
+      "costo": 48570.0,
+      "excedente": 7.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "jumbo:140195",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Arroz Castellano Premium blanco x4000g",
+        "marca": "CASTELLANO",
+        "presentacion_texto": "Arroz Castellano Premium blanco x4000g",
+        "precio": 49150.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/arroz-castellano-premium-blanco-x4000g/p",
+        "sku": "140195",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Arroz blanco común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 4.0,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "4000 g = 4 kg",
+        "inferida": false
+      },
+      "precio_unitario": 12287.5,
+      "empaques": 1,
+      "costo": 49150.0,
+      "excedente": 1.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "olimpica:2317851",
+        "proveedor_id": "olimpica",
+        "proveedor": "Olímpica",
+        "nombre": "Arroz Diana Paca 12,5 Kg X25 Unds",
+        "marca": "Diana",
+        "presentacion_texto": "Arroz Diana Paca 12,5 Kg X25 Unds",
+        "precio": 49990.0,
+        "moneda": "COP",
+        "url": "https://www.olimpica.com/arroz-diana-paca-25-und-12-500-g/p",
+        "sku": "2317851",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Arroz blanco común sin especificaciones",
+        "presentación inferida del nombre: 12,5 kg en total (25 unidades)"
+      ],
+      "presentacion": {
+        "cantidad_base": 12.5,
+        "dimension": "masa",
+        "unidades_por_empaque": 25,
+        "texto": "12,5 kg en total (25 unidades)",
+        "inferida": true
+      },
+      "precio_unitario": 3999.2,
+      "empaques": 1,
+      "costo": 49990.0,
+      "excedente": 9.5
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "jumbo:22039",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Arroz Castellano Premium blanco x2.5kg",
+        "marca": "CASTELLANO",
+        "presentacion_texto": "Arroz Castellano Premium blanco x2.5kg",
+        "precio": 29880.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/arroz-castellano-x-2-5-kg/p",
+        "sku": "22039",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Arroz blanco común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 2.5,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "2.5 kg = 2.5 kg",
+        "inferida": false
+      },
+      "precio_unitario": 11952.0,
+      "empaques": 2,
+      "costo": 59760.0,
+      "excedente": 2.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "jumbo:50668",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Arroz Doña Pepa parbolizado x3000g",
+        "marca": "DONA PEPA",
+        "presentacion_texto": "Arroz Doña Pepa parbolizado x3000g",
+        "precio": 17610.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/arroz-parbolizado-dona-pepa-x-3000g/p",
+        "sku": "50668",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+      },
+      "clasificacion": "sustituto",
+      "elegible": true,
+      "motivos": [
+        "Arroz parbolizado variedad especial"
+      ],
+      "presentacion": {
+        "cantidad_base": 3.0,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "3000 g = 3 kg",
+        "inferida": false
+      },
+      "precio_unitario": 5870.0,
+      "empaques": 1,
+      "costo": 17610.0,
+      "excedente": 0.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "jumbo:50669",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Arroz Doña Pepa parbolizado x1000g",
+        "marca": "DONA PEPA",
+        "presentacion_texto": "Arroz Doña Pepa parbolizado x1000g",
+        "precio": 6290.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/arroz-parbolizado-dona-pepa-1000g/p",
+        "sku": "50669",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+      },
+      "clasificacion": "sustituto",
+      "elegible": true,
+      "motivos": [
+        "Arroz parbolizado variedad especial"
+      ],
+      "presentacion": {
+        "cantidad_base": 1.0,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "1000 g = 1 kg",
+        "inferida": false
+      },
+      "precio_unitario": 6290.0,
+      "empaques": 3,
+      "costo": 18870.0,
+      "excedente": 0.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "olimpica:2331765",
+        "proveedor_id": "olimpica",
+        "proveedor": "Olímpica",
+        "nombre": "ARROZ TAILANDES 2.500 G",
+        "marca": "Tailandes",
+        "presentacion_texto": "ARROZ TAILANDES 2.500 G",
+        "precio": 13650.0,
+        "moneda": "COP",
+        "url": "https://www.olimpica.com/arroz-tailandes-2-500-g/p",
+        "sku": "2331765",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
+      },
+      "clasificacion": "sustituto",
+      "elegible": true,
+      "motivos": [
+        "Arroz tailandés variedad especial"
+      ],
+      "presentacion": {
+        "cantidad_base": 2.5,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "2.500 g = 2.5 kg",
+        "inferida": false
+      },
+      "precio_unitario": 5460.0,
+      "empaques": 2,
+      "costo": 27300.0,
+      "excedente": 2.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "jumbo:50670",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Arroz Doña Pepa parbolizado x5000g",
+        "marca": "DONA PEPA",
+        "presentacion_texto": "Arroz Doña Pepa parbolizado x5000g",
+        "precio": 33250.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/arroz-parbolizado-dona-pepa-x-5000g/p",
+        "sku": "50670",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+      },
+      "clasificacion": "sustituto",
+      "elegible": true,
+      "motivos": [
+        "Arroz parbolizado variedad especial"
+      ],
+      "presentacion": {
+        "cantidad_base": 5.0,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "5000 g = 5 kg",
+        "inferida": false
+      },
+      "precio_unitario": 6650.0,
+      "empaques": 1,
+      "costo": 33250.0,
+      "excedente": 2.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "jumbo:140189",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Arroz Castellano Premium jazmín x500g",
+        "marca": "CASTELLANO",
+        "presentacion_texto": "Arroz Castellano Premium jazmín x500g",
+        "precio": 12800.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/arroz-castellano-premum-jazmin-x500g/p",
+        "sku": "140189",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+      },
+      "clasificacion": "sustituto",
+      "elegible": true,
+      "motivos": [
+        "Arroz jazmín variedad especial"
+      ],
+      "presentacion": {
+        "cantidad_base": 0.5,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "500 g = 0.5 kg",
+        "inferida": false
+      },
+      "precio_unitario": 25600.0,
+      "empaques": 6,
+      "costo": 76800.0,
+      "excedente": 0.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "jumbo:140194",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Arroz Castellano Premium sushi x500g",
+        "marca": "CASTELLANO",
+        "presentacion_texto": "Arroz Castellano Premium sushi x500g",
+        "precio": 12900.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/arroz-castellano-premium-sushi-x500g/p",
+        "sku": "140194",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+      },
+      "clasificacion": "sustituto",
+      "elegible": true,
+      "motivos": [
+        "Arroz sushi variedad especial"
+      ],
+      "presentacion": {
+        "cantidad_base": 0.5,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "500 g = 0.5 kg",
+        "inferida": false
+      },
+      "precio_unitario": 25800.0,
+      "empaques": 6,
+      "costo": 77400.0,
+      "excedente": 0.0
+    },
+    {
+      "item_idx": 0,
+      "oferta": {
+        "id": "jumbo:140191",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Arroz Castellano Premium basmati x500g",
+        "marca": "CASTELLANO",
+        "presentacion_texto": "Arroz Castellano Premium basmati x500g",
+        "precio": 17990.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/arroz-castellano-premum-basmati-x500g/p",
+        "sku": "140191",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+      },
+      "clasificacion": "sustituto",
+      "elegible": true,
+      "motivos": [
+        "Arroz basmati variedad especial"
+      ],
+      "presentacion": {
+        "cantidad_base": 0.5,
+        "dimension": "masa",
+        "unidades_por_empaque": null,
+        "texto": "500 g = 0.5 kg",
+        "inferida": false
+      },
+      "precio_unitario": 35980.0,
+      "empaques": 6,
+      "costo": 107940.0,
+      "excedente": 0.0
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "olimpica:1646730",
+        "proveedor_id": "olimpica",
+        "proveedor": "Olímpica",
+        "nombre": "Aceite Medalla de Oro Mezcla 900 Ml",
+        "marca": "Medalla De Oro",
+        "presentacion_texto": "Aceite Medalla de Oro Mezcla 900 Ml",
+        "precio": 6490.0,
+        "moneda": "COP",
+        "url": "https://www.olimpica.com/aceite-medalla-oro-mezc-900-cm3/p",
+        "sku": "1646730",
+        "fecha_consulta": "2026-11-09T20:29:39-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.olimpica.com/aceites"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Aceite mezcla vegetal común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 0.9,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "900 ml = 0.9 L",
+        "inferida": false
+      },
+      "precio_unitario": 7211.111111111111,
+      "empaques": 2,
+      "costo": 12980.0,
+      "excedente": 0.8
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "olimpica:2034081",
+        "proveedor_id": "olimpica",
+        "proveedor": "Olímpica",
+        "nombre": "Aceite Olimpica de Soya 900 Ml",
+        "marca": "Olimpica",
+        "presentacion_texto": "Aceite Olimpica de Soya 900 Ml",
+        "precio": 7890.0,
+        "moneda": "COP",
+        "url": "https://www.olimpica.com/aceite-de-soya-olimpica-900-ml-7701008626058--2034081/p",
+        "sku": "2034081",
+        "fecha_consulta": "2026-11-09T20:29:39-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.olimpica.com/aceites"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Aceite de soya es aceite vegetal común"
+      ],
+      "presentacion": {
+        "cantidad_base": 0.9,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "900 ml = 0.9 L",
+        "inferida": false
+      },
+      "precio_unitario": 8766.666666666666,
+      "empaques": 2,
+      "costo": 15780.0,
+      "excedente": 0.8
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "jumbo:330913",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Aceite Cuisine&Co Mezcla Vegetal x900Ml",
+        "marca": "CUISINE & CO NBE MP",
+        "presentacion_texto": "Aceite Cuisine&Co Mezcla Vegetal x900Ml",
+        "precio": 7890.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/aceite-cuisine-co-mezcla-vegetal-x900ml/p",
+        "sku": "330913",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Aceite mezcla vegetal común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 0.9,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "900 ml = 0.9 L",
+        "inferida": false
+      },
+      "precio_unitario": 8766.666666666666,
+      "empaques": 2,
+      "costo": 15780.0,
+      "excedente": 0.8
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "olimpica:1646719",
+        "proveedor_id": "olimpica",
+        "proveedor": "Olímpica",
+        "nombre": "Aceite Medalla de Oro Mezcla 3 Lt",
+        "marca": "Medalla De Oro",
+        "presentacion_texto": "Aceite Medalla de Oro Mezcla 3 Lt",
+        "precio": 20490.0,
+        "moneda": "COP",
+        "url": "https://www.olimpica.com/aceite-medalla-oro-mezcla-3-l/p",
+        "sku": "1646719",
+        "fecha_consulta": "2026-11-09T20:29:39-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.olimpica.com/aceites"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Aceite mezcla vegetal común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 3.0,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "3 lt = 3 L",
+        "inferida": false
+      },
+      "precio_unitario": 6830.0,
+      "empaques": 1,
+      "costo": 20490.0,
+      "excedente": 2.0
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "olimpica:2290819",
+        "proveedor_id": "olimpica",
+        "proveedor": "Olímpica",
+        "nombre": "ACEITE RIQUISIMO 1900 ML",
+        "marca": "Riquisimo",
+        "presentacion_texto": "ACEITE RIQUISIMO 1900 ML",
+        "precio": 21400.0,
+        "moneda": "COP",
+        "url": "https://www.olimpica.com/aceite-riquisimo-1900-ml/p",
+        "sku": "2290819",
+        "fecha_consulta": "2026-11-09T20:29:39-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.olimpica.com/aceites"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Aceite vegetal común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 1.9000000000000001,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "1900 ml = 1.9 L",
+        "inferida": false
+      },
+      "precio_unitario": 11263.157894736842,
+      "empaques": 1,
+      "costo": 21400.0,
+      "excedente": 0.9
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "olimpica:2209538",
+        "proveedor_id": "olimpica",
+        "proveedor": "Olímpica",
+        "nombre": "Aceite Diana Mezcla Vegetal Vitamina A/D 900 Ml",
+        "marca": "Diana-Aceite",
+        "presentacion_texto": "Aceite Diana Mezcla Vegetal Vitamina A/D 900 Ml",
+        "precio": 10800.0,
+        "moneda": "COP",
+        "url": "https://www.olimpica.com/aceite-diana-mezcla-vegetal-vit-ayd-900ml-7702028000330-2209538/p",
+        "sku": "2209538",
+        "fecha_consulta": "2026-11-09T20:29:39-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.olimpica.com/aceites"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Aceite mezcla vegetal común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 0.9,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "900 ml = 0.9 L",
+        "inferida": false
+      },
+      "precio_unitario": 12000.0,
+      "empaques": 2,
+      "costo": 21600.0,
+      "excedente": 0.8
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "jumbo:330927",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Aceite Cuisine&Co Mezcla Vegetal x3000Ml",
+        "marca": "CUISINE & CO NBE MP",
+        "presentacion_texto": "Aceite Cuisine&Co Mezcla Vegetal x3000Ml",
+        "precio": 22890.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/aceite-cuisine-co-mezcla-vegetal-x3000ml/p",
+        "sku": "330927",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Aceite mezcla vegetal común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 3.0,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "3000 ml = 3 L",
+        "inferida": false
+      },
+      "precio_unitario": 7630.0,
+      "empaques": 1,
+      "costo": 22890.0,
+      "excedente": 2.0
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "olimpica:1651648",
+        "proveedor_id": "olimpica",
+        "proveedor": "Olímpica",
+        "nombre": "Aceite Olimpica de Soya 3 Lt",
+        "marca": "Olimpica",
+        "presentacion_texto": "Aceite Olimpica de Soya 3 Lt",
+        "precio": 26190.0,
+        "moneda": "COP",
+        "url": "https://www.olimpica.com/aceite-de-soya-olimpica-3-l-7701008625204--1651648/p",
+        "sku": "1651648",
+        "fecha_consulta": "2026-11-09T20:29:39-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.olimpica.com/aceites"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Aceite de soya es aceite vegetal común"
+      ],
+      "presentacion": {
+        "cantidad_base": 3.0,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "3 lt = 3 L",
+        "inferida": false
+      },
+      "precio_unitario": 8730.0,
+      "empaques": 1,
+      "costo": 26190.0,
+      "excedente": 2.0
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "jumbo:330935",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Aceite Cuisine&Co Girasol x3000Ml",
+        "marca": "CUISINE & CO NBE MP",
+        "presentacion_texto": "Aceite Cuisine&Co Girasol x3000Ml",
+        "precio": 28890.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/aceite-cuisine-co-girasol-x3000ml/p",
+        "sku": "330935",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Aceite de girasol es aceite vegetal común"
+      ],
+      "presentacion": {
+        "cantidad_base": 3.0,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "3000 ml = 3 L",
+        "inferida": false
+      },
+      "precio_unitario": 9630.0,
+      "empaques": 1,
+      "costo": 28890.0,
+      "excedente": 2.0
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "jumbo:22300",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Aceite Canola Life bajo en grasa saturada x1L",
+        "marca": "CANOLA LIFE",
+        "presentacion_texto": "Aceite Canola Life bajo en grasa saturada x1L",
+        "precio": 29910.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/aceite-canola-life-bajo-en-grasa-saturado-x-1l/p",
+        "sku": "22300",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Aceite de canola es aceite vegetal común"
+      ],
+      "presentacion": {
+        "cantidad_base": 1.0,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "1 l = 1 L",
+        "inferida": false
+      },
+      "precio_unitario": 29910.0,
+      "empaques": 1,
+      "costo": 29910.0,
+      "excedente": 0.0
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "olimpica:2001145",
+        "proveedor_id": "olimpica",
+        "proveedor": "Olímpica",
+        "nombre": "Aceite Riquísimo 3000 Ml",
+        "marca": "Riquisimo",
+        "presentacion_texto": "Aceite Riquísimo 3000 Ml",
+        "precio": 34390.0,
+        "moneda": "COP",
+        "url": "https://www.olimpica.com/aceite-riquisimo-3-l/p",
+        "sku": "2001145",
+        "fecha_consulta": "2026-11-09T20:29:39-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.olimpica.com/aceites"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Aceite vegetal común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 3.0,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "3000 ml = 3 L",
+        "inferida": false
+      },
+      "precio_unitario": 11463.333333333334,
+      "empaques": 1,
+      "costo": 34390.0,
+      "excedente": 2.0
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "jumbo:22385",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Aceite Riquisimo garrafa x3000ml",
+        "marca": "RIQUISIMO",
+        "presentacion_texto": "Aceite Riquisimo garrafa x3000ml",
+        "precio": 34790.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/aceite-riquisimo-garrafa-x-3000-cm3/p",
+        "sku": "22385",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Aceite vegetal común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 3.0,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "3000 ml = 3 L",
+        "inferida": false
+      },
+      "precio_unitario": 11596.666666666666,
+      "empaques": 1,
+      "costo": 34790.0,
+      "excedente": 2.0
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "jumbo:22375",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Aceite Oleocali garrafa x3000ml",
+        "marca": "OLEOCALI",
+        "presentacion_texto": "Aceite Oleocali garrafa x3000ml",
+        "precio": 34790.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/aceite-oleocali-garrafa-x-3000-cm3/p",
+        "sku": "22375",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Aceite vegetal común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 3.0,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "3000 ml = 3 L",
+        "inferida": false
+      },
+      "precio_unitario": 11596.666666666666,
+      "empaques": 1,
+      "costo": 34790.0,
+      "excedente": 2.0
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "jumbo:171365",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Aceite Diana Premium canola y girasol x2000ml",
+        "marca": "DIANA",
+        "presentacion_texto": "Aceite Diana Premium canola y girasol x2000ml",
+        "precio": 35150.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/aceite-diana-premium-girasol-canola-x-2000ml/p",
+        "sku": "171365",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Aceite mezcla canola y girasol común"
+      ],
+      "presentacion": {
+        "cantidad_base": 2.0,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "2000 ml = 2 L",
+        "inferida": false
+      },
+      "precio_unitario": 17575.0,
+      "empaques": 1,
+      "costo": 35150.0,
+      "excedente": 1.0
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "olimpica:2010298",
+        "proveedor_id": "olimpica",
+        "proveedor": "Olímpica",
+        "nombre": "Aceite Diana Mezcla Vegetales Vitamina A-D 3000 Ml",
+        "marca": "Diana",
+        "presentacion_texto": "Aceite Diana Mezcla Vegetales Vitamina A-D 3000 Ml",
+        "precio": 37550.0,
+        "moneda": "COP",
+        "url": "https://www.olimpica.com/aceite-diana-mezcla-vegetalales-vit-a-d-3000ml-7702028000378-2010298/p",
+        "sku": "2010298",
+        "fecha_consulta": "2026-11-09T20:29:39-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.olimpica.com/aceites"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Aceite mezcla vegetal común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 3.0,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "3000 ml = 3 L",
+        "inferida": false
+      },
+      "precio_unitario": 12516.666666666666,
+      "empaques": 1,
+      "costo": 37550.0,
+      "excedente": 2.0
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "jumbo:60429",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Aceite Diana vitaminas x3000ml",
+        "marca": "DIANA",
+        "presentacion_texto": "Aceite Diana vitaminas x3000ml",
+        "precio": 38040.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/aceite-diana-vitaminas-x-3000-ml/p",
+        "sku": "60429",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Aceite vegetal común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 3.0,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "3000 ml = 3 L",
+        "inferida": false
+      },
+      "precio_unitario": 12680.0,
+      "empaques": 1,
+      "costo": 38040.0,
+      "excedente": 2.0
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "olimpica:2315087",
+        "proveedor_id": "olimpica",
+        "proveedor": "Olímpica",
+        "nombre": "Aceite Premier de Girasol 1800 Ml",
+        "marca": "Premier",
+        "presentacion_texto": "Aceite Premier de Girasol 1800 Ml",
+        "precio": 40190.0,
+        "moneda": "COP",
+        "url": "https://www.olimpica.com/aceite-premier-girasol-1800ml/p",
+        "sku": "2315087",
+        "fecha_consulta": "2026-11-09T20:29:39-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.olimpica.com/aceites"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Aceite de girasol es aceite vegetal común"
+      ],
+      "presentacion": {
+        "cantidad_base": 1.8,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "1800 ml = 1.8 L",
+        "inferida": false
+      },
+      "precio_unitario": 22327.777777777777,
+      "empaques": 1,
+      "costo": 40190.0,
+      "excedente": 0.8
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "jumbo:283037",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Aceite Premier girasol x1800ml",
+        "marca": "PREMIER",
+        "presentacion_texto": "Aceite Premier girasol x1800ml",
+        "precio": 41090.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/aceite-premier-girasol-x1800ml/p",
+        "sku": "283037",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Aceite de girasol es aceite vegetal común"
+      ],
+      "presentacion": {
+        "cantidad_base": 1.8,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "1800 ml = 1.8 L",
+        "inferida": false
+      },
+      "precio_unitario": 22827.777777777777,
+      "empaques": 1,
+      "costo": 41090.0,
+      "excedente": 0.8
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "olimpica:2315084",
+        "proveedor_id": "olimpica",
+        "proveedor": "Olímpica",
+        "nombre": "Aceite Premier de Girasol 900 Ml",
+        "marca": "Premier",
+        "presentacion_texto": "Aceite Premier de Girasol 900 Ml",
+        "precio": 20590.0,
+        "moneda": "COP",
+        "url": "https://www.olimpica.com/aceite-premier-girasol-900ml/p",
+        "sku": "2315084",
+        "fecha_consulta": "2026-11-09T20:29:39-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.olimpica.com/aceites"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Aceite de girasol es aceite vegetal común"
+      ],
+      "presentacion": {
+        "cantidad_base": 0.9,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "900 ml = 0.9 L",
+        "inferida": false
+      },
+      "precio_unitario": 22877.777777777777,
+      "empaques": 2,
+      "costo": 41180.0,
+      "excedente": 0.8
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "jumbo:288562",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Aceite Premier girasol x900ml",
+        "marca": "PREMIER",
+        "presentacion_texto": "Aceite Premier girasol x900ml",
+        "precio": 21050.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/aceite-premier-girasol-x900ml/p",
+        "sku": "288562",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Aceite de girasol es aceite vegetal común"
+      ],
+      "presentacion": {
+        "cantidad_base": 0.9,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "900 ml = 0.9 L",
+        "inferida": false
+      },
+      "precio_unitario": 23388.888888888887,
+      "empaques": 2,
+      "costo": 42100.0,
+      "excedente": 0.8
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "jumbo:220183",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Aceite Gourmet Familia x900ml",
+        "marca": "GOURMET",
+        "presentacion_texto": "Aceite Gourmet Familia x900ml",
+        "precio": 22240.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/aceite-gourmet-familia-x900ml/p",
+        "sku": "220183",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Aceite vegetal común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 0.9,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "900 ml = 0.9 L",
+        "inferida": false
+      },
+      "precio_unitario": 24711.11111111111,
+      "empaques": 2,
+      "costo": 44480.0,
+      "excedente": 0.8
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "jumbo:368595",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Aceite Canola Life 1800ml",
+        "marca": "CANOLA LIFE",
+        "presentacion_texto": "Aceite Canola Life 1800ml",
+        "precio": 49590.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/aceite-canola-life-1800ml-368595/p",
+        "sku": "368595",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Aceite de canola es aceite vegetal común"
+      ],
+      "presentacion": {
+        "cantidad_base": 1.8,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "1800 ml = 1.8 L",
+        "inferida": false
+      },
+      "precio_unitario": 27550.0,
+      "empaques": 1,
+      "costo": 49590.0,
+      "excedente": 0.8
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "jumbo:22361",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Aceite Oleocali girasol x3000ml",
+        "marca": "OLEOCALI",
+        "presentacion_texto": "Aceite Oleocali girasol x3000ml",
+        "precio": 50250.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/aceite-girasol-oleocali-x-3000-cm3/p",
+        "sku": "22361",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Aceite de girasol es aceite vegetal común"
+      ],
+      "presentacion": {
+        "cantidad_base": 3.0,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "3000 ml = 3 L",
+        "inferida": false
+      },
+      "precio_unitario": 16750.0,
+      "empaques": 1,
+      "costo": 50250.0,
+      "excedente": 2.0
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "olimpica:2315088",
+        "proveedor_id": "olimpica",
+        "proveedor": "Olímpica",
+        "nombre": "Aceite Premier de Girasol 2700 Ml",
+        "marca": "Premier",
+        "presentacion_texto": "Aceite Premier de Girasol 2700 Ml",
+        "precio": 58300.0,
+        "moneda": "COP",
+        "url": "https://www.olimpica.com/aceite-premier-girasol-2700ml/p",
+        "sku": "2315088",
+        "fecha_consulta": "2026-11-09T20:29:39-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.olimpica.com/aceites"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Aceite de girasol es aceite vegetal común"
+      ],
+      "presentacion": {
+        "cantidad_base": 2.7,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "2700 ml = 2.7 L",
+        "inferida": false
+      },
+      "precio_unitario": 21592.59259259259,
+      "empaques": 1,
+      "costo": 58300.0,
+      "excedente": 1.7
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "jumbo:288561",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Aceite Premier girasol x2700ml",
+        "marca": "PREMIER",
+        "presentacion_texto": "Aceite Premier girasol x2700ml",
+        "precio": 58300.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/aceite-premier-girasol-x2700ml/p",
+        "sku": "288561",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Aceite de girasol es aceite vegetal común"
+      ],
+      "presentacion": {
+        "cantidad_base": 2.7,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "2700 ml = 2.7 L",
+        "inferida": false
+      },
+      "precio_unitario": 21592.59259259259,
+      "empaques": 1,
+      "costo": 58300.0,
+      "excedente": 1.7
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "jumbo:229641",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Aceite Gourmet Familia Multiusos x2600ml",
+        "marca": "GOURMET",
+        "presentacion_texto": "Aceite Gourmet Familia Multiusos x2600ml",
+        "precio": 66200.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/aceite-gourmet-familia-multiusos-x2600ml/p",
+        "sku": "229641",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Aceite vegetal común sin especificaciones"
+      ],
+      "presentacion": {
+        "cantidad_base": 2.6,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "2600 ml = 2.6 L",
+        "inferida": false
+      },
+      "precio_unitario": 25461.53846153846,
+      "empaques": 1,
+      "costo": 66200.0,
+      "excedente": 1.6
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "jumbo:266101",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Aceite Gourmet Familia Multiusos 2Und 1800ml",
+        "marca": "GOURMET",
+        "presentacion_texto": "Aceite Gourmet Familia Multiusos 2Und 1800ml",
+        "precio": 75930.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/aceite-gourmet-familia-multiusos-2und-1800ml-266101/p",
+        "sku": "266101",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+      },
+      "clasificacion": "equivalente",
+      "elegible": true,
+      "motivos": [
+        "Aceite vegetal común sin especificaciones",
+        "presentación inferida del nombre: 2 x 1800 ml = 3.6 L"
+      ],
+      "presentacion": {
+        "cantidad_base": 3.6,
+        "dimension": "volumen",
+        "unidades_por_empaque": 2,
+        "texto": "2 x 1800 ml = 3.6 L",
+        "inferida": true
+      },
+      "precio_unitario": 21091.666666666668,
+      "empaques": 1,
+      "costo": 75930.0,
+      "excedente": 2.6
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "olimpica:2241874",
+        "proveedor_id": "olimpica",
+        "proveedor": "Olímpica",
+        "nombre": "Aceite Medalla de Oro de Oliva 1000 Ml",
+        "marca": "Medalla De Oro",
+        "presentacion_texto": "Aceite Medalla de Oro de Oliva 1000 Ml",
+        "precio": 32590.0,
+        "moneda": "COP",
+        "url": "https://www.olimpica.com/aceite-oliva-medalla-oro-1000ml/p",
+        "sku": "2241874",
+        "fecha_consulta": "2026-11-09T20:29:39-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.olimpica.com/aceites"
+      },
+      "clasificacion": "sustituto",
+      "elegible": true,
+      "motivos": [
+        "Aceite de oliva es variedad diferente"
+      ],
+      "presentacion": {
+        "cantidad_base": 1.0,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "1000 ml = 1 L",
+        "inferida": false
+      },
+      "precio_unitario": 32590.0,
+      "empaques": 1,
+      "costo": 32590.0,
+      "excedente": 0.0
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "olimpica:2134354",
+        "proveedor_id": "olimpica",
+        "proveedor": "Olímpica",
+        "nombre": "Aceite Medalla de Oro de Oliva Extra Virgen 500 Ml Pet",
+        "marca": "Medalla De Oro",
+        "presentacion_texto": "Aceite Medalla de Oro de Oliva Extra Virgen 500 Ml Pet",
+        "precio": 16950.0,
+        "moneda": "COP",
+        "url": "https://www.olimpica.com/aceite-de-oliva-medalla-de-oro-500-ml-7701008626997--2134354/p",
+        "sku": "2134354",
+        "fecha_consulta": "2026-11-09T20:29:39-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.olimpica.com/aceites"
+      },
+      "clasificacion": "sustituto",
+      "elegible": true,
+      "motivos": [
+        "Aceite de oliva es variedad diferente"
+      ],
+      "presentacion": {
+        "cantidad_base": 0.5,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "500 ml = 0.5 L",
+        "inferida": false
+      },
+      "precio_unitario": 33900.0,
+      "empaques": 2,
+      "costo": 33900.0,
+      "excedente": 0.0
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "jumbo:398247",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Aceite Cuisine&Co Oliva 500ml",
+        "marca": "CUISINE&CO",
+        "presentacion_texto": "Aceite Cuisine&Co Oliva 500ml",
+        "precio": 22590.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/aceite-cuisineco-oliva-500ml-398247/p",
+        "sku": "398247",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+      },
+      "clasificacion": "sustituto",
+      "elegible": true,
+      "motivos": [
+        "Aceite de oliva es variedad diferente"
+      ],
+      "presentacion": {
+        "cantidad_base": 0.5,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "500 ml = 0.5 L",
+        "inferida": false
+      },
+      "precio_unitario": 45180.0,
+      "empaques": 2,
+      "costo": 45180.0,
+      "excedente": 0.0
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "jumbo:22331",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Aceite Ybarra oliva extra virgen x1L",
+        "marca": "YBARRA",
+        "presentacion_texto": "Aceite Ybarra oliva extra virgen x1L",
+        "precio": 47990.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/aceite-de-oliva-extra-virgen-ybarra-x-1-lt/p",
+        "sku": "22331",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+      },
+      "clasificacion": "sustituto",
+      "elegible": true,
+      "motivos": [
+        "Aceite de oliva es variedad diferente"
+      ],
+      "presentacion": {
+        "cantidad_base": 1.0,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "1 l = 1 L",
+        "inferida": false
+      },
+      "precio_unitario": 47990.0,
+      "empaques": 1,
+      "costo": 47990.0,
+      "excedente": 0.0
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "jumbo:341596",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Aceite Cuisine & Co Oliva Extra Virgen x1Lt",
+        "marca": "CUISINE & CO NBE MP",
+        "presentacion_texto": "Aceite Cuisine & Co Oliva Extra Virgen x1Lt",
+        "precio": 55990.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/aceite-cuisine-and-co-oliva-extra-virgen-x1lt-3651517/p",
+        "sku": "341596",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+      },
+      "clasificacion": "sustituto",
+      "elegible": true,
+      "motivos": [
+        "Aceite de oliva es variedad diferente"
+      ],
+      "presentacion": {
+        "cantidad_base": 1.0,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "1 lt = 1 L",
+        "inferida": false
+      },
+      "precio_unitario": 55990.0,
+      "empaques": 1,
+      "costo": 55990.0,
+      "excedente": 0.0
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "jumbo:22337",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Aceite Sublime oliva Español x500ml",
+        "marca": "SUBLIME",
+        "presentacion_texto": "Aceite Sublime oliva Español x500ml",
+        "precio": 35000.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/sublime-aceite-de-oliva-x-500-ml/p",
+        "sku": "22337",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+      },
+      "clasificacion": "sustituto",
+      "elegible": true,
+      "motivos": [
+        "Aceite de oliva es variedad diferente"
+      ],
+      "presentacion": {
+        "cantidad_base": 0.5,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "500 ml = 0.5 L",
+        "inferida": false
+      },
+      "precio_unitario": 70000.0,
+      "empaques": 2,
+      "costo": 70000.0,
+      "excedente": 0.0
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "jumbo:412318",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Aceite Olivetto Mezcla Vegetal Oliva Freir 1800ml",
+        "marca": "OLIVETTO",
+        "presentacion_texto": "Aceite Olivetto Mezcla Vegetal Oliva Freir 1800ml",
+        "precio": 70490.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/ac-olivetto-para-freir-6x1800-ml-412318/p",
+        "sku": "412318",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+      },
+      "clasificacion": "sustituto",
+      "elegible": true,
+      "motivos": [
+        "Aceite mezcla con oliva es variedad diferente"
+      ],
+      "presentacion": {
+        "cantidad_base": 1.8,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "1800 ml = 1.8 L",
+        "inferida": false
+      },
+      "precio_unitario": 39161.11111111111,
+      "empaques": 1,
+      "costo": 70490.0,
+      "excedente": 0.8
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "jumbo:53305",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Aceite Carbonell oliva extra virgen x750ml",
+        "marca": "CARBONELL",
+        "presentacion_texto": "Aceite Carbonell oliva extra virgen x750ml",
+        "precio": 45990.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/aceite-carbonell-oliva-extra-virgen-x-750-ml/p",
+        "sku": "53305",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+      },
+      "clasificacion": "sustituto",
+      "elegible": true,
+      "motivos": [
+        "Aceite de oliva es variedad diferente"
+      ],
+      "presentacion": {
+        "cantidad_base": 0.75,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "750 ml = 0.75 L",
+        "inferida": false
+      },
+      "precio_unitario": 61320.0,
+      "empaques": 2,
+      "costo": 91980.0,
+      "excedente": 0.5
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "jumbo:22332",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Aceite Ybarra oliva extra virgen x750ml",
+        "marca": "YBARRA",
+        "presentacion_texto": "Aceite Ybarra oliva extra virgen x750ml",
+        "precio": 48390.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/aceite-de-oliva-extra-virgen-ybarra-x-750-ml/p",
+        "sku": "22332",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+      },
+      "clasificacion": "sustituto",
+      "elegible": true,
+      "motivos": [
+        "Aceite de oliva es variedad diferente"
+      ],
+      "presentacion": {
+        "cantidad_base": 0.75,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "750 ml = 0.75 L",
+        "inferida": false
+      },
+      "precio_unitario": 64520.0,
+      "empaques": 2,
+      "costo": 96780.0,
+      "excedente": 0.5
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "jumbo:301980",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Aceite Olivetto Oliva Virgen Suave x1000ml",
+        "marca": "OLIVETTO",
+        "presentacion_texto": "Aceite Olivetto Oliva Virgen Suave x1000ml",
+        "precio": 108290.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/aceite-olivetto-oliva-virgen-suave-x1000ml-3610550/p",
+        "sku": "301980",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+      },
+      "clasificacion": "sustituto",
+      "elegible": true,
+      "motivos": [
+        "Aceite de oliva es variedad diferente"
+      ],
+      "presentacion": {
+        "cantidad_base": 1.0,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "1000 ml = 1 L",
+        "inferida": false
+      },
+      "precio_unitario": 108290.0,
+      "empaques": 1,
+      "costo": 108290.0,
+      "excedente": 0.0
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "olimpica:2297762",
+        "proveedor_id": "olimpica",
+        "proveedor": "Olímpica",
+        "nombre": "Aceite de Coco Fithub Orgánico 200 Ml",
+        "marca": "FITHUB",
+        "presentacion_texto": "Aceite de Coco Fithub Orgánico 200 Ml",
+        "precio": 24500.0,
+        "moneda": "COP",
+        "url": "https://www.olimpica.com/aceite-fithub-coco-organic-200ml/p",
+        "sku": "2297762",
+        "fecha_consulta": "2026-11-09T20:29:39-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.olimpica.com/aceites"
+      },
+      "clasificacion": "sustituto",
+      "elegible": true,
+      "motivos": [
+        "Aceite de coco es variedad diferente"
+      ],
+      "presentacion": {
+        "cantidad_base": 0.2,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "200 ml = 0.2 L",
+        "inferida": false
+      },
+      "precio_unitario": 122500.0,
+      "empaques": 5,
+      "costo": 122500.0,
+      "excedente": 0.0
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "jumbo:398242",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Aceite Cuisine&Co Oliva 3000ml",
+        "marca": "CUISINE&CO",
+        "presentacion_texto": "Aceite Cuisine&Co Oliva 3000ml",
+        "precio": 125990.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/aceite-cuisineco-oliva-3000ml-398242/p",
+        "sku": "398242",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+      },
+      "clasificacion": "sustituto",
+      "elegible": true,
+      "motivos": [
+        "Aceite de oliva es variedad diferente"
+      ],
+      "presentacion": {
+        "cantidad_base": 3.0,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "3000 ml = 3 L",
+        "inferida": false
+      },
+      "precio_unitario": 41996.666666666664,
+      "empaques": 1,
+      "costo": 125990.0,
+      "excedente": 2.0
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "jumbo:22333",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Aceite Ybarra oliva extra virgen x3L",
+        "marca": "YBARRA",
+        "presentacion_texto": "Aceite Ybarra oliva extra virgen x3L",
+        "precio": 132990.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/aceite-de-oliva-extra-virgen-ybarra-x-3-lt/p",
+        "sku": "22333",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+      },
+      "clasificacion": "sustituto",
+      "elegible": true,
+      "motivos": [
+        "Aceite de oliva es variedad diferente"
+      ],
+      "presentacion": {
+        "cantidad_base": 3.0,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "3 l = 3 L",
+        "inferida": false
+      },
+      "precio_unitario": 44330.0,
+      "empaques": 1,
+      "costo": 132990.0,
+      "excedente": 2.0
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "jumbo:22349",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Aceite Ybarra oliva x3L",
+        "marca": "YBARRA",
+        "presentacion_texto": "Aceite Ybarra oliva x3L",
+        "precio": 136690.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/aceite-de-oliva-puro-ybarra-pet-x-3-l/p",
+        "sku": "22349",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+      },
+      "clasificacion": "sustituto",
+      "elegible": true,
+      "motivos": [
+        "Aceite de oliva es variedad diferente"
+      ],
+      "presentacion": {
+        "cantidad_base": 3.0,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "3 l = 3 L",
+        "inferida": false
+      },
+      "precio_unitario": 45563.333333333336,
+      "empaques": 1,
+      "costo": 136690.0,
+      "excedente": 2.0
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "olimpica:2297769",
+        "proveedor_id": "olimpica",
+        "proveedor": "Olímpica",
+        "nombre": "Aceite de Coco Dans Le Food Orgánico Virgen 225 Ml",
+        "marca": "FITHUB",
+        "presentacion_texto": "Aceite de Coco Dans Le Food Orgánico Virgen 225 Ml",
+        "precio": 31650.0,
+        "moneda": "COP",
+        "url": "https://www.olimpica.com/aceite-fithub-coco-dans-le-food-225ml/p",
+        "sku": "2297769",
+        "fecha_consulta": "2026-11-09T20:29:39-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.olimpica.com/aceites"
+      },
+      "clasificacion": "sustituto",
+      "elegible": true,
+      "motivos": [
+        "Aceite de coco es variedad diferente"
+      ],
+      "presentacion": {
+        "cantidad_base": 0.225,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "225 ml = 0.225 L",
+        "inferida": false
+      },
+      "precio_unitario": 140666.66666666666,
+      "empaques": 5,
+      "costo": 158250.0,
+      "excedente": 0.125
+    },
+    {
+      "item_idx": 1,
+      "oferta": {
+        "id": "jumbo:151516",
+        "proveedor_id": "jumbo",
+        "proveedor": "Jumbo",
+        "nombre": "Aceite Bucatti oliva extra virgen x750ml",
+        "marca": "BUCATTI",
+        "presentacion_texto": "Aceite Bucatti oliva extra virgen x750ml",
+        "precio": 81360.0,
+        "moneda": "COP",
+        "url": "https://www.jumbocolombia.com/aceite-oliva-extra-bucatti-x-750-ml/p",
+        "sku": "151516",
+        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "disponibilidad": "disponible",
+        "mecanismo": "jsonld_publico",
+        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+      },
+      "clasificacion": "sustituto",
+      "elegible": true,
+      "motivos": [
+        "Aceite de oliva es variedad diferente"
+      ],
+      "presentacion": {
+        "cantidad_base": 0.75,
+        "dimension": "volumen",
+        "unidades_por_empaque": null,
+        "texto": "750 ml = 0.75 L",
+        "inferida": false
+      },
+      "precio_unitario": 108480.0,
+      "empaques": 2,
+      "costo": 162720.0,
+      "excedente": 0.5
+    }
+  ],
+  "opciones": [
+    {
+      "nombre": "Olímpica",
+      "tipo": "proveedor_unico",
+      "proveedores": [
+        "Olímpica"
+      ],
+      "lineas": [
+        {
+          "item_idx": 0,
+          "producto": "arroz",
+          "cantidad_texto": "3 kg",
+          "evaluada": {
+            "item_idx": 0,
+            "oferta": {
+              "id": "olimpica:2281376",
+              "proveedor_id": "olimpica",
+              "proveedor": "Olímpica",
+              "nombre": "ARROZ  O 500 GRS",
+              "marca": "Olimpica",
+              "presentacion_texto": "ARROZ  O 500 GRS",
+              "precio": 1650.0,
+              "moneda": "COP",
+              "url": "https://www.olimpica.com/arroz--o-500-grs/p",
+              "sku": "2281376",
+              "fecha_consulta": "2026-11-09T20:29:38-05:00",
+              "disponibilidad": "disponible",
+              "mecanismo": "jsonld_publico",
+              "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
+            },
+            "clasificacion": "equivalente",
+            "elegible": true,
+            "motivos": [
+              "Arroz blanco común sin especificaciones"
+            ],
+            "presentacion": {
+              "cantidad_base": 0.5,
+              "dimension": "masa",
+              "unidades_por_empaque": null,
+              "texto": "500 grs = 0.5 kg",
+              "inferida": false
+            },
+            "precio_unitario": 3300.0,
+            "empaques": 6,
+            "costo": 9900.0,
+            "excedente": 0.0
+          },
+          "nota": ""
+        },
+        {
+          "item_idx": 1,
+          "producto": "aceite",
+          "cantidad_texto": "1 L",
+          "evaluada": {
+            "item_idx": 1,
+            "oferta": {
+              "id": "olimpica:1646730",
+              "proveedor_id": "olimpica",
+              "proveedor": "Olímpica",
+              "nombre": "Aceite Medalla de Oro Mezcla 900 Ml",
+              "marca": "Medalla De Oro",
+              "presentacion_texto": "Aceite Medalla de Oro Mezcla 900 Ml",
+              "precio": 6490.0,
+              "moneda": "COP",
+              "url": "https://www.olimpica.com/aceite-medalla-oro-mezc-900-cm3/p",
+              "sku": "1646730",
+              "fecha_consulta": "2026-11-09T20:29:39-05:00",
+              "disponibilidad": "disponible",
+              "mecanismo": "jsonld_publico",
+              "fuente_consulta": "https://www.olimpica.com/aceites"
+            },
+            "clasificacion": "equivalente",
+            "elegible": true,
+            "motivos": [
+              "Aceite mezcla vegetal común sin especificaciones"
+            ],
+            "presentacion": {
+              "cantidad_base": 0.9,
+              "dimension": "volumen",
+              "unidades_por_empaque": null,
+              "texto": "900 ml = 0.9 L",
+              "inferida": false
+            },
+            "precio_unitario": 7211.111111111111,
+            "empaques": 2,
+            "costo": 12980.0,
+            "excedente": 0.8
+          },
+          "nota": ""
+        }
+      ],
+      "cobertura": "completa",
+      "items_sin_cotizacion": [],
+      "subtotal_productos": 22880.0,
+      "costos_adicionales": [
+        {
+          "concepto": "Envío a domicilio (Olímpica)",
+          "valor": null,
+          "fuente": "https://www.olimpica.com",
+          "nota": "El costo del domicilio depende de la dirección, la franja y el valor del pedido y solo se calcula en el carrito/checkout, que este sistema no consulta."
+        }
+      ],
+      "total_conocido": 22880.0,
+      "total_final_confirmado": null,
+      "pendientes": [
+        "Envío a domicilio (Olímpica): costo desconocido"
+      ],
+      "viable": true,
+      "nota": ""
+    },
+    {
+      "nombre": "Jumbo",
+      "tipo": "proveedor_unico",
+      "proveedores": [
+        "Jumbo"
+      ],
+      "lineas": [
+        {
+          "item_idx": 0,
+          "producto": "arroz",
+          "cantidad_texto": "3 kg",
+          "evaluada": {
+            "item_idx": 0,
+            "oferta": {
+              "id": "jumbo:13395",
+              "proveedor_id": "jumbo",
+              "proveedor": "Jumbo",
+              "nombre": "Arroz Diana blanco x3kg",
+              "marca": "DIANA",
+              "presentacion_texto": "Arroz Diana blanco x3kg",
+              "precio": 11990.0,
+              "moneda": "COP",
+              "url": "https://www.jumbocolombia.com/arroz-diana-x-3-kg/p",
+              "sku": "13395",
+              "fecha_consulta": "2026-11-09T20:29:38-05:00",
+              "disponibilidad": "disponible",
+              "mecanismo": "jsonld_publico",
+              "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+            },
+            "clasificacion": "equivalente",
+            "elegible": true,
+            "motivos": [
+              "Arroz blanco común sin especificaciones"
+            ],
+            "presentacion": {
+              "cantidad_base": 3.0,
+              "dimension": "masa",
+              "unidades_por_empaque": null,
+              "texto": "3 kg = 3 kg",
+              "inferida": false
+            },
+            "precio_unitario": 3996.6666666666665,
+            "empaques": 1,
+            "costo": 11990.0,
+            "excedente": 0.0
+          },
+          "nota": ""
+        },
+        {
+          "item_idx": 1,
+          "producto": "aceite",
+          "cantidad_texto": "1 L",
+          "evaluada": {
+            "item_idx": 1,
+            "oferta": {
+              "id": "jumbo:330913",
+              "proveedor_id": "jumbo",
+              "proveedor": "Jumbo",
+              "nombre": "Aceite Cuisine&Co Mezcla Vegetal x900Ml",
+              "marca": "CUISINE & CO NBE MP",
+              "presentacion_texto": "Aceite Cuisine&Co Mezcla Vegetal x900Ml",
+              "precio": 7890.0,
+              "moneda": "COP",
+              "url": "https://www.jumbocolombia.com/aceite-cuisine-co-mezcla-vegetal-x900ml/p",
+              "sku": "330913",
+              "fecha_consulta": "2026-11-09T20:29:38-05:00",
+              "disponibilidad": "disponible",
+              "mecanismo": "jsonld_publico",
+              "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+            },
+            "clasificacion": "equivalente",
+            "elegible": true,
+            "motivos": [
+              "Aceite mezcla vegetal común sin especificaciones"
+            ],
+            "presentacion": {
+              "cantidad_base": 0.9,
+              "dimension": "volumen",
+              "unidades_por_empaque": null,
+              "texto": "900 ml = 0.9 L",
+              "inferida": false
+            },
+            "precio_unitario": 8766.666666666666,
+            "empaques": 2,
+            "costo": 15780.0,
+            "excedente": 0.8
+          },
+          "nota": ""
+        }
+      ],
+      "cobertura": "completa",
+      "items_sin_cotizacion": [],
+      "subtotal_productos": 27770.0,
+      "costos_adicionales": [
+        {
+          "concepto": "Envío a domicilio (Jumbo)",
+          "valor": null,
+          "fuente": "https://www.jumbocolombia.com",
+          "nota": "El costo del domicilio depende de la dirección, la franja y el valor del pedido y solo se calcula en el checkout (/checkout/ está prohibido por robots.txt)."
+        }
+      ],
+      "total_conocido": 27770.0,
+      "total_final_confirmado": null,
+      "pendientes": [
+        "Envío a domicilio (Jumbo): costo desconocido"
+      ],
+      "viable": true,
+      "nota": ""
+    },
+    {
+      "nombre": "Compra combinada",
+      "tipo": "combinada",
+      "proveedores": [
+        "Olímpica"
+      ],
+      "lineas": [
+        {
+          "item_idx": 0,
+          "producto": "arroz",
+          "cantidad_texto": "3 kg",
+          "evaluada": {
+            "item_idx": 0,
+            "oferta": {
+              "id": "olimpica:2281376",
+              "proveedor_id": "olimpica",
+              "proveedor": "Olímpica",
+              "nombre": "ARROZ  O 500 GRS",
+              "marca": "Olimpica",
+              "presentacion_texto": "ARROZ  O 500 GRS",
+              "precio": 1650.0,
+              "moneda": "COP",
+              "url": "https://www.olimpica.com/arroz--o-500-grs/p",
+              "sku": "2281376",
+              "fecha_consulta": "2026-11-09T20:29:38-05:00",
+              "disponibilidad": "disponible",
+              "mecanismo": "jsonld_publico",
+              "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
+            },
+            "clasificacion": "equivalente",
+            "elegible": true,
+            "motivos": [
+              "Arroz blanco común sin especificaciones"
+            ],
+            "presentacion": {
+              "cantidad_base": 0.5,
+              "dimension": "masa",
+              "unidades_por_empaque": null,
+              "texto": "500 grs = 0.5 kg",
+              "inferida": false
+            },
+            "precio_unitario": 3300.0,
+            "empaques": 6,
+            "costo": 9900.0,
+            "excedente": 0.0
+          },
+          "nota": ""
+        },
+        {
+          "item_idx": 1,
+          "producto": "aceite",
+          "cantidad_texto": "1 L",
+          "evaluada": {
+            "item_idx": 1,
+            "oferta": {
+              "id": "olimpica:1646730",
+              "proveedor_id": "olimpica",
+              "proveedor": "Olímpica",
+              "nombre": "Aceite Medalla de Oro Mezcla 900 Ml",
+              "marca": "Medalla De Oro",
+              "presentacion_texto": "Aceite Medalla de Oro Mezcla 900 Ml",
+              "precio": 6490.0,
+              "moneda": "COP",
+              "url": "https://www.olimpica.com/aceite-medalla-oro-mezc-900-cm3/p",
+              "sku": "1646730",
+              "fecha_consulta": "2026-11-09T20:29:39-05:00",
+              "disponibilidad": "disponible",
+              "mecanismo": "jsonld_publico",
+              "fuente_consulta": "https://www.olimpica.com/aceites"
+            },
+            "clasificacion": "equivalente",
+            "elegible": true,
+            "motivos": [
+              "Aceite mezcla vegetal común sin especificaciones"
+            ],
+            "presentacion": {
+              "cantidad_base": 0.9,
+              "dimension": "volumen",
+              "unidades_por_empaque": null,
+              "texto": "900 ml = 0.9 L",
+              "inferida": false
+            },
+            "precio_unitario": 7211.111111111111,
+            "empaques": 2,
+            "costo": 12980.0,
+            "excedente": 0.8
+          },
+          "nota": ""
+        }
+      ],
+      "cobertura": "completa",
+      "items_sin_cotizacion": [],
+      "subtotal_productos": 22880.0,
+      "costos_adicionales": [
+        {
+          "concepto": "Envío a domicilio (Olímpica)",
+          "valor": null,
+          "fuente": "https://www.olimpica.com",
+          "nota": "El costo del domicilio depende de la dirección, la franja y el valor del pedido y solo se calcula en el carrito/checkout, que este sistema no consulta."
+        }
+      ],
+      "total_conocido": 22880.0,
+      "total_final_confirmado": null,
+      "pendientes": [
+        "Envío a domicilio (Olímpica): costo desconocido"
+      ],
+      "viable": false,
+      "nota": "No aplica: la mejor oferta de cada producto está en Olímpica, así que coincide con comprar todo allí."
+    }
+  ],
+  "recomendacion": {
+    "opcion": "Olímpica",
+    "criterio": "cobertura completa con productos equivalentes y menor subtotal conocido.",
+    "texto": "Se recomienda la opción de Olímpica porque ofrece cobertura completa con productos equivalentes y un subtotal conocido menor, con un costo total conocido de $22.880. En comparación, la opción de Jumbo tiene un costo total conocido de $27.770, lo que representa una diferencia de $4.890 más cara que Olímpica. La compra combinada no es viable ya que la mejor oferta para cada producto está en Olímpica, coincidiendo en precio y productos con esta opción.\n\nAntes de proceder con la compra, es importante confirmar el costo del envío a domicilio para Olímpica, ya que actualmente es desconocido. También se debe verificar que los precios publicados en la tienda en línea sean los mismos para la sede de Bello y confirmar la cobertura de domicilio en esa ubicación. Además, no se han considerado promociones condicionadas ni posibles sustitutos, por lo que estos aspectos podrían afectar la decisión final."
+  },
+  "condiciones_no_verificadas": [
+    "Olímpica: el precio es el publicado en la tienda en línea sin seleccionar sede ni dirección; no se verificó que sea igual en Bello.",
+    "Olímpica: no se verificó cobertura de domicilio en Bello.",
+    "Olímpica: promociones condicionadas (tarjeta propia, 'lleve X pague Y') no se consideran.",
+    "Jumbo: el precio es el publicado en la tienda en línea sin seleccionar sede ni dirección; no se verificó que sea igual en Bello.",
+    "Jumbo: no se verificó cobertura de domicilio en Bello.",
+    "Jumbo: promociones condicionadas (tarjeta Cencosud, cantidad mínima) no se consideran."
+  ],
+  "archivos_salida": [],
+  "historial": [
+    "[interpretar_solicitud] 2 artículos: arroz (? ?); aceite (? ?); ciudad=?",
+    "[validar_solicitud] 3 datos faltantes",
+    "[pedir_aclaracion] respuesta recibida: 3 kg de arroz y 1 litro de aceite, en Bello",
+    "[interpretar_solicitud] 2 artículos: arroz (3.0 kg); aceite (1.0 L); ciudad=Bello",
+    "[validar_solicitud] 0 datos faltantes",
+    "[normalizar_solicitud] 2 artículos; proveedores=['olimpica', 'jumbo']; 1 suposiciones",
+    "[consultar_proveedor:olimpica] arroz:ok(15), aceite:ok(15)",
+    "[consultar_proveedor:jumbo] arroz:ok(28), aceite:ok(28)",
+    "[comparar_ofertas] 86 ofertas evaluadas: {'equivalente': 63, 'sustituto': 23}",
+    "[armar_presupuesto] 3 opciones; recomendada=Olímpica",
+    "[redactar_recomendacion] explicación generada"
+  ]
+}

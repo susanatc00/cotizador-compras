@@ -1,0 +1,159 @@
+# Presupuesto de compra — Bello
+
+_Generado el 2026-11-09 20:29. Precios en pesos colombianos (COP) tal como los publica cada fuente._
+
+## 1. Solicitud interpretada
+
+> Necesito arroz y aceite para la casa, cotiza en Olímpica
+> Aclaración del usuario: 3 kg de arroz y 1 litro de aceite, en Bello
+
+| # | Producto | Cantidad | Especificaciones | Marca | Presentación |
+|---|---|---|---|---|---|
+| 1 | arroz | 3 kg | — | — | — |
+| 2 | aceite | 1 L | — | — | — |
+
+**Ciudad:** Bello  
+**Proveedores consultados:** Jumbo, Olímpica
+
+**Suposiciones explícitas:**
+
+- Para comparar al menos 2 proveedores se agregó: Jumbo.
+
+## 2. Consultas realizadas
+
+| Proveedor | Término | Mecanismo | Estado | Resultados | Fecha de consulta | Fuente |
+|---|---|---|---|---|---|---|
+| Jumbo | arroz | JSON-LD público (consulta en vivo) | ok | 28 | 2026-11-09T20:29:38-05:00 | [página consultada](https://www.jumbocolombia.com/arroz?map=ft) |
+| Jumbo | aceite | JSON-LD público (consulta en vivo) | ok | 28 | 2026-11-09T20:29:38-05:00 | [página consultada](https://www.jumbocolombia.com/aceites) |
+| Olímpica | arroz | JSON-LD público (consulta en vivo) | ok | 15 | 2026-11-09T20:29:38-05:00 | [página consultada](https://www.olimpica.com/arroz?map=ft) |
+| Olímpica | aceite | JSON-LD público (consulta en vivo) | ok | 15 | 2026-11-09T20:29:39-05:00 | [página consultada](https://www.olimpica.com/aceites) |
+
+## 3. Ofertas encontradas por producto
+
+Clasificación: **Equivalente** = mismo producto y especificación; **Sustituto** = mismo uso, otra variedad o calidad; **No comparable** = falta precio o contenido, o la unidad no se puede convertir. Los productos descartados (no corresponden a lo pedido) se cuentan pero no se listan.
+
+### 1. arroz — 3 kg
+
+| Proveedor | Producto | Marca | Presentación | Precio | Precio por unidad | Clasificación | Disponibilidad | Empaques → costo | Observaciones |
+|---|---|---|---|---|---|---|---|---|---|
+| Jumbo | [Arroz Diana blanco x3kg](https://www.jumbocolombia.com/arroz-diana-x-3-kg/p) | DIANA | 3 kg = 3 kg | $11.990 | $3.997/kg | Equivalente | disponible | 1 → $11.990 | Arroz blanco común sin especificaciones |
+| Jumbo | [Arroz Diana blanco x1kg](https://www.jumbocolombia.com/arroz-diana-x-1-kg/p) | DIANA | 1 kg = 1 kg | $4.690 | $4.690/kg | Equivalente | disponible | 3 → $14.070 | Arroz blanco común sin especificaciones |
+| Jumbo | [Arroz Roa Fortiplus blanco x3000g](https://www.jumbocolombia.com/arroz-roa-blanco-fortiplus-x3000g/p) | ROA | 3000 g = 3 kg | $14.820 | $4.940/kg | Equivalente | disponible | 1 → $14.820 | Arroz blanco común sin especificaciones |
+| Jumbo | [Arroz Cuisine & Co Blanco x5000grs](https://www.jumbocolombia.com/arroz-cuisine-and-co-blanco-x5000grs-3650924/p) | CUISINE & CO NBE MP | 5000 grs = 5 kg | $17.990 | $3.598/kg | Equivalente | disponible | 1 → $17.990 | Arroz blanco común sin especificaciones |
+| Jumbo | [Arroz Diana blanco x5kg](https://www.jumbocolombia.com/arroz-diana-x-5-kg/p) | DIANA | 5 kg = 5 kg | $21.990 | $4.398/kg | Equivalente | disponible | 1 → $21.990 | Arroz blanco común sin especificaciones |
+| Jumbo | [Arroz Doña Pepa parbolizado x3000g](https://www.jumbocolombia.com/arroz-parbolizado-dona-pepa-x-3000g/p) | DONA PEPA | 3000 g = 3 kg | $17.610 | $5.870/kg | Sustituto | disponible | 1 → $17.610 | Arroz parbolizado variedad especial |
+| Jumbo | [Arroz Doña Pepa parbolizado x1000g](https://www.jumbocolombia.com/arroz-parbolizado-dona-pepa-1000g/p) | DONA PEPA | 1000 g = 1 kg | $6.290 | $6.290/kg | Sustituto | disponible | 3 → $18.870 | Arroz parbolizado variedad especial |
+| Jumbo | [Arroz Doña Pepa parbolizado x5000g](https://www.jumbocolombia.com/arroz-parbolizado-dona-pepa-x-5000g/p) | DONA PEPA | 5000 g = 5 kg | $33.250 | $6.650/kg | Sustituto | disponible | 1 → $33.250 | Arroz parbolizado variedad especial |
+| Jumbo | _… y 20 ofertas más (ver JSON)_ | | | | | | | | |
+| Olímpica | [ARROZ  O 500 GRS](https://www.olimpica.com/arroz--o-500-grs/p) | Olimpica | 500 grs = 0.5 kg | $1.650 | $3.300/kg | Equivalente | disponible | 6 → $9.900 | Arroz blanco común sin especificaciones |
+| Olímpica | [Arroz Sabrosón 3 Kg](https://www.olimpica.com/arroz-sabroson-3-kg-7707105805068-2000024/p) | Sabroson | 3 kg = 3 kg | $11.990 | $3.997/kg | Equivalente | disponible | 1 → $11.990 | Arroz blanco común sin especificaciones |
+| Olímpica | [Arroz Diana 500 G](https://www.olimpica.com/arroz-diana-500-gr-7702511000014-518231/p) | Diana | 500 g = 0.5 kg | $2.100 | $4.200/kg | Equivalente | disponible | 6 → $12.600 | Arroz blanco común sin especificaciones |
+| Olímpica | [Arroz Diana 1 Kg](https://www.olimpica.com/arroz-diana-1-kg-7702511000021-518232/p) | Diana | 1 kg = 1 kg | $4.200 | $4.200/kg | Equivalente | disponible | 3 → $12.600 | Arroz blanco común sin especificaciones |
+| Olímpica | [Arroz Diana 3 Kg](https://www.olimpica.com/arroz-diana-3-kg-7702511000038-518233/p) | Diana | 3 kg = 3 kg | $13.100 | $4.367/kg | Equivalente | disponible | 1 → $13.100 | Arroz blanco común sin especificaciones |
+| Olímpica | [ARROZ TAILANDES 2.500 G](https://www.olimpica.com/arroz-tailandes-2-500-g/p) | Tailandes | 2.500 g = 2.5 kg | $13.650 | $5.460/kg | Sustituto | disponible | 2 → $27.300 | Arroz tailandés variedad especial |
+| Olímpica | _… y 9 ofertas más (ver JSON)_ | | | | | | | | |
+
+_0 resultados descartados por no corresponder al producto._
+
+### 2. aceite — 1 L
+
+| Proveedor | Producto | Marca | Presentación | Precio | Precio por unidad | Clasificación | Disponibilidad | Empaques → costo | Observaciones |
+|---|---|---|---|---|---|---|---|---|---|
+| Jumbo | [Aceite Cuisine&Co Mezcla Vegetal x900Ml](https://www.jumbocolombia.com/aceite-cuisine-co-mezcla-vegetal-x900ml/p) | CUISINE & CO NBE MP | 900 ml = 0.9 L | $7.890 | $8.767/L | Equivalente | disponible | 2 → $15.780 | Aceite mezcla vegetal común sin especificaciones |
+| Jumbo | [Aceite Cuisine&Co Mezcla Vegetal x3000Ml](https://www.jumbocolombia.com/aceite-cuisine-co-mezcla-vegetal-x3000ml/p) | CUISINE & CO NBE MP | 3000 ml = 3 L | $22.890 | $7.630/L | Equivalente | disponible | 1 → $22.890 | Aceite mezcla vegetal común sin especificaciones |
+| Jumbo | [Aceite Cuisine&Co Girasol x3000Ml](https://www.jumbocolombia.com/aceite-cuisine-co-girasol-x3000ml/p) | CUISINE & CO NBE MP | 3000 ml = 3 L | $28.890 | $9.630/L | Equivalente | disponible | 1 → $28.890 | Aceite de girasol es aceite vegetal común |
+| Jumbo | [Aceite Canola Life bajo en grasa saturada x1L](https://www.jumbocolombia.com/aceite-canola-life-bajo-en-grasa-saturado-x-1l/p) | CANOLA LIFE | 1 l = 1 L | $29.910 | $29.910/L | Equivalente | disponible | 1 → $29.910 | Aceite de canola es aceite vegetal común |
+| Jumbo | [Aceite Riquisimo garrafa x3000ml](https://www.jumbocolombia.com/aceite-riquisimo-garrafa-x-3000-cm3/p) | RIQUISIMO | 3000 ml = 3 L | $34.790 | $11.597/L | Equivalente | disponible | 1 → $34.790 | Aceite vegetal común sin especificaciones |
+| Jumbo | [Aceite Cuisine&Co Oliva 500ml](https://www.jumbocolombia.com/aceite-cuisineco-oliva-500ml-398247/p) | CUISINE&CO | 500 ml = 0.5 L | $22.590 | $45.180/L | Sustituto | disponible | 2 → $45.180 | Aceite de oliva es variedad diferente |
+| Jumbo | [Aceite Ybarra oliva extra virgen x1L](https://www.jumbocolombia.com/aceite-de-oliva-extra-virgen-ybarra-x-1-lt/p) | YBARRA | 1 l = 1 L | $47.990 | $47.990/L | Sustituto | disponible | 1 → $47.990 | Aceite de oliva es variedad diferente |
+| Jumbo | [Aceite Cuisine & Co Oliva Extra Virgen x1Lt](https://www.jumbocolombia.com/aceite-cuisine-and-co-oliva-extra-virgen-x1lt-3651517/p) | CUISINE & CO NBE MP | 1 lt = 1 L | $55.990 | $55.990/L | Sustituto | disponible | 1 → $55.990 | Aceite de oliva es variedad diferente |
+| Jumbo | _… y 20 ofertas más (ver JSON)_ | | | | | | | | |
+| Olímpica | [Aceite Medalla de Oro Mezcla 900 Ml](https://www.olimpica.com/aceite-medalla-oro-mezc-900-cm3/p) | Medalla De Oro | 900 ml = 0.9 L | $6.490 | $7.211/L | Equivalente | disponible | 2 → $12.980 | Aceite mezcla vegetal común sin especificaciones |
+| Olímpica | [Aceite Olimpica de Soya 900 Ml](https://www.olimpica.com/aceite-de-soya-olimpica-900-ml-7701008626058--2034081/p) | Olimpica | 900 ml = 0.9 L | $7.890 | $8.767/L | Equivalente | disponible | 2 → $15.780 | Aceite de soya es aceite vegetal común |
+| Olímpica | [Aceite Medalla de Oro Mezcla 3 Lt](https://www.olimpica.com/aceite-medalla-oro-mezcla-3-l/p) | Medalla De Oro | 3 lt = 3 L | $20.490 | $6.830/L | Equivalente | disponible | 1 → $20.490 | Aceite mezcla vegetal común sin especificaciones |
+| Olímpica | [ACEITE RIQUISIMO 1900 ML](https://www.olimpica.com/aceite-riquisimo-1900-ml/p) | Riquisimo | 1900 ml = 1.9 L | $21.400 | $11.263/L | Equivalente | disponible | 1 → $21.400 | Aceite vegetal común sin especificaciones |
+| Olímpica | [Aceite Diana Mezcla Vegetal Vitamina A/D 900 Ml](https://www.olimpica.com/aceite-diana-mezcla-vegetal-vit-ayd-900ml-7702028000330-2209538/p) | Diana-Aceite | 900 ml = 0.9 L | $10.800 | $12.000/L | Equivalente | disponible | 2 → $21.600 | Aceite mezcla vegetal común sin especificaciones |
+| Olímpica | [Aceite Medalla de Oro de Oliva 1000 Ml](https://www.olimpica.com/aceite-oliva-medalla-oro-1000ml/p) | Medalla De Oro | 1000 ml = 1 L | $32.590 | $32.590/L | Sustituto | disponible | 1 → $32.590 | Aceite de oliva es variedad diferente |
+| Olímpica | [Aceite Medalla de Oro de Oliva Extra Virgen 500 Ml Pet](https://www.olimpica.com/aceite-de-oliva-medalla-de-oro-500-ml-7701008626997--2134354/p) | Medalla De Oro | 500 ml = 0.5 L | $16.950 | $33.900/L | Sustituto | disponible | 2 → $33.900 | Aceite de oliva es variedad diferente |
+| Olímpica | [Aceite de Coco Fithub Orgánico 200 Ml](https://www.olimpica.com/aceite-fithub-coco-organic-200ml/p) | FITHUB | 200 ml = 0.2 L | $24.500 | $122.500/L | Sustituto | disponible | 5 → $122.500 | Aceite de coco es variedad diferente |
+| Olímpica | _… y 7 ofertas más (ver JSON)_ | | | | | | | | |
+
+_0 resultados descartados por no corresponder al producto._
+
+## 4. Presupuestos
+
+### Compra completa en Olímpica
+
+| Producto | Cantidad pedida | Oferta elegida | Tipo | Precio empaque | Empaques | Costo | Excedente |
+|---|---|---|---|---|---|---|---|
+| arroz | 3 kg | [ARROZ  O 500 GRS](https://www.olimpica.com/arroz--o-500-grs/p) | Equivalente | $1.650 | 6 | $9.900 | 0 |
+| aceite | 1 L | [Aceite Medalla de Oro Mezcla 900 Ml](https://www.olimpica.com/aceite-medalla-oro-mezc-900-cm3/p) | Equivalente | $6.490 | 2 | $12.980 | 0.8 L |
+
+| Concepto | Valor |
+|---|---|
+| Subtotal de productos | **$22.880** |
+| Envío a domicilio (Olímpica) | desconocido — El costo del domicilio depende de la dirección, la franja y el valor del pedido y solo se calcula en el carrito/checkout, que este sistema no consulta. |
+| Total con costos conocidos | $22.880 |
+| Total final confirmado | **No confirmado** |
+
+Cobertura: **Completa**.
+
+Pendiente para confirmar el total: Envío a domicilio (Olímpica): costo desconocido.
+
+### Compra completa en Jumbo
+
+| Producto | Cantidad pedida | Oferta elegida | Tipo | Precio empaque | Empaques | Costo | Excedente |
+|---|---|---|---|---|---|---|---|
+| arroz | 3 kg | [Arroz Diana blanco x3kg](https://www.jumbocolombia.com/arroz-diana-x-3-kg/p) | Equivalente | $11.990 | 1 | $11.990 | 0 |
+| aceite | 1 L | [Aceite Cuisine&Co Mezcla Vegetal x900Ml](https://www.jumbocolombia.com/aceite-cuisine-co-mezcla-vegetal-x900ml/p) | Equivalente | $7.890 | 2 | $15.780 | 0.8 L |
+
+| Concepto | Valor |
+|---|---|
+| Subtotal de productos | **$27.770** |
+| Envío a domicilio (Jumbo) | desconocido — El costo del domicilio depende de la dirección, la franja y el valor del pedido y solo se calcula en el checkout (/checkout/ está prohibido por robots.txt). |
+| Total con costos conocidos | $27.770 |
+| Total final confirmado | **No confirmado** |
+
+Cobertura: **Completa**.
+
+Pendiente para confirmar el total: Envío a domicilio (Jumbo): costo desconocido.
+
+### Compra combinada
+
+_No aplica: la mejor oferta de cada producto está en Olímpica, así que coincide con comprar todo allí._
+
+## 5. Productos sin cotización y condiciones no verificadas
+
+- Todos los productos tienen al menos una oferta elegible.
+- Olímpica: el precio es el publicado en la tienda en línea sin seleccionar sede ni dirección; no se verificó que sea igual en Bello.
+- Olímpica: no se verificó cobertura de domicilio en Bello.
+- Olímpica: promociones condicionadas (tarjeta propia, 'lleve X pague Y') no se consideran.
+- Jumbo: el precio es el publicado en la tienda en línea sin seleccionar sede ni dirección; no se verificó que sea igual en Bello.
+- Jumbo: no se verificó cobertura de domicilio en Bello.
+- Jumbo: promociones condicionadas (tarjeta Cencosud, cantidad mínima) no se consideran.
+- Los costos de envío desconocidos **no** se suman como cero: por eso el total final queda sin confirmar.
+- El contenido de cada empaque se leyó del nombre del producto; las presentaciones marcadas como "inferidas" deben confirmarse en la página.
+
+## 6. Recomendación
+
+**Opción recomendada: Olímpica.**
+
+Criterio aplicado: cobertura completa con productos equivalentes y menor subtotal conocido.
+
+Se recomienda la opción de Olímpica porque ofrece cobertura completa con productos equivalentes y un subtotal conocido menor, con un costo total conocido de $22.880. En comparación, la opción de Jumbo tiene un costo total conocido de $27.770, lo que representa una diferencia de $4.890 más cara que Olímpica. La compra combinada no es viable ya que la mejor oferta para cada producto está en Olímpica, coincidiendo en precio y productos con esta opción.
+
+Antes de proceder con la compra, es importante confirmar el costo del envío a domicilio para Olímpica, ya que actualmente es desconocido. También se debe verificar que los precios publicados en la tienda en línea sean los mismos para la sede de Bello y confirmar la cobertura de domicilio en esa ubicación. Además, no se han considerado promociones condicionadas ni posibles sustitutos, por lo que estos aspectos podrían afectar la decisión final.
+
+## 7. Fuentes
+
+- [Olímpica — ARROZ  O 500 GRS (consultado 2026-11-09T20:29:38-05:00)](https://www.olimpica.com/arroz--o-500-grs/p)
+- [Olímpica — Aceite Medalla de Oro Mezcla 900 Ml (consultado 2026-11-09T20:29:39-05:00)](https://www.olimpica.com/aceite-medalla-oro-mezc-900-cm3/p)
+- [Jumbo — Arroz Diana blanco x3kg (consultado 2026-11-09T20:29:38-05:00)](https://www.jumbocolombia.com/arroz-diana-x-3-kg/p)
+- [Jumbo — Aceite Cuisine&Co Mezcla Vegetal x900Ml (consultado 2026-11-09T20:29:38-05:00)](https://www.jumbocolombia.com/aceite-cuisine-co-mezcla-vegetal-x900ml/p)
+
+Páginas de búsqueda consultadas:
+
+- Jumbo: <https://www.jumbocolombia.com/aceites>
+- Jumbo: <https://www.jumbocolombia.com/arroz?map=ft>
+- Olímpica: <https://www.olimpica.com/aceites>
+- Olímpica: <https://www.olimpica.com/arroz?map=ft>

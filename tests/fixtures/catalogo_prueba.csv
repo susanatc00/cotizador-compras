@@ -1,0 +1,12 @@
+proveedor_id,proveedor,termino,nombre,marca,precio,moneda,url,sku,disponibilidad,fecha_consulta,fuente_consulta
+tienda_a,Tienda A,arroz,Arroz Diana 5 Kg,Diana,21950,COP,https://a.example/arroz-diana-5kg/p,A1,disponible,2026-11-09T10:00:00-05:00,prueba
+tienda_a,Tienda A,arroz,Arroz Diana 1 Kg,Diana,4200,COP,https://a.example/arroz-diana-1kg/p,A2,disponible,2026-11-09T10:00:00-05:00,prueba
+tienda_a,Tienda A,arroz,Arroz Integral Diana 1 Kg,Diana,6100,COP,https://a.example/arroz-integral/p,A3,disponible,2026-11-09T10:00:00-05:00,prueba
+tienda_a,Tienda A,arroz,Arroz con Pollo Listo 250 g,Listo,8900,COP,https://a.example/arroz-pollo/p,A4,disponible,2026-11-09T10:00:00-05:00,prueba
+tienda_a,Tienda A,aceite,Aceite Girasol Premier 900 Ml,Premier,15900,COP,https://a.example/aceite-premier/p,A5,disponible,2026-11-09T10:00:00-05:00,prueba
+tienda_a,Tienda A,aceite,Aceite Mezcla Vegetal Sin Peso,Generico,9000,COP,https://a.example/aceite-sin-peso/p,A6,disponible,2026-11-09T10:00:00-05:00,prueba
+tienda_b,Tienda B,arroz,Arroz Roa blanco x5kg,ROA,24430,COP,https://b.example/arroz-roa-5kg/p,B1,disponible,2026-11-09T10:00:00-05:00,prueba
+tienda_b,Tienda B,arroz,Arroz Diana blanco x10kg,DIANA,44290,COP,https://b.example/arroz-diana-10kg/p,B2,agotado,2026-11-09T10:00:00-05:00,prueba
+tienda_b,Tienda B,aceite,Aceite Mezcla Vegetal x3000Ml,CUISINE,22890,COP,https://b.example/aceite-3l/p,B3,disponible,2026-11-09T10:00:00-05:00,prueba
+tienda_b,Tienda B,aceite,Aceite Oliva extra virgen x500ml,YBARRA,29990,COP,https://b.example/aceite-oliva/p,B4,disponible,2026-11-09T10:00:00-05:00,prueba
+tienda_b,Tienda B,aceite,Aceite Soya x1000ml,FRESCAMPO,,COP,https://b.example/aceite-soya/p,B5,disponible,2026-11-09T10:00:00-05:00,prueba
