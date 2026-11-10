@@ -2,6 +2,8 @@
 
 **Trabajo 4: Sistema de cotización y presupuesto de compra.** Dominio elegido: **Mercado** (alimentos, aseo y hogar).
 
+Trabajo individual — [@susanatc00](https://github.com/susanatc00).
+
 El usuario escribe una solicitud en lenguaje natural, por ejemplo:
 
 > Necesito 5 kg de arroz, 2 litros de aceite y 3 kg de azúcar. Consulta dos supermercados y prepara un presupuesto para Medellín.
