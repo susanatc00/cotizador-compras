@@ -10,13 +10,27 @@ from __future__ import annotations
 import hmac
 import json
 import os
+import time
 import uuid
 
-import pandas as pd
 import streamlit as st
-from langgraph.types import Command
 
 st.set_page_config(page_title="Cotizador de mercado", page_icon="🛒", layout="wide")
+
+# Avance del arranque: visible en la página y en el registro (útil en Community Cloud).
+_aviso = st.empty()
+_t0 = time.monotonic()
+
+
+def _paso(texto: str) -> None:
+    linea = f"[app] {time.monotonic() - _t0:5.1f}s {texto}"
+    print(linea, flush=True)
+    _aviso.caption(f"Iniciando… {texto} (Streamlit {st.__version__})")
+
+
+_paso("importando librerías")
+import pandas as pd  # noqa: E402
+from langgraph.types import Command  # noqa: E402
 
 
 def _cargar_secrets() -> None:
@@ -30,14 +44,21 @@ def _cargar_secrets() -> None:
         pass
 
 
+_paso("leyendo secrets")
 _cargar_secrets()
 
+_paso("importando el cotizador")
 from cotizador import reglas  # noqa: E402
 from cotizador.config import hay_api_key  # noqa: E402
 from cotizador.grafo import construir_grafo  # noqa: E402
 from cotizador.proveedores import cargar_registro  # noqa: E402
 from cotizador.schemas import EstadoCotizacion  # noqa: E402
 from cotizador.texto import cop  # noqa: E402
+
+_paso("revisando la clave de OpenAI")
+_TIENE_KEY = hay_api_key()
+_paso("listo")
+_aviso.empty()
 
 # Si se define CODIGO_ACCESO (en Secrets o .env), el LLM solo se activa con ese código:
 # así la app puede ser pública sin que cualquiera gaste la clave de OpenAI.
@@ -117,7 +138,7 @@ def ejecutar(entrada) -> None:
 # --------------------------------------------------------------------------- barra lateral
 with st.sidebar:
     st.header("Opciones")
-    tiene_key = hay_api_key()
+    tiene_key = _TIENE_KEY
     autorizado = True
     if tiene_key and CODIGO_ACCESO:
         codigo = st.text_input("Código de acceso para usar el LLM", type="password",
