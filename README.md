@@ -24,6 +24,7 @@ Se gestiona con [uv](https://docs.astral.sh/uv/) (Python 3.11 o superior).
 uv sync                      # crea .venv e instala dependencias según uv.lock
 cp .env.example .env         # y pega tu OPENAI_API_KEY
 
+uv run streamlit run app.py                   # interfaz web en http://localhost:8501
 uv run python main.py --texto "Necesito 5 kg de arroz, 2 litros de aceite y 3 kg de azúcar. Consulta dos supermercados y prepara un presupuesto para Medellín."
 uv run python main.py                         # pregunta la solicitud por consola
 uv run python main.py --no-interactivo ...    # no pregunta: registra suposiciones explícitas
@@ -35,7 +36,9 @@ uv run python main.py --capturar-catalogo arroz aceite azucar   # actualiza el C
 uv run pytest                                 # 47 pruebas, sin red ni API
 ```
 
-Cada ejecución imprime el reporte y guarda `salidas/presupuesto_<fecha>.md` (el reporte) y `.json` (todo el estado del grafo, para auditar la ejecución). En [`ejemplos/`](ejemplos/) hay tres ejecuciones reales del 9 de noviembre de 2026:
+La interfaz web (`app.py`, Streamlit) usa el mismo grafo: muestra el avance nodo por nodo, pide las aclaraciones en la página y presenta la recomendación, los presupuestos, las ofertas con sus enlaces y el reporte descargable.
+
+En la terminal, cada ejecución imprime el reporte y guarda `salidas/presupuesto_<fecha>.md` (el reporte) y `.json` (todo el estado del grafo, para auditar la ejecución). En [`ejemplos/`](ejemplos/) hay tres ejecuciones reales del 9 de noviembre de 2026:
 
 | Ejemplo | Qué muestra |
 |---|---|
@@ -165,6 +168,7 @@ Restricciones del usuario (código, en `comparacion.py`):
 ```
 cotizador-compras/
 ├── main.py                       # CLI: construye el grafo, maneja interrupt/resume, captura el catálogo
+├── app.py                        # interfaz web (Streamlit) sobre el mismo grafo
 ├── config/proveedores.json       # proveedores, mecanismo, envío, condiciones y tiendas no soportadas
 ├── data/catalogos/               # catálogo de referencia (CSV con URL y fecha de captura)
 ├── cotizador/
