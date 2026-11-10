@@ -4,7 +4,7 @@
 
 Trabajo individual — [@susanatc00](https://github.com/susanatc00).
 
-**App en línea:** https://cotizador-compras-lpmtkzuhbqjnohc6wjuzuw.streamlit.app/ (sin código de acceso usa las reglas de respaldo; con el código, el LLM).
+**App en línea:** https://cotizador-compras-z3b76ujegitbyg3qznxekf.streamlit.app/ (sin código de acceso usa las reglas de respaldo; con el código, el LLM).
 
 El usuario escribe una solicitud en lenguaje natural, por ejemplo:
 
