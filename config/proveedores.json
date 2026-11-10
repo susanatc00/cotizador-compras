@@ -1,6 +1,10 @@
 {
   "dominio": "mercado",
   "ciudad_por_defecto": "Medellín",
+  "envio_estimado": {
+    "valor_por_pedido": 5000,
+    "nota": "Promedio de referencia de un domicilio dentro de la misma ciudad; no es una tarifa publicada por las tiendas, por eso no confirma el total final."
+  },
   "proveedores": [
     {
       "id": "olimpica",

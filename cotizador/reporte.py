@@ -133,8 +133,16 @@ def generar_reporte(state: "EstadoCotizacion") -> str:
         out += _tabla_opcion(op, unidades) + [""]
         out += ["| Concepto | Valor |", "|---|---|", f"| Subtotal de productos | **{cop(op.subtotal_productos)}** |"]
         for c in op.costos_adicionales:
-            out.append(f"| {c.concepto} | {cop(c.valor)}{' — ' + _celda(c.nota) if c.valor is None else ''} |")
+            if c.valor is not None:
+                out.append(f"| {c.concepto} | {cop(c.valor)} |")
+            elif c.estimado is not None:
+                out.append(f"| {c.concepto} | no confirmado — **estimado {cop(c.estimado)}** (promedio de un domicilio "
+                           f"en la ciudad; la tienda lo calcula en el checkout) |")
+            else:
+                out.append(f"| {c.concepto} | desconocido — {_celda(c.nota)} |")
         out.append(f"| Total con costos conocidos | {cop(op.total_conocido)} |")
+        if op.total_estimado is not None and op.total_estimado != op.total_conocido:
+            out.append(f"| **Total estimado (con domicilio estimado)** | **{cop(op.total_estimado)}** |")
         tf = cop(op.total_final_confirmado) if op.total_final_confirmado is not None else "**No confirmado**"
         out += [f"| Total final confirmado | {tf} |", "", f"Cobertura: **{_COBERTURA[op.cobertura]}**."]
         if op.pendientes:
@@ -151,6 +159,10 @@ def generar_reporte(state: "EstadoCotizacion") -> str:
         if op.tipo == "proveedor_unico" and op.items_sin_cotizacion:
             out.append(f"- Sin cotización en {op.nombre}: {', '.join(op.items_sin_cotizacion)}")
     out += [f"- {c}" for c in state.condiciones_no_verificadas]
+    est = next((c for o in state.opciones for c in o.costos_adicionales if c.estimado is not None), None)
+    if est:
+        out.append(f"- Domicilio: se usa un **estimado de {cop(est.estimado)} por pedido** ({_celda(est.nota_estimado).rstrip('.')}). "
+                   "Entra en el total estimado y en la comparación, pero no en el total final confirmado.")
     out += ["- Los costos de envío desconocidos **no** se suman como cero: por eso el total final queda sin confirmar.",
             "- El contenido de cada empaque se leyó del nombre del producto; las presentaciones marcadas como "
             "\"inferidas\" deben confirmarse en la página.", ""]
@@ -160,6 +172,9 @@ def generar_reporte(state: "EstadoCotizacion") -> str:
     out += ["## 6. Recomendación", ""]
     if rec and rec.opcion:
         out += [f"**Opción recomendada: {rec.opcion}.**", "", f"Criterio aplicado: {rec.criterio}", ""]
+        if rec.punto_equilibrio_domicilio is not None:
+            out += [f"_Punto de equilibrio: la compra combinada conviene solo si cada domicilio adicional cuesta "
+                    f"menos de {cop(rec.punto_equilibrio_domicilio)}._", ""]
     if rec and rec.texto:
         out += [rec.texto, ""]
 

@@ -33,9 +33,10 @@ uv run python main.py --no-interactivo ...    # no pregunta: registra suposicion
 uv run python main.py --fuente catalogo ...   # sin internet: usa el catálogo de referencia
 uv run python main.py --sin-llm ...           # sin API key: reglas en lugar del LLM
 uv run python main.py --sin-sustitutos ...    # los presupuestos solo usan equivalentes
+uv run python main.py --envio-estimado 7000 ... # cambia el domicilio estimado por pedido (por defecto $5.000)
 uv run python main.py --mermaid               # imprime el grafo
 uv run python main.py --capturar-catalogo arroz aceite azucar   # actualiza el CSV de referencia
-uv run pytest                                 # 47 pruebas, sin red ni API
+uv run pytest                                 # 50 pruebas, sin red ni API
 ```
 
 La interfaz web (`app.py`, Streamlit) usa el mismo grafo: muestra el avance nodo por nodo, pide las aclaraciones en la página y presenta la recomendación, los presupuestos, las ofertas con sus enlaces y el reporte descargable.
@@ -46,7 +47,7 @@ En la terminal, cada ejecución imprime el reporte y guarda `salidas/presupuesto
 
 | Ejemplo | Qué muestra |
 |---|---|
-| [`01_enunciado.md`](ejemplos/01_enunciado.md) | La solicitud del enunciado. Cobertura completa en las dos tiendas; la compra combinada ahorra menos del 5 % y se recomienda una sola tienda. |
+| [`01_enunciado.md`](ejemplos/01_enunciado.md) | La solicitud del enunciado. Cobertura completa en las dos tiendas. La compra combinada ahorra $1.230 en productos, pero necesita un segundo domicilio (estimado en $5.000): se recomienda Olímpica, con un total estimado de $57.170. |
 | [`02_restricciones_y_suposiciones.md`](ejemplos/02_restricciones_y_suposiciones.md) | Marca obligatoria (arroz Diana), especificación (aceite **de girasol**: las mezclas quedan como sustitutos), libras, docena, sin ciudad (se registra una suposición), pide Éxito (no soportado, se explica) y un detergente que una tienda no cotiza. |
 | [`03_aclaracion_interactiva.md`](ejemplos/03_aclaracion_interactiva.md) | Solicitud sin cantidades ni ciudad. El grafo se detiene con `interrupt()`, pregunta, recibe la respuesta y vuelve a interpretar ([consola](ejemplos/03_aclaracion_interactiva.consola.txt)). |
 
@@ -140,18 +141,20 @@ Restricciones del usuario (código, en `comparacion.py`):
 
 - **Por proveedor:** la mejor oferta elegible de cada artículo en esa tienda, con cobertura *completa*, *completa con sustitutos*, *parcial* o *nula*.
 - **Compra combinada:** la mejor oferta de cada artículo entre todas las tiendas. Solo es viable si usa dos o más tiendas; si no, coincide con una compra en una sola tienda.
-- **Costos adicionales:** el envío de cada tienda usada. El costo del domicilio depende de la dirección y solo se calcula en el checkout, que no se consulta, así que su valor es `null` y se muestra como **desconocido**.
-- Cada opción separa el **subtotal de productos**, el **total con costos conocidos** y el **total final confirmado**. Este último solo se muestra si no queda nada pendiente: envío conocido, cobertura completa y sin sustitutos. En otro caso aparece **«No confirmado»** junto con la lista de lo que falta.
+- **Costos adicionales:** el envío de cada tienda usada. El costo real del domicilio depende de la dirección y solo se calcula en el checkout, que no se consulta, así que su valor confirmado es `null`.
+- **Domicilio estimado:** para poder comparar, se usa un estimado de **$5.000 por pedido** (promedio de un domicilio dentro de la misma ciudad; se cambia en `config/proveedores.json`, con `--envio-estimado` o en la app, y se desactiva con `--sin-envio-estimado`). La compra combinada paga un domicilio por cada tienda.
+- Cada opción separa el **subtotal de productos**, el **total estimado** (productos + domicilios estimados) y el **total final confirmado**. El estimado nunca confirma el total: este solo se muestra si no queda nada pendiente (envío confirmado por la tienda, cobertura completa y sin sustitutos). En otro caso aparece **«No confirmado»** junto con la lista de lo que falta.
 - **Regla de recomendación** (`presupuesto.recomendar`, determinista):
   1. Gana la mayor cobertura.
-  2. A igual cobertura, gana el menor total conocido.
-  3. La compra combinada solo se recomienda si ahorra **5 % o más** frente a la mejor tienda única, porque cada pedido extra suma un envío de costo desconocido.
+  2. A igual cobertura, gana el menor **total estimado**. Así, la compra combinada solo gana si lo que ahorra en productos cubre los domicilios adicionales.
+  3. Sin domicilio estimado, gana el menor total conocido, y la compra combinada solo se recomienda si ahorra **5 % o más**.
+  4. Siempre se informa el **punto de equilibrio**: lo máximo que puede costar cada domicilio adicional para que la compra combinada convenga. Por ejemplo: "la compra combinada ahorra $1.230 en productos; solo conviene si el segundo domicilio cuesta menos de $1.230".
 
   El LLM redactor explica la decisión, pero no la toma ni calcula cifras: recibe las diferencias ya calculadas.
 
 ## 6. Pruebas
 
-`uv run pytest` ejecuta 47 pruebas sin red ni API (LLM falso, catálogos de prueba y un cliente HTTP falso):
+`uv run pytest` ejecuta 50 pruebas sin red ni API (LLM falso, catálogos de prueba y un cliente HTTP falso):
 
 - `test_unidades.py`: lectura de presentaciones con nombres reales de las dos tiendas y conversión de unidades.
 - `test_proveedores.py`: robots.txt (casos reales de Olímpica y Jumbo), extracción JSON-LD, ruta por sitemap, reintento, catálogo y selección de proveedores.
@@ -164,7 +167,7 @@ Restricciones del usuario (código, en `comparacion.py`):
 - **Cobertura de búsqueda:** solo se lee la primera página de resultados (15 a 28 productos). Algunos términos no tienen página con datos estructurados en una tienda (por ejemplo, «sal» o «detergente» en Olímpica) y quedan *sin cotización*.
 - **Contenido del empaque:** se lee del nombre con reglas. Los casos ambiguos se marcan como *inferidos*.
 - **Promociones condicionadas** (tarjeta propia, «lleve X pague Y») no se consideran.
-- **Envío:** siempre desconocido, porque solo se calcula en el checkout. Si una tienda publicara una tarifa fija, basta con poner su `valor` en `config/proveedores.json`.
+- **Envío:** el real nunca se confirma (solo se calcula en el checkout); se compara con un estimado de $5.000 por pedido. Si una tienda publicara una tarifa fija, basta con poner su `valor` en `config/proveedores.json` y el total quedaría confirmado.
 - El modo `--sin-llm` usa reglas simples: sirve para pruebas y demostración, pero entiende menos que el LLM.
 
 ## 8. Estructura
@@ -186,7 +189,7 @@ cotizador-compras/
 │   ├── presupuesto.py            # opciones de compra y regla de recomendación
 │   ├── reporte.py                # Markdown + JSON
 │   └── proveedores/              # web JSON-LD, robots.txt RFC 9309, catálogo, registro
-├── tests/                        # 47 pruebas (pytest)
+├── tests/                        # 50 pruebas (pytest)
 ├── ejemplos/                     # 3 ejecuciones reales (.md, .json y salida de consola)
 └── docs/grafo.mmd                # grafo generado por LangGraph
 ```

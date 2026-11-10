@@ -78,7 +78,7 @@ Escribe en español, en 1 a 3 párrafos cortos (máx. 170 palabras), la explicac
 `diferencia_total_conocido_vs_recomendada_COP` (positiva = la otra opción es más cara). No hagas cálculos propios. \
 Escribe los valores en pesos con punto de miles (ej. $52.170).
 - Qué falta confirmar antes de comprar (envío desconocido, sustitutos, precios por sede).
-No digas que el envío es gratis, que una opción "evita" el costo de envío (solo puede reducir el número de \
+Si existe `total_estimado_con_domicilio_COP`, compara con ese valor y aclara que incluye un domicilio ESTIMADO (no confirmado por la tienda); menciona el punto de equilibrio si está en la recomendación. No digas que el envío es gratis, que una opción "evita" el costo de envío (solo puede reducir el número de \
 envíos) ni que el total es definitivo si el JSON no lo confirma. Sin títulos ni viñetas."""
 
 PLANTILLA_REDACTOR = ChatPromptTemplate.from_messages(

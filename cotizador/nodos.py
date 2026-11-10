@@ -230,12 +230,15 @@ def crear_nodo_comparar(juez: Runnable):
 # ---------------------------------------------------------------------------
 # 7. Presupuestar (código)
 # ---------------------------------------------------------------------------
-def crear_nodo_presupuestar(registro: Registro, permitir_sustitutos: bool = True):
+def crear_nodo_presupuestar(registro: Registro, permitir_sustitutos: bool = True,
+                            envio_estimado: float | None = None):
     def armar_presupuesto(state: EstadoCotizacion) -> dict:
         ids = state.solicitud.proveedores_ids
         nombres = {pid: registro.proveedores[pid].nombre for pid in ids}
         costos = {pid: registro.proveedores[pid].costos_adicionales() for pid in ids}
-        opciones = armar_presupuestos(state.solicitud.items, state.evaluadas, nombres, costos, permitir_sustitutos)
+        _, nota = registro.envio_estimado
+        opciones = armar_presupuestos(state.solicitud.items, state.evaluadas, nombres, costos, permitir_sustitutos,
+                                      envio_estimado=envio_estimado, nota_envio_estimado=nota)
         rec = recomendar(opciones)
         return {
             "opciones": opciones,
@@ -265,6 +268,7 @@ def resumen_para_redactor(state: EstadoCotizacion) -> dict:
                 "nombre": o.nombre, "tipo": o.tipo, "viable": o.viable, "cobertura": o.cobertura,
                 "subtotal_productos_COP": round(o.subtotal_productos),
                 "total_conocido_COP": round(o.total_conocido),
+                "total_estimado_con_domicilio_COP": None if o.total_estimado is None else round(o.total_estimado),
                 "total_final_confirmado_COP": None if o.total_final_confirmado is None else round(o.total_final_confirmado),
                 "pendientes": o.pendientes, "nota": o.nota,
                 "lineas": [

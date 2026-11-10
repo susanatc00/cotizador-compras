@@ -90,6 +90,11 @@ COBERTURA = {"completa": "Completa", "completa_con_sustitutos": "Completa con su
              "nula": "Sin cobertura"}
 
 
+def md(texto: str) -> str:
+    """Escapa '$' para que Streamlit no interprete '$52.170 ... $55.850' como fórmula LaTeX."""
+    return texto.replace("$", r"\$")
+
+
 # --------------------------------------------------------------------------- estado de sesión
 ss = st.session_state
 ss.setdefault("texto", EJEMPLOS["Enunciado"])
@@ -100,7 +105,7 @@ ss.setdefault("estado", None)
 ss.setdefault("pasos", [])
 
 
-def construir(fuente: str, usar_llm: bool, sustitutos: bool):
+def construir(fuente: str, usar_llm: bool, sustitutos: bool, envio: float | None):
     registro = cargar_registro(fuente)
     kwargs = {}
     if not usar_llm:
@@ -108,7 +113,8 @@ def construir(fuente: str, usar_llm: bool, sustitutos: bool):
         alias += [a for info in registro.no_soportados.values() for a in info.get("alias", [])]
         kwargs = dict(interprete=reglas.interprete_reglas(alias), juez=reglas.juez_reglas(),
                       redactor=reglas.redactor_reglas())
-    return construir_grafo(registro=registro, permitir_sustitutos=sustitutos, dir_salida=None, **kwargs)
+    return construir_grafo(registro=registro, permitir_sustitutos=sustitutos, dir_salida=None,
+                           envio_estimado=envio, usar_envio_de_config=False, **kwargs)
 
 
 def ejecutar(entrada) -> None:
@@ -153,6 +159,12 @@ with st.sidebar:
                       format_func={"auto": "Web (con respaldo en catálogo)", "web": "Solo web en vivo",
                                    "catalogo": "Catálogo de referencia (sin internet)"}.get)
     sustitutos = st.checkbox("Permitir sustitutos en el presupuesto", value=True)
+    estimar_envio = st.checkbox("Estimar el domicilio", value=True,
+                                help="Las tiendas solo calculan el domicilio en el checkout. El estimado se usa "
+                                     "para comparar opciones, pero el total final sigue sin confirmar.")
+    envio = st.number_input("Domicilio estimado por pedido (COP)", min_value=0, step=500,
+                            value=int(cargar_registro("catalogo").envio_estimado[0] or 5000),
+                            disabled=not estimar_envio) if estimar_envio else None
     interactivo = st.checkbox("Pedir aclaración si faltan datos", value=True,
                               help="Si se desmarca, el sistema registra suposiciones explícitas.")
     st.divider()
@@ -170,7 +182,7 @@ st.write("Escriba lo que necesita comprar. El sistema consulta dos supermercados
 
 texto = st.text_area("Solicitud", key="texto", height=90)
 if st.button("Cotizar", type="primary", disabled=not texto.strip()):
-    ss.grafo = construir(fuente, usar_llm, sustitutos)
+    ss.grafo = construir(fuente, usar_llm, sustitutos, float(envio) if envio is not None else None)
     ss.config = {"configurable": {"thread_id": str(uuid.uuid4())}}
     ss.estado, ss.preguntas, ss.pasos = None, None, []
     ejecutar(EstadoCotizacion(texto_usuario=texto, modo_interactivo=interactivo))
@@ -195,22 +207,32 @@ if not est.solicitud or not est.solicitud.items:
 
 rec = est.recomendacion
 if rec and rec.opcion:
-    st.success(f"### Recomendación: {rec.opcion}\n{rec.criterio}")
+    st.success(f"### Recomendación: {rec.opcion}\n{md(rec.criterio)}")
     if rec.texto:
-        st.write(rec.texto)
+        st.write(md(rec.texto))
 
 viables = [o for o in est.opciones if o.viable]
 cols = st.columns(len(viables) or 1)
 for col, op in zip(cols, viables):
     titulo = op.nombre if op.tipo == "combinada" else f"Todo en {op.nombre}"
-    col.metric(titulo, cop(op.subtotal_productos), help="Subtotal de productos")
-    col.caption(f"Cobertura: **{COBERTURA[op.cobertura]}**  \nTotal final: "
-                f"**{cop(op.total_final_confirmado) if op.total_final_confirmado is not None else 'No confirmado'}**")
+    final = cop(op.total_final_confirmado) if op.total_final_confirmado is not None else "No confirmado"
+    if op.total_estimado is not None:
+        col.metric(titulo, cop(op.total_estimado), help="Total estimado: productos + domicilio estimado")
+        n = len(op.proveedores)
+        col.caption(f"Productos: **{cop(op.subtotal_productos)}** + {n} domicilio{'s' if n > 1 else ''} "
+                    f"estimado{'s' if n > 1 else ''}  \nCobertura: **{COBERTURA[op.cobertura]}**  \n"
+                    f"Total final: **{final}**")
+    else:
+        col.metric(titulo, cop(op.subtotal_productos), help="Subtotal de productos")
+        col.caption(f"Cobertura: **{COBERTURA[op.cobertura]}**  \nTotal final: **{final}**")
+if rec and rec.punto_equilibrio_domicilio is not None:
+    st.caption(md("Punto de equilibrio: la compra combinada conviene solo si cada domicilio adicional cuesta menos "
+                  f"de {cop(rec.punto_equilibrio_domicilio)}."))
 
 if est.suposiciones:
     with st.expander(f"Suposiciones explícitas ({len(est.suposiciones)})"):
         for s in est.suposiciones:
-            st.write(f"- {s}")
+            st.write(md(f"- {s}"))
 
 tab_pres, tab_ofertas, tab_sol, tab_cons, tab_rep, tab_traza = st.tabs(
     ["Presupuestos", "Ofertas encontradas", "Solicitud interpretada", "Consultas y fuentes", "Reporte completo",
@@ -220,10 +242,10 @@ with tab_pres:
     for op in est.opciones:
         st.subheader(f"Compra completa en {op.nombre}" if op.tipo == "proveedor_unico" else op.nombre)
         if not op.viable:
-            st.info(op.nota)
+            st.info(md(op.nota))
             continue
         if op.nota:
-            st.caption(op.nota)
+            st.caption(md(op.nota))
         filas = []
         for l in op.lineas:
             e = l.evaluada
@@ -240,13 +262,19 @@ with tab_pres:
         st.dataframe(pd.DataFrame(filas), hide_index=True, width="stretch",
                      column_config={"Fuente": st.column_config.LinkColumn("Fuente", display_text="ver")})
         costos = [{"Concepto": "Subtotal de productos", "Valor": cop(op.subtotal_productos)}]
-        costos += [{"Concepto": c.concepto, "Valor": cop(c.valor)} for c in op.costos_adicionales]
-        costos += [{"Concepto": "Total con costos conocidos", "Valor": cop(op.total_conocido)},
+        costos += [{"Concepto": c.concepto,
+                    "Valor": cop(c.valor) if c.valor is not None else
+                    (f"estimado {cop(c.estimado)} (no confirmado)" if c.estimado is not None else "desconocido")}
+                   for c in op.costos_adicionales]
+        costos += [{"Concepto": "Total con costos conocidos", "Valor": cop(op.total_conocido)}]
+        if op.total_estimado is not None:
+            costos += [{"Concepto": "Total estimado (con domicilio estimado)", "Valor": cop(op.total_estimado)}]
+        costos += [
                    {"Concepto": "Total final confirmado",
                     "Valor": cop(op.total_final_confirmado) if op.total_final_confirmado is not None else "No confirmado"}]
         st.table(pd.DataFrame(costos).set_index("Concepto"))
         if op.pendientes:
-            st.caption("Pendiente: " + "; ".join(op.pendientes))
+            st.caption(md("Pendiente: " + "; ".join(op.pendientes)))
 
 with tab_ofertas:
     mostrar = st.multiselect("Clasificación", list(ETIQUETA.values()),
@@ -281,7 +309,7 @@ with tab_sol:
     st.write(f"**Ciudad:** {est.solicitud.ciudad}")
     st.write("**Condiciones no verificadas:**")
     for c in est.condiciones_no_verificadas:
-        st.write(f"- {c}")
+        st.write(md(f"- {c}"))
 
 with tab_cons:
     st.dataframe(pd.DataFrame([{
@@ -296,7 +324,7 @@ with tab_rep:
     c2.download_button("Descargar datos (.json)",
                        json.dumps(est.model_dump(mode="json", exclude={"reporte_md"}), ensure_ascii=False, indent=2),
                        file_name="presupuesto.json")
-    st.markdown(est.reporte_md)
+    st.markdown(md(est.reporte_md))
 
 with tab_traza:
     for linea in est.historial:

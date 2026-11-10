@@ -130,14 +130,21 @@ def redactar_por_reglas(resumen: dict) -> str:
     viables = [o for o in resumen.get("opciones", []) if o.get("viable")]
     elegida = next((o for o in viables if o["nombre"] == rec["opcion"]), None)
     partes = []
+    estimado = bool(elegida and elegida.get("total_estimado_con_domicilio_COP") is not None)
+    clave = "total_estimado_con_domicilio_COP" if estimado else "total_conocido_COP"
     if elegida:
-        otras = [f"{o['nombre']} ({cop(o['total_conocido_COP'])})" for o in viables if o is not elegida]
-        partes.append(f"{rec['opcion']} tiene un subtotal de productos de {cop(elegida['total_conocido_COP'])}"
+        otras = [f"{o['nombre']} ({cop(o[clave])})" for o in viables if o is not elegida and o.get(clave) is not None]
+        que = "un total estimado, con domicilio," if estimado else "un subtotal de productos"
+        partes.append(f"{rec['opcion']} tiene {que} de {cop(elegida[clave])}"
                       + (f", frente a {', '.join(otras)}." if otras else "."))
     if resumen.get("sin_cotizacion"):
         partes.append("Productos sin cotización: " + ", ".join(resumen["sin_cotizacion"]) + ".")
-    partes.append("El total final no está confirmado mientras el costo de envío sea desconocido; "
-                  "verifíquelo en la tienda antes de comprar.")
+    if estimado:
+        partes.append("El domicilio es un valor estimado: el total final no está confirmado hasta que la tienda "
+                      "calcule el envío al hacer el pedido.")
+    else:
+        partes.append("El total final no está confirmado mientras el costo de envío sea desconocido; "
+                      "verifíquelo en la tienda antes de comprar.")
     return " ".join(partes)
 
 

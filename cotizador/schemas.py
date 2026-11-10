@@ -194,6 +194,10 @@ class CostoAdicional(BaseModel):
     valor: float | None  # None = desconocido (NUNCA se asume cero)
     fuente: str = ""
     nota: str = ""
+    # Estimación (no confirmada) para un costo desconocido, p. ej. el promedio de un
+    # domicilio en la ciudad. Solo alimenta el total ESTIMADO, nunca el confirmado.
+    estimado: float | None = None
+    nota_estimado: str = ""
 
 
 class PresupuestoOpcion(BaseModel):
@@ -206,6 +210,7 @@ class PresupuestoOpcion(BaseModel):
     subtotal_productos: float = 0.0
     costos_adicionales: list[CostoAdicional] = Field(default_factory=list)
     total_conocido: float = 0.0  # subtotal + costos adicionales conocidos
+    total_estimado: float | None = None  # total_conocido + estimaciones de los costos desconocidos
     total_final_confirmado: float | None = None  # solo si TODO está confirmado
     pendientes: list[str] = Field(default_factory=list)  # por qué no hay total confirmado
     viable: bool = True
@@ -215,6 +220,8 @@ class PresupuestoOpcion(BaseModel):
 class Recomendacion(BaseModel):
     opcion: str | None
     criterio: str
+    # Máximo que puede costar cada domicilio adicional para que la compra combinada convenga.
+    punto_equilibrio_domicilio: float | None = None
     texto: str = ""
 
 

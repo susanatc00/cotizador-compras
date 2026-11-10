@@ -116,3 +116,15 @@ def test_interprete_por_reglas(texto, n_items, ciudad):
     assert len(s.items) == n_items and s.ciudad == ciudad and s.cantidad_proveedores == 2
     assert [(i.termino_busqueda, i.cantidad, i.unidad) for i in s.items] == [
         ("arroz", 5, "kg"), ("aceite", 2, "L"), ("azucar", 3, "kg")]
+
+
+def test_envio_estimado_en_el_grafo():
+    interp = interprete_fijo(solicitud([item("arroz", "arroz", 5, "kg"), item("aceite", "aceite", 2, "L")]))
+    est = _estado(_grafo(interp, envio_estimado=5000).invoke(EstadoCotizacion(texto_usuario="x"), CONFIG))
+    a, b, comb = est.opciones
+    # B = 47.320 + 5.000 = 52.320; combinada = 43.890 + 10.000 = 53.890 -> gana Tienda B
+    assert b.total_estimado == 47320 + 5000 and comb.total_estimado == 43890 + 10000
+    assert est.recomendacion.opcion == "Tienda B"
+    assert est.recomendacion.punto_equilibrio_domicilio == 47320 - 43890
+    assert all(o.total_final_confirmado is None for o in est.opciones)
+    assert "Total estimado (con domicilio estimado)" in est.reporte_md

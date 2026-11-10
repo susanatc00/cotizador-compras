@@ -89,7 +89,7 @@
       "termino": "arroz",
       "estado": "ok",
       "url_consulta": "https://www.olimpica.com/arroz?map=ft",
-      "fecha_consulta": "2026-11-09T20:29:38-05:00",
+      "fecha_consulta": "2026-11-09T22:45:23-05:00",
       "mensaje": "15 productos leídos del JSON-LD de la búsqueda pública.",
       "ofertas": [
         {
@@ -103,7 +103,7 @@
           "moneda": "COP",
           "url": "https://www.olimpica.com/arroz-sabroson-5-kg-7707105805105-2000025/p",
           "sku": "2000025",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
@@ -119,7 +119,7 @@
           "moneda": "COP",
           "url": "https://www.olimpica.com/arroz-diana-5-kg-7702511000045-566554/p",
           "sku": "566554",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
@@ -135,7 +135,7 @@
           "moneda": "COP",
           "url": "https://www.olimpica.com/arroz-sabroson-3-kg-7707105805068-2000024/p",
           "sku": "2000024",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
@@ -151,7 +151,7 @@
           "moneda": "COP",
           "url": "https://www.olimpica.com/arroz-diana-3-kg-7702511000038-518233/p",
           "sku": "518233",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
@@ -167,7 +167,7 @@
           "moneda": "COP",
           "url": "https://www.olimpica.com/arroz-diana-paca-25-und-12-500-g/p",
           "sku": "2317851",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
@@ -183,7 +183,7 @@
           "moneda": "COP",
           "url": "https://www.olimpica.com/arroz-diana-500-gr-7702511000014-518231/p",
           "sku": "518231",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
@@ -199,7 +199,7 @@
           "moneda": "COP",
           "url": "https://www.olimpica.com/arroz-tailandes-2-500-g/p",
           "sku": "2331765",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
@@ -215,7 +215,7 @@
           "moneda": "COP",
           "url": "https://www.olimpica.com/arroz-diana-premiun-2-5-kg-7702511000748-1515360/p",
           "sku": "1515360",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
@@ -231,7 +231,7 @@
           "moneda": "COP",
           "url": "https://www.olimpica.com/arroz-olimpica-paca-econ-500g-x25-un/p",
           "sku": "2282035",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
@@ -247,7 +247,7 @@
           "moneda": "COP",
           "url": "https://www.olimpica.com/arroz-diana-1-kg-7702511000021-518232/p",
           "sku": "518232",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
@@ -263,7 +263,7 @@
           "moneda": "COP",
           "url": "https://www.olimpica.com/arroz-diana-premium-1-kg-7702511000427-1176741/p",
           "sku": "1176741",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
@@ -279,7 +279,7 @@
           "moneda": "COP",
           "url": "https://www.olimpica.com/arroz--o-500-grs/p",
           "sku": "2281376",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
@@ -295,7 +295,7 @@
           "moneda": "COP",
           "url": "https://www.olimpica.com/arroz-mi-arroz-econ-paca-25un-11-35kg-7707105814244-1392071/p",
           "sku": "1392071",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
@@ -311,7 +311,7 @@
           "moneda": "COP",
           "url": "https://www.olimpica.com/arroz-olimpica-2500-g/p",
           "sku": "2327554",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
@@ -327,7 +327,7 @@
           "moneda": "COP",
           "url": "https://www.olimpica.com/arroz-diana-premium-4-kg-7702511000991-872597/p",
           "sku": "872597",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
@@ -341,7 +341,7 @@
       "termino": "aceite",
       "estado": "ok",
       "url_consulta": "https://www.olimpica.com/aceites",
-      "fecha_consulta": "2026-11-09T20:29:39-05:00",
+      "fecha_consulta": "2026-11-09T22:45:23-05:00",
       "mensaje": "15 productos leídos del JSON-LD de la búsqueda pública (https://www.olimpica.com/aceite?map=ft no publica productos en JSON-LD).",
       "ofertas": [
         {
@@ -355,7 +355,7 @@
           "moneda": "COP",
           "url": "https://www.olimpica.com/aceite-medalla-oro-mezcla-3-l/p",
           "sku": "1646719",
-          "fecha_consulta": "2026-11-09T20:29:39-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.olimpica.com/aceites"
@@ -371,7 +371,7 @@
           "moneda": "COP",
           "url": "https://www.olimpica.com/aceite-medalla-oro-mezc-900-cm3/p",
           "sku": "1646730",
-          "fecha_consulta": "2026-11-09T20:29:39-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.olimpica.com/aceites"
@@ -387,7 +387,7 @@
           "moneda": "COP",
           "url": "https://www.olimpica.com/aceite-de-soya-olimpica-3-l-7701008625204--1651648/p",
           "sku": "1651648",
-          "fecha_consulta": "2026-11-09T20:29:39-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.olimpica.com/aceites"
@@ -403,7 +403,7 @@
           "moneda": "COP",
           "url": "https://www.olimpica.com/aceite-diana-mezcla-vegetal-vit-ayd-900ml-7702028000330-2209538/p",
           "sku": "2209538",
-          "fecha_consulta": "2026-11-09T20:29:39-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.olimpica.com/aceites"
@@ -419,7 +419,7 @@
           "moneda": "COP",
           "url": "https://www.olimpica.com/aceite-riquisimo-3-l/p",
           "sku": "2001145",
-          "fecha_consulta": "2026-11-09T20:29:39-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.olimpica.com/aceites"
@@ -435,7 +435,7 @@
           "moneda": "COP",
           "url": "https://www.olimpica.com/aceite-diana-mezcla-vegetalales-vit-a-d-3000ml-7702028000378-2010298/p",
           "sku": "2010298",
-          "fecha_consulta": "2026-11-09T20:29:39-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.olimpica.com/aceites"
@@ -451,7 +451,7 @@
           "moneda": "COP",
           "url": "https://www.olimpica.com/aceite-riquisimo-1900-ml/p",
           "sku": "2290819",
-          "fecha_consulta": "2026-11-09T20:29:39-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.olimpica.com/aceites"
@@ -467,7 +467,7 @@
           "moneda": "COP",
           "url": "https://www.olimpica.com/aceite-de-soya-olimpica-900-ml-7701008626058--2034081/p",
           "sku": "2034081",
-          "fecha_consulta": "2026-11-09T20:29:39-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.olimpica.com/aceites"
@@ -483,7 +483,7 @@
           "moneda": "COP",
           "url": "https://www.olimpica.com/aceite-fithub-coco-organic-200ml/p",
           "sku": "2297762",
-          "fecha_consulta": "2026-11-09T20:29:39-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.olimpica.com/aceites"
@@ -499,7 +499,7 @@
           "moneda": "COP",
           "url": "https://www.olimpica.com/aceite-fithub-coco-dans-le-food-225ml/p",
           "sku": "2297769",
-          "fecha_consulta": "2026-11-09T20:29:39-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.olimpica.com/aceites"
@@ -515,7 +515,7 @@
           "moneda": "COP",
           "url": "https://www.olimpica.com/aceite-premier-girasol-2700ml/p",
           "sku": "2315088",
-          "fecha_consulta": "2026-11-09T20:29:39-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.olimpica.com/aceites"
@@ -531,7 +531,7 @@
           "moneda": "COP",
           "url": "https://www.olimpica.com/aceite-oliva-medalla-oro-1000ml/p",
           "sku": "2241874",
-          "fecha_consulta": "2026-11-09T20:29:39-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.olimpica.com/aceites"
@@ -547,7 +547,7 @@
           "moneda": "COP",
           "url": "https://www.olimpica.com/aceite-de-oliva-medalla-de-oro-500-ml-7701008626997--2134354/p",
           "sku": "2134354",
-          "fecha_consulta": "2026-11-09T20:29:39-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.olimpica.com/aceites"
@@ -563,7 +563,7 @@
           "moneda": "COP",
           "url": "https://www.olimpica.com/aceite-premier-girasol-1800ml/p",
           "sku": "2315087",
-          "fecha_consulta": "2026-11-09T20:29:39-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.olimpica.com/aceites"
@@ -579,7 +579,7 @@
           "moneda": "COP",
           "url": "https://www.olimpica.com/aceite-premier-girasol-900ml/p",
           "sku": "2315084",
-          "fecha_consulta": "2026-11-09T20:29:39-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.olimpica.com/aceites"
@@ -593,7 +593,7 @@
       "termino": "arroz",
       "estado": "ok",
       "url_consulta": "https://www.jumbocolombia.com/arroz?map=ft",
-      "fecha_consulta": "2026-11-09T20:29:38-05:00",
+      "fecha_consulta": "2026-11-09T22:45:23-05:00",
       "mensaje": "28 productos leídos del JSON-LD de la búsqueda pública.",
       "ofertas": [
         {
@@ -607,7 +607,7 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/arroz-diana-x-5-kg/p",
           "sku": "13396",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -623,7 +623,7 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/arroz-diana-x-3-kg/p",
           "sku": "13395",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -639,7 +639,7 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/arroz-diana-premium-x-4000-g/p",
           "sku": "13412",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -655,7 +655,7 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/arroz-diana-blanco-x25und-x500g-c-u/p",
           "sku": "295180",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -671,7 +671,7 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/arroz-diana-x-10-kg/p",
           "sku": "13397",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -687,7 +687,7 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/arroz-castellano-x-2-5-kg/p",
           "sku": "22039",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -703,7 +703,7 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/arroz-diana-premium-x-2-5-kg/p",
           "sku": "13410",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -719,7 +719,7 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/arroz-5kg-roa/p",
           "sku": "56415",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -735,7 +735,7 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/arroz-roa-x-10kg/p",
           "sku": "13389",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -751,7 +751,7 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/arroz-sonora-x10kg/p",
           "sku": "326736",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -767,7 +767,7 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/arroz-florhuila-platino-blanco-x-2-5-kg/p",
           "sku": "13402",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -783,7 +783,7 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/arroz-florhuila-x-5-kg/p",
           "sku": "13378",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -799,7 +799,7 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/arroz-castellano-premium-oryzica-x-1000g/p",
           "sku": "22037",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -815,7 +815,7 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/arroz-castellano-premum-jazmin-x500g/p",
           "sku": "140189",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -831,7 +831,7 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/arroz-cuisine-and-co-blanco-x5000grs-3650924/p",
           "sku": "341031",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -847,7 +847,7 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/arroz-parbolizado-dona-pepa-x-3000g/p",
           "sku": "50668",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -863,7 +863,7 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/arroz-castellano-premium-blanco-x4000g/p",
           "sku": "140195",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -879,7 +879,7 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/arroz-blanco-diana-premium-x-1000-g/p",
           "sku": "13405",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -895,7 +895,7 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/arroz-castellano-premum-basmati-x500g/p",
           "sku": "140191",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -911,7 +911,7 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/arroz-florhuila-x-10-kg/p",
           "sku": "13379",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -927,7 +927,7 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/arroz-parbolizado-dona-pepa-1000g/p",
           "sku": "50669",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -943,7 +943,7 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/arroz-roa-10-x-2-5kg/p",
           "sku": "13409",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -959,23 +959,7 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/arroz-sonora-x5kg/p",
           "sku": "35595",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
-          "disponibilidad": "disponible",
-          "mecanismo": "jsonld_publico",
-          "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
-        },
-        {
-          "id": "jumbo:50670",
-          "proveedor_id": "jumbo",
-          "proveedor": "Jumbo",
-          "nombre": "Arroz Doña Pepa parbolizado x5000g",
-          "marca": "DONA PEPA",
-          "presentacion_texto": "Arroz Doña Pepa parbolizado x5000g",
-          "precio": 33250.0,
-          "moneda": "COP",
-          "url": "https://www.jumbocolombia.com/arroz-parbolizado-dona-pepa-x-5000g/p",
-          "sku": "50670",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -991,7 +975,23 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/arroz-diana-x-1-kg/p",
           "sku": "13381",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
+          "disponibilidad": "disponible",
+          "mecanismo": "jsonld_publico",
+          "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
+        },
+        {
+          "id": "jumbo:50670",
+          "proveedor_id": "jumbo",
+          "proveedor": "Jumbo",
+          "nombre": "Arroz Doña Pepa parbolizado x5000g",
+          "marca": "DONA PEPA",
+          "presentacion_texto": "Arroz Doña Pepa parbolizado x5000g",
+          "precio": 33250.0,
+          "moneda": "COP",
+          "url": "https://www.jumbocolombia.com/arroz-parbolizado-dona-pepa-x-5000g/p",
+          "sku": "50670",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -1007,7 +1007,7 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/arroz-roa-blanco-fortiplus-x3000g/p",
           "sku": "56416",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -1023,7 +1023,7 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/arroz-sonora-super-premium-x2-5kg/p",
           "sku": "326734",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -1039,7 +1039,7 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/arroz-castellano-premium-sushi-x500g/p",
           "sku": "140194",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
           "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -1052,9 +1052,9 @@
       "item_idx": 1,
       "termino": "aceite",
       "estado": "ok",
-      "url_consulta": "https://www.jumbocolombia.com/aceites",
-      "fecha_consulta": "2026-11-09T20:29:38-05:00",
-      "mensaje": "28 productos leídos del JSON-LD de la búsqueda pública (https://www.jumbocolombia.com/aceite?map=ft no publica productos en JSON-LD).",
+      "url_consulta": "https://www.jumbocolombia.com/aceite?map=ft",
+      "fecha_consulta": "2026-11-09T22:45:23-05:00",
+      "mensaje": "28 productos leídos del JSON-LD de la búsqueda pública.",
       "ofertas": [
         {
           "id": "jumbo:330927",
@@ -1067,10 +1067,10 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/aceite-cuisine-co-mezcla-vegetal-x3000ml/p",
           "sku": "330927",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
-          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+          "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
         },
         {
           "id": "jumbo:288561",
@@ -1083,10 +1083,10 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/aceite-premier-girasol-x2700ml/p",
           "sku": "288561",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
-          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+          "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
         },
         {
           "id": "jumbo:22333",
@@ -1099,10 +1099,10 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/aceite-de-oliva-extra-virgen-ybarra-x-3-lt/p",
           "sku": "22333",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
-          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+          "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
         },
         {
           "id": "jumbo:330935",
@@ -1115,10 +1115,10 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/aceite-cuisine-co-girasol-x3000ml/p",
           "sku": "330935",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
-          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+          "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
         },
         {
           "id": "jumbo:22331",
@@ -1131,10 +1131,10 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/aceite-de-oliva-extra-virgen-ybarra-x-1-lt/p",
           "sku": "22331",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
-          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+          "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
         },
         {
           "id": "jumbo:229641",
@@ -1147,10 +1147,10 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/aceite-gourmet-familia-multiusos-x2600ml/p",
           "sku": "229641",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
-          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+          "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
         },
         {
           "id": "jumbo:266101",
@@ -1159,14 +1159,14 @@
           "nombre": "Aceite Gourmet Familia Multiusos 2Und 1800ml",
           "marca": "GOURMET",
           "presentacion_texto": "Aceite Gourmet Familia Multiusos 2Und 1800ml",
-          "precio": 75930.0,
+          "precio": 78300.0,
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/aceite-gourmet-familia-multiusos-2und-1800ml-266101/p",
           "sku": "266101",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
-          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+          "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
         },
         {
           "id": "jumbo:151516",
@@ -1179,10 +1179,10 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/aceite-oliva-extra-bucatti-x-750-ml/p",
           "sku": "151516",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
-          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+          "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
         },
         {
           "id": "jumbo:288562",
@@ -1195,10 +1195,10 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/aceite-premier-girasol-x900ml/p",
           "sku": "288562",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
-          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+          "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
         },
         {
           "id": "jumbo:22385",
@@ -1211,10 +1211,10 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/aceite-riquisimo-garrafa-x-3000-cm3/p",
           "sku": "22385",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
-          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+          "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
         },
         {
           "id": "jumbo:220183",
@@ -1227,10 +1227,10 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/aceite-gourmet-familia-x900ml/p",
           "sku": "220183",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
-          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+          "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
         },
         {
           "id": "jumbo:341596",
@@ -1243,10 +1243,10 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/aceite-cuisine-and-co-oliva-extra-virgen-x1lt-3651517/p",
           "sku": "341596",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
-          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+          "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
         },
         {
           "id": "jumbo:22361",
@@ -1259,10 +1259,10 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/aceite-girasol-oleocali-x-3000-cm3/p",
           "sku": "22361",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
-          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+          "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
         },
         {
           "id": "jumbo:330913",
@@ -1275,10 +1275,10 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/aceite-cuisine-co-mezcla-vegetal-x900ml/p",
           "sku": "330913",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
-          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+          "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
         },
         {
           "id": "jumbo:22375",
@@ -1291,10 +1291,10 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/aceite-oleocali-garrafa-x-3000-cm3/p",
           "sku": "22375",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
-          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+          "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
         },
         {
           "id": "jumbo:60429",
@@ -1307,10 +1307,10 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/aceite-diana-vitaminas-x-3000-ml/p",
           "sku": "60429",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
-          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+          "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
         },
         {
           "id": "jumbo:368595",
@@ -1323,10 +1323,10 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/aceite-canola-life-1800ml-368595/p",
           "sku": "368595",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
-          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+          "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
         },
         {
           "id": "jumbo:301980",
@@ -1339,10 +1339,10 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/aceite-olivetto-oliva-virgen-suave-x1000ml-3610550/p",
           "sku": "301980",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
-          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+          "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
         },
         {
           "id": "jumbo:53305",
@@ -1355,10 +1355,10 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/aceite-carbonell-oliva-extra-virgen-x-750-ml/p",
           "sku": "53305",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
-          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+          "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
         },
         {
           "id": "jumbo:412318",
@@ -1371,10 +1371,10 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/ac-olivetto-para-freir-6x1800-ml-412318/p",
           "sku": "412318",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
-          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+          "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
         },
         {
           "id": "jumbo:171365",
@@ -1387,10 +1387,10 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/aceite-diana-premium-girasol-canola-x-2000ml/p",
           "sku": "171365",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
-          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+          "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
         },
         {
           "id": "jumbo:22332",
@@ -1403,10 +1403,10 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/aceite-de-oliva-extra-virgen-ybarra-x-750-ml/p",
           "sku": "22332",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
-          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+          "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
         },
         {
           "id": "jumbo:398247",
@@ -1419,10 +1419,10 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/aceite-cuisineco-oliva-500ml-398247/p",
           "sku": "398247",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
-          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+          "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
         },
         {
           "id": "jumbo:22300",
@@ -1435,10 +1435,10 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/aceite-canola-life-bajo-en-grasa-saturado-x-1l/p",
           "sku": "22300",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
-          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+          "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
         },
         {
           "id": "jumbo:398242",
@@ -1451,10 +1451,10 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/aceite-cuisineco-oliva-3000ml-398242/p",
           "sku": "398242",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
-          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+          "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
         },
         {
           "id": "jumbo:283037",
@@ -1467,10 +1467,10 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/aceite-premier-girasol-x1800ml/p",
           "sku": "283037",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
-          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+          "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
         },
         {
           "id": "jumbo:22349",
@@ -1483,10 +1483,10 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/aceite-de-oliva-puro-ybarra-pet-x-3-l/p",
           "sku": "22349",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
-          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+          "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
         },
         {
           "id": "jumbo:22337",
@@ -1499,10 +1499,10 @@
           "moneda": "COP",
           "url": "https://www.jumbocolombia.com/sublime-aceite-de-oliva-x-500-ml/p",
           "sku": "22337",
-          "fecha_consulta": "2026-11-09T20:29:38-05:00",
+          "fecha_consulta": "2026-11-09T22:45:23-05:00",
           "disponibilidad": "disponible",
           "mecanismo": "jsonld_publico",
-          "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+          "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
         }
       ]
     }
@@ -1521,7 +1521,7 @@
         "moneda": "COP",
         "url": "https://www.olimpica.com/arroz--o-500-grs/p",
         "sku": "2281376",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
@@ -1556,7 +1556,7 @@
         "moneda": "COP",
         "url": "https://www.olimpica.com/arroz-sabroson-3-kg-7707105805068-2000024/p",
         "sku": "2000024",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
@@ -1591,7 +1591,7 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/arroz-diana-x-3-kg/p",
         "sku": "13395",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -1626,7 +1626,7 @@
         "moneda": "COP",
         "url": "https://www.olimpica.com/arroz-diana-500-gr-7702511000014-518231/p",
         "sku": "518231",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
@@ -1661,7 +1661,7 @@
         "moneda": "COP",
         "url": "https://www.olimpica.com/arroz-diana-1-kg-7702511000021-518232/p",
         "sku": "518232",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
@@ -1696,7 +1696,7 @@
         "moneda": "COP",
         "url": "https://www.olimpica.com/arroz-diana-3-kg-7702511000038-518233/p",
         "sku": "518233",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
@@ -1731,7 +1731,7 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/arroz-diana-x-1-kg/p",
         "sku": "13381",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -1766,7 +1766,7 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/arroz-roa-blanco-fortiplus-x3000g/p",
         "sku": "56416",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -1801,7 +1801,7 @@
         "moneda": "COP",
         "url": "https://www.olimpica.com/arroz-olimpica-2500-g/p",
         "sku": "2327554",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
@@ -1836,7 +1836,7 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/arroz-cuisine-and-co-blanco-x5000grs-3650924/p",
         "sku": "341031",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -1871,7 +1871,7 @@
         "moneda": "COP",
         "url": "https://www.olimpica.com/arroz-diana-premium-1-kg-7702511000427-1176741/p",
         "sku": "1176741",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
@@ -1906,7 +1906,7 @@
         "moneda": "COP",
         "url": "https://www.olimpica.com/arroz-sabroson-5-kg-7707105805105-2000025/p",
         "sku": "2000025",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
@@ -1941,7 +1941,7 @@
         "moneda": "COP",
         "url": "https://www.olimpica.com/arroz-diana-5-kg-7702511000045-566554/p",
         "sku": "566554",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
@@ -1976,7 +1976,7 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/arroz-diana-x-5-kg/p",
         "sku": "13396",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -2011,7 +2011,7 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/arroz-sonora-x5kg/p",
         "sku": "35595",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -2046,7 +2046,7 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/arroz-florhuila-x-5-kg/p",
         "sku": "13378",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -2081,7 +2081,7 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/arroz-5kg-roa/p",
         "sku": "56415",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -2116,7 +2116,7 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/arroz-blanco-diana-premium-x-1000-g/p",
         "sku": "13405",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -2151,7 +2151,7 @@
         "moneda": "COP",
         "url": "https://www.olimpica.com/arroz-diana-premium-4-kg-7702511000991-872597/p",
         "sku": "872597",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
@@ -2186,7 +2186,7 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/arroz-roa-10-x-2-5kg/p",
         "sku": "13409",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -2221,7 +2221,7 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/arroz-florhuila-platino-blanco-x-2-5-kg/p",
         "sku": "13402",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -2256,7 +2256,7 @@
         "moneda": "COP",
         "url": "https://www.olimpica.com/arroz-mi-arroz-econ-paca-25un-11-35kg-7707105814244-1392071/p",
         "sku": "1392071",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
@@ -2292,7 +2292,7 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/arroz-diana-premium-x-4000-g/p",
         "sku": "13412",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -2327,7 +2327,7 @@
         "moneda": "COP",
         "url": "https://www.olimpica.com/arroz-diana-premiun-2-5-kg-7702511000748-1515360/p",
         "sku": "1515360",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
@@ -2362,7 +2362,7 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/arroz-castellano-premium-oryzica-x-1000g/p",
         "sku": "22037",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -2397,7 +2397,7 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/arroz-diana-premium-x-2-5-kg/p",
         "sku": "13410",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -2432,7 +2432,7 @@
         "moneda": "COP",
         "url": "https://www.olimpica.com/arroz-olimpica-paca-econ-500g-x25-un/p",
         "sku": "2282035",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
@@ -2468,7 +2468,7 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/arroz-diana-x-10-kg/p",
         "sku": "13397",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -2503,7 +2503,7 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/arroz-diana-blanco-x25und-x500g-c-u/p",
         "sku": "295180",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -2538,7 +2538,7 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/arroz-sonora-x10kg/p",
         "sku": "326736",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -2573,7 +2573,7 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/arroz-sonora-super-premium-x2-5kg/p",
         "sku": "326734",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -2608,7 +2608,7 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/arroz-florhuila-x-10-kg/p",
         "sku": "13379",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -2643,7 +2643,7 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/arroz-roa-x-10kg/p",
         "sku": "13389",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -2678,7 +2678,7 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/arroz-castellano-premium-blanco-x4000g/p",
         "sku": "140195",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -2713,7 +2713,7 @@
         "moneda": "COP",
         "url": "https://www.olimpica.com/arroz-diana-paca-25-und-12-500-g/p",
         "sku": "2317851",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
@@ -2749,7 +2749,7 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/arroz-castellano-x-2-5-kg/p",
         "sku": "22039",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -2784,7 +2784,7 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/arroz-parbolizado-dona-pepa-x-3000g/p",
         "sku": "50668",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -2819,7 +2819,7 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/arroz-parbolizado-dona-pepa-1000g/p",
         "sku": "50669",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -2854,7 +2854,7 @@
         "moneda": "COP",
         "url": "https://www.olimpica.com/arroz-tailandes-2-500-g/p",
         "sku": "2331765",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
@@ -2889,7 +2889,7 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/arroz-parbolizado-dona-pepa-x-5000g/p",
         "sku": "50670",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -2924,7 +2924,7 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/arroz-castellano-premum-jazmin-x500g/p",
         "sku": "140189",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -2959,7 +2959,7 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/arroz-castellano-premium-sushi-x500g/p",
         "sku": "140194",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -2994,7 +2994,7 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/arroz-castellano-premum-basmati-x500g/p",
         "sku": "140191",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -3029,7 +3029,7 @@
         "moneda": "COP",
         "url": "https://www.olimpica.com/aceite-medalla-oro-mezc-900-cm3/p",
         "sku": "1646730",
-        "fecha_consulta": "2026-11-09T20:29:39-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.olimpica.com/aceites"
@@ -3064,7 +3064,7 @@
         "moneda": "COP",
         "url": "https://www.olimpica.com/aceite-de-soya-olimpica-900-ml-7701008626058--2034081/p",
         "sku": "2034081",
-        "fecha_consulta": "2026-11-09T20:29:39-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.olimpica.com/aceites"
@@ -3072,7 +3072,7 @@
       "clasificacion": "equivalente",
       "elegible": true,
       "motivos": [
-        "Aceite de soya es aceite vegetal común"
+        "Aceite de soya común sin especificaciones"
       ],
       "presentacion": {
         "cantidad_base": 0.9,
@@ -3099,10 +3099,10 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/aceite-cuisine-co-mezcla-vegetal-x900ml/p",
         "sku": "330913",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
-        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
       },
       "clasificacion": "equivalente",
       "elegible": true,
@@ -3134,7 +3134,7 @@
         "moneda": "COP",
         "url": "https://www.olimpica.com/aceite-medalla-oro-mezcla-3-l/p",
         "sku": "1646719",
-        "fecha_consulta": "2026-11-09T20:29:39-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.olimpica.com/aceites"
@@ -3169,7 +3169,7 @@
         "moneda": "COP",
         "url": "https://www.olimpica.com/aceite-riquisimo-1900-ml/p",
         "sku": "2290819",
-        "fecha_consulta": "2026-11-09T20:29:39-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.olimpica.com/aceites"
@@ -3204,7 +3204,7 @@
         "moneda": "COP",
         "url": "https://www.olimpica.com/aceite-diana-mezcla-vegetal-vit-ayd-900ml-7702028000330-2209538/p",
         "sku": "2209538",
-        "fecha_consulta": "2026-11-09T20:29:39-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.olimpica.com/aceites"
@@ -3239,10 +3239,10 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/aceite-cuisine-co-mezcla-vegetal-x3000ml/p",
         "sku": "330927",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
-        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
       },
       "clasificacion": "equivalente",
       "elegible": true,
@@ -3274,7 +3274,7 @@
         "moneda": "COP",
         "url": "https://www.olimpica.com/aceite-de-soya-olimpica-3-l-7701008625204--1651648/p",
         "sku": "1651648",
-        "fecha_consulta": "2026-11-09T20:29:39-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.olimpica.com/aceites"
@@ -3282,7 +3282,7 @@
       "clasificacion": "equivalente",
       "elegible": true,
       "motivos": [
-        "Aceite de soya es aceite vegetal común"
+        "Aceite de soya común sin especificaciones"
       ],
       "presentacion": {
         "cantidad_base": 3.0,
@@ -3309,15 +3309,15 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/aceite-cuisine-co-girasol-x3000ml/p",
         "sku": "330935",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
-        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
       },
       "clasificacion": "equivalente",
       "elegible": true,
       "motivos": [
-        "Aceite de girasol es aceite vegetal común"
+        "Aceite de girasol común sin especificaciones"
       ],
       "presentacion": {
         "cantidad_base": 3.0,
@@ -3344,15 +3344,15 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/aceite-canola-life-bajo-en-grasa-saturado-x-1l/p",
         "sku": "22300",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
-        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
       },
       "clasificacion": "equivalente",
       "elegible": true,
       "motivos": [
-        "Aceite de canola es aceite vegetal común"
+        "Aceite de canola común sin especificaciones"
       ],
       "presentacion": {
         "cantidad_base": 1.0,
@@ -3379,7 +3379,7 @@
         "moneda": "COP",
         "url": "https://www.olimpica.com/aceite-riquisimo-3-l/p",
         "sku": "2001145",
-        "fecha_consulta": "2026-11-09T20:29:39-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.olimpica.com/aceites"
@@ -3414,10 +3414,10 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/aceite-riquisimo-garrafa-x-3000-cm3/p",
         "sku": "22385",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
-        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
       },
       "clasificacion": "equivalente",
       "elegible": true,
@@ -3449,10 +3449,10 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/aceite-oleocali-garrafa-x-3000-cm3/p",
         "sku": "22375",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
-        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
       },
       "clasificacion": "equivalente",
       "elegible": true,
@@ -3484,15 +3484,15 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/aceite-diana-premium-girasol-canola-x-2000ml/p",
         "sku": "171365",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
-        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
       },
       "clasificacion": "equivalente",
       "elegible": true,
       "motivos": [
-        "Aceite mezcla canola y girasol común"
+        "Mezcla canola y girasol común sin especificaciones"
       ],
       "presentacion": {
         "cantidad_base": 2.0,
@@ -3519,7 +3519,7 @@
         "moneda": "COP",
         "url": "https://www.olimpica.com/aceite-diana-mezcla-vegetalales-vit-a-d-3000ml-7702028000378-2010298/p",
         "sku": "2010298",
-        "fecha_consulta": "2026-11-09T20:29:39-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.olimpica.com/aceites"
@@ -3554,10 +3554,10 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/aceite-diana-vitaminas-x-3000-ml/p",
         "sku": "60429",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
-        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
       },
       "clasificacion": "equivalente",
       "elegible": true,
@@ -3589,7 +3589,7 @@
         "moneda": "COP",
         "url": "https://www.olimpica.com/aceite-premier-girasol-1800ml/p",
         "sku": "2315087",
-        "fecha_consulta": "2026-11-09T20:29:39-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.olimpica.com/aceites"
@@ -3597,7 +3597,7 @@
       "clasificacion": "equivalente",
       "elegible": true,
       "motivos": [
-        "Aceite de girasol es aceite vegetal común"
+        "Aceite de girasol común sin especificaciones"
       ],
       "presentacion": {
         "cantidad_base": 1.8,
@@ -3624,15 +3624,15 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/aceite-premier-girasol-x1800ml/p",
         "sku": "283037",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
-        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
       },
       "clasificacion": "equivalente",
       "elegible": true,
       "motivos": [
-        "Aceite de girasol es aceite vegetal común"
+        "Aceite de girasol común sin especificaciones"
       ],
       "presentacion": {
         "cantidad_base": 1.8,
@@ -3659,7 +3659,7 @@
         "moneda": "COP",
         "url": "https://www.olimpica.com/aceite-premier-girasol-900ml/p",
         "sku": "2315084",
-        "fecha_consulta": "2026-11-09T20:29:39-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.olimpica.com/aceites"
@@ -3667,7 +3667,7 @@
       "clasificacion": "equivalente",
       "elegible": true,
       "motivos": [
-        "Aceite de girasol es aceite vegetal común"
+        "Aceite de girasol común sin especificaciones"
       ],
       "presentacion": {
         "cantidad_base": 0.9,
@@ -3694,15 +3694,15 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/aceite-premier-girasol-x900ml/p",
         "sku": "288562",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
-        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
       },
       "clasificacion": "equivalente",
       "elegible": true,
       "motivos": [
-        "Aceite de girasol es aceite vegetal común"
+        "Aceite de girasol común sin especificaciones"
       ],
       "presentacion": {
         "cantidad_base": 0.9,
@@ -3729,10 +3729,10 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/aceite-gourmet-familia-x900ml/p",
         "sku": "220183",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
-        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
       },
       "clasificacion": "equivalente",
       "elegible": true,
@@ -3764,15 +3764,15 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/aceite-canola-life-1800ml-368595/p",
         "sku": "368595",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
-        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
       },
       "clasificacion": "equivalente",
       "elegible": true,
       "motivos": [
-        "Aceite de canola es aceite vegetal común"
+        "Aceite de canola común sin especificaciones"
       ],
       "presentacion": {
         "cantidad_base": 1.8,
@@ -3799,15 +3799,15 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/aceite-girasol-oleocali-x-3000-cm3/p",
         "sku": "22361",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
-        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
       },
       "clasificacion": "equivalente",
       "elegible": true,
       "motivos": [
-        "Aceite de girasol es aceite vegetal común"
+        "Aceite de girasol común sin especificaciones"
       ],
       "presentacion": {
         "cantidad_base": 3.0,
@@ -3834,7 +3834,7 @@
         "moneda": "COP",
         "url": "https://www.olimpica.com/aceite-premier-girasol-2700ml/p",
         "sku": "2315088",
-        "fecha_consulta": "2026-11-09T20:29:39-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.olimpica.com/aceites"
@@ -3842,7 +3842,7 @@
       "clasificacion": "equivalente",
       "elegible": true,
       "motivos": [
-        "Aceite de girasol es aceite vegetal común"
+        "Aceite de girasol común sin especificaciones"
       ],
       "presentacion": {
         "cantidad_base": 2.7,
@@ -3869,15 +3869,15 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/aceite-premier-girasol-x2700ml/p",
         "sku": "288561",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
-        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
       },
       "clasificacion": "equivalente",
       "elegible": true,
       "motivos": [
-        "Aceite de girasol es aceite vegetal común"
+        "Aceite de girasol común sin especificaciones"
       ],
       "presentacion": {
         "cantidad_base": 2.7,
@@ -3904,10 +3904,10 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/aceite-gourmet-familia-multiusos-x2600ml/p",
         "sku": "229641",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
-        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
       },
       "clasificacion": "equivalente",
       "elegible": true,
@@ -3935,14 +3935,14 @@
         "nombre": "Aceite Gourmet Familia Multiusos 2Und 1800ml",
         "marca": "GOURMET",
         "presentacion_texto": "Aceite Gourmet Familia Multiusos 2Und 1800ml",
-        "precio": 75930.0,
+        "precio": 78300.0,
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/aceite-gourmet-familia-multiusos-2und-1800ml-266101/p",
         "sku": "266101",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
-        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
       },
       "clasificacion": "equivalente",
       "elegible": true,
@@ -3957,9 +3957,9 @@
         "texto": "2 x 1800 ml = 3.6 L",
         "inferida": true
       },
-      "precio_unitario": 21091.666666666668,
+      "precio_unitario": 21750.0,
       "empaques": 1,
-      "costo": 75930.0,
+      "costo": 78300.0,
       "excedente": 2.6
     },
     {
@@ -3975,7 +3975,7 @@
         "moneda": "COP",
         "url": "https://www.olimpica.com/aceite-oliva-medalla-oro-1000ml/p",
         "sku": "2241874",
-        "fecha_consulta": "2026-11-09T20:29:39-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.olimpica.com/aceites"
@@ -3983,7 +3983,7 @@
       "clasificacion": "sustituto",
       "elegible": true,
       "motivos": [
-        "Aceite de oliva es variedad diferente"
+        "Aceite de oliva, diferente variedad"
       ],
       "presentacion": {
         "cantidad_base": 1.0,
@@ -4010,7 +4010,7 @@
         "moneda": "COP",
         "url": "https://www.olimpica.com/aceite-de-oliva-medalla-de-oro-500-ml-7701008626997--2134354/p",
         "sku": "2134354",
-        "fecha_consulta": "2026-11-09T20:29:39-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.olimpica.com/aceites"
@@ -4018,7 +4018,7 @@
       "clasificacion": "sustituto",
       "elegible": true,
       "motivos": [
-        "Aceite de oliva es variedad diferente"
+        "Aceite de oliva extra virgen, diferente variedad"
       ],
       "presentacion": {
         "cantidad_base": 0.5,
@@ -4045,15 +4045,15 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/aceite-cuisineco-oliva-500ml-398247/p",
         "sku": "398247",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
-        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
       },
       "clasificacion": "sustituto",
       "elegible": true,
       "motivos": [
-        "Aceite de oliva es variedad diferente"
+        "Aceite de oliva, diferente variedad"
       ],
       "presentacion": {
         "cantidad_base": 0.5,
@@ -4080,15 +4080,15 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/aceite-de-oliva-extra-virgen-ybarra-x-1-lt/p",
         "sku": "22331",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
-        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
       },
       "clasificacion": "sustituto",
       "elegible": true,
       "motivos": [
-        "Aceite de oliva es variedad diferente"
+        "Aceite de oliva extra virgen, diferente variedad"
       ],
       "presentacion": {
         "cantidad_base": 1.0,
@@ -4115,15 +4115,15 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/aceite-cuisine-and-co-oliva-extra-virgen-x1lt-3651517/p",
         "sku": "341596",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
-        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
       },
       "clasificacion": "sustituto",
       "elegible": true,
       "motivos": [
-        "Aceite de oliva es variedad diferente"
+        "Aceite de oliva extra virgen, diferente variedad"
       ],
       "presentacion": {
         "cantidad_base": 1.0,
@@ -4150,15 +4150,15 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/sublime-aceite-de-oliva-x-500-ml/p",
         "sku": "22337",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
-        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
       },
       "clasificacion": "sustituto",
       "elegible": true,
       "motivos": [
-        "Aceite de oliva es variedad diferente"
+        "Aceite de oliva, diferente variedad"
       ],
       "presentacion": {
         "cantidad_base": 0.5,
@@ -4185,15 +4185,15 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/ac-olivetto-para-freir-6x1800-ml-412318/p",
         "sku": "412318",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
-        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
       },
       "clasificacion": "sustituto",
       "elegible": true,
       "motivos": [
-        "Aceite mezcla con oliva es variedad diferente"
+        "Mezcla con oliva, variedad diferente"
       ],
       "presentacion": {
         "cantidad_base": 1.8,
@@ -4220,15 +4220,15 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/aceite-carbonell-oliva-extra-virgen-x-750-ml/p",
         "sku": "53305",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
-        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
       },
       "clasificacion": "sustituto",
       "elegible": true,
       "motivos": [
-        "Aceite de oliva es variedad diferente"
+        "Aceite de oliva extra virgen, diferente variedad"
       ],
       "presentacion": {
         "cantidad_base": 0.75,
@@ -4255,15 +4255,15 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/aceite-de-oliva-extra-virgen-ybarra-x-750-ml/p",
         "sku": "22332",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
-        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
       },
       "clasificacion": "sustituto",
       "elegible": true,
       "motivos": [
-        "Aceite de oliva es variedad diferente"
+        "Aceite de oliva extra virgen, diferente variedad"
       ],
       "presentacion": {
         "cantidad_base": 0.75,
@@ -4290,15 +4290,15 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/aceite-olivetto-oliva-virgen-suave-x1000ml-3610550/p",
         "sku": "301980",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
-        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
       },
       "clasificacion": "sustituto",
       "elegible": true,
       "motivos": [
-        "Aceite de oliva es variedad diferente"
+        "Aceite de oliva virgen suave, diferente variedad"
       ],
       "presentacion": {
         "cantidad_base": 1.0,
@@ -4325,7 +4325,7 @@
         "moneda": "COP",
         "url": "https://www.olimpica.com/aceite-fithub-coco-organic-200ml/p",
         "sku": "2297762",
-        "fecha_consulta": "2026-11-09T20:29:39-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.olimpica.com/aceites"
@@ -4333,7 +4333,7 @@
       "clasificacion": "sustituto",
       "elegible": true,
       "motivos": [
-        "Aceite de coco es variedad diferente"
+        "Aceite de coco, diferente variedad"
       ],
       "presentacion": {
         "cantidad_base": 0.2,
@@ -4360,15 +4360,15 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/aceite-cuisineco-oliva-3000ml-398242/p",
         "sku": "398242",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
-        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
       },
       "clasificacion": "sustituto",
       "elegible": true,
       "motivos": [
-        "Aceite de oliva es variedad diferente"
+        "Aceite de oliva, diferente variedad"
       ],
       "presentacion": {
         "cantidad_base": 3.0,
@@ -4395,15 +4395,15 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/aceite-de-oliva-extra-virgen-ybarra-x-3-lt/p",
         "sku": "22333",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
-        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
       },
       "clasificacion": "sustituto",
       "elegible": true,
       "motivos": [
-        "Aceite de oliva es variedad diferente"
+        "Aceite de oliva extra virgen, diferente variedad"
       ],
       "presentacion": {
         "cantidad_base": 3.0,
@@ -4430,15 +4430,15 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/aceite-de-oliva-puro-ybarra-pet-x-3-l/p",
         "sku": "22349",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
-        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
       },
       "clasificacion": "sustituto",
       "elegible": true,
       "motivos": [
-        "Aceite de oliva es variedad diferente"
+        "Aceite de oliva, diferente variedad"
       ],
       "presentacion": {
         "cantidad_base": 3.0,
@@ -4465,7 +4465,7 @@
         "moneda": "COP",
         "url": "https://www.olimpica.com/aceite-fithub-coco-dans-le-food-225ml/p",
         "sku": "2297769",
-        "fecha_consulta": "2026-11-09T20:29:39-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
         "fuente_consulta": "https://www.olimpica.com/aceites"
@@ -4473,7 +4473,7 @@
       "clasificacion": "sustituto",
       "elegible": true,
       "motivos": [
-        "Aceite de coco es variedad diferente"
+        "Aceite de coco, diferente variedad"
       ],
       "presentacion": {
         "cantidad_base": 0.225,
@@ -4500,15 +4500,15 @@
         "moneda": "COP",
         "url": "https://www.jumbocolombia.com/aceite-oliva-extra-bucatti-x-750-ml/p",
         "sku": "151516",
-        "fecha_consulta": "2026-11-09T20:29:38-05:00",
+        "fecha_consulta": "2026-11-09T22:45:23-05:00",
         "disponibilidad": "disponible",
         "mecanismo": "jsonld_publico",
-        "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+        "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
       },
       "clasificacion": "sustituto",
       "elegible": true,
       "motivos": [
-        "Aceite de oliva es variedad diferente"
+        "Aceite de oliva extra virgen, diferente variedad"
       ],
       "presentacion": {
         "cantidad_base": 0.75,
@@ -4548,7 +4548,7 @@
               "moneda": "COP",
               "url": "https://www.olimpica.com/arroz--o-500-grs/p",
               "sku": "2281376",
-              "fecha_consulta": "2026-11-09T20:29:38-05:00",
+              "fecha_consulta": "2026-11-09T22:45:23-05:00",
               "disponibilidad": "disponible",
               "mecanismo": "jsonld_publico",
               "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
@@ -4589,7 +4589,7 @@
               "moneda": "COP",
               "url": "https://www.olimpica.com/aceite-medalla-oro-mezc-900-cm3/p",
               "sku": "1646730",
-              "fecha_consulta": "2026-11-09T20:29:39-05:00",
+              "fecha_consulta": "2026-11-09T22:45:23-05:00",
               "disponibilidad": "disponible",
               "mecanismo": "jsonld_publico",
               "fuente_consulta": "https://www.olimpica.com/aceites"
@@ -4622,13 +4622,16 @@
           "concepto": "Envío a domicilio (Olímpica)",
           "valor": null,
           "fuente": "https://www.olimpica.com",
-          "nota": "El costo del domicilio depende de la dirección, la franja y el valor del pedido y solo se calcula en el carrito/checkout, que este sistema no consulta."
+          "nota": "El costo del domicilio depende de la dirección, la franja y el valor del pedido y solo se calcula en el carrito/checkout, que este sistema no consulta.",
+          "estimado": 5000.0,
+          "nota_estimado": "Promedio de referencia de un domicilio dentro de la misma ciudad; no es una tarifa publicada por las tiendas, por eso no confirma el total final."
         }
       ],
       "total_conocido": 22880.0,
+      "total_estimado": 27880.0,
       "total_final_confirmado": null,
       "pendientes": [
-        "Envío a domicilio (Olímpica): costo desconocido"
+        "Envío a domicilio (Olímpica): no confirmado (se estimó en $5.000)"
       ],
       "viable": true,
       "nota": ""
@@ -4657,7 +4660,7 @@
               "moneda": "COP",
               "url": "https://www.jumbocolombia.com/arroz-diana-x-3-kg/p",
               "sku": "13395",
-              "fecha_consulta": "2026-11-09T20:29:38-05:00",
+              "fecha_consulta": "2026-11-09T22:45:23-05:00",
               "disponibilidad": "disponible",
               "mecanismo": "jsonld_publico",
               "fuente_consulta": "https://www.jumbocolombia.com/arroz?map=ft"
@@ -4698,10 +4701,10 @@
               "moneda": "COP",
               "url": "https://www.jumbocolombia.com/aceite-cuisine-co-mezcla-vegetal-x900ml/p",
               "sku": "330913",
-              "fecha_consulta": "2026-11-09T20:29:38-05:00",
+              "fecha_consulta": "2026-11-09T22:45:23-05:00",
               "disponibilidad": "disponible",
               "mecanismo": "jsonld_publico",
-              "fuente_consulta": "https://www.jumbocolombia.com/aceites"
+              "fuente_consulta": "https://www.jumbocolombia.com/aceite?map=ft"
             },
             "clasificacion": "equivalente",
             "elegible": true,
@@ -4731,13 +4734,16 @@
           "concepto": "Envío a domicilio (Jumbo)",
           "valor": null,
           "fuente": "https://www.jumbocolombia.com",
-          "nota": "El costo del domicilio depende de la dirección, la franja y el valor del pedido y solo se calcula en el checkout (/checkout/ está prohibido por robots.txt)."
+          "nota": "El costo del domicilio depende de la dirección, la franja y el valor del pedido y solo se calcula en el checkout (/checkout/ está prohibido por robots.txt).",
+          "estimado": 5000.0,
+          "nota_estimado": "Promedio de referencia de un domicilio dentro de la misma ciudad; no es una tarifa publicada por las tiendas, por eso no confirma el total final."
         }
       ],
       "total_conocido": 27770.0,
+      "total_estimado": 32770.0,
       "total_final_confirmado": null,
       "pendientes": [
-        "Envío a domicilio (Jumbo): costo desconocido"
+        "Envío a domicilio (Jumbo): no confirmado (se estimó en $5.000)"
       ],
       "viable": true,
       "nota": ""
@@ -4766,7 +4772,7 @@
               "moneda": "COP",
               "url": "https://www.olimpica.com/arroz--o-500-grs/p",
               "sku": "2281376",
-              "fecha_consulta": "2026-11-09T20:29:38-05:00",
+              "fecha_consulta": "2026-11-09T22:45:23-05:00",
               "disponibilidad": "disponible",
               "mecanismo": "jsonld_publico",
               "fuente_consulta": "https://www.olimpica.com/arroz?map=ft"
@@ -4807,7 +4813,7 @@
               "moneda": "COP",
               "url": "https://www.olimpica.com/aceite-medalla-oro-mezc-900-cm3/p",
               "sku": "1646730",
-              "fecha_consulta": "2026-11-09T20:29:39-05:00",
+              "fecha_consulta": "2026-11-09T22:45:23-05:00",
               "disponibilidad": "disponible",
               "mecanismo": "jsonld_publico",
               "fuente_consulta": "https://www.olimpica.com/aceites"
@@ -4840,13 +4846,16 @@
           "concepto": "Envío a domicilio (Olímpica)",
           "valor": null,
           "fuente": "https://www.olimpica.com",
-          "nota": "El costo del domicilio depende de la dirección, la franja y el valor del pedido y solo se calcula en el carrito/checkout, que este sistema no consulta."
+          "nota": "El costo del domicilio depende de la dirección, la franja y el valor del pedido y solo se calcula en el carrito/checkout, que este sistema no consulta.",
+          "estimado": 5000.0,
+          "nota_estimado": "Promedio de referencia de un domicilio dentro de la misma ciudad; no es una tarifa publicada por las tiendas, por eso no confirma el total final."
         }
       ],
       "total_conocido": 22880.0,
+      "total_estimado": 27880.0,
       "total_final_confirmado": null,
       "pendientes": [
-        "Envío a domicilio (Olímpica): costo desconocido"
+        "Envío a domicilio (Olímpica): no confirmado (se estimó en $5.000)"
       ],
       "viable": false,
       "nota": "No aplica: la mejor oferta de cada producto está en Olímpica, así que coincide con comprar todo allí."
@@ -4854,8 +4863,9 @@
   ],
   "recomendacion": {
     "opcion": "Olímpica",
-    "criterio": "cobertura completa con productos equivalentes y menor subtotal conocido.",
-    "texto": "Se recomienda la opción de Olímpica porque ofrece cobertura completa con productos equivalentes y un subtotal conocido menor, con un costo total conocido de $22.880. En comparación, la opción de Jumbo tiene un costo total conocido de $27.770, lo que representa una diferencia de $4.890 más cara que Olímpica. La compra combinada no es viable ya que la mejor oferta para cada producto está en Olímpica, coincidiendo en precio y productos con esta opción.\n\nAntes de proceder con la compra, es importante confirmar el costo del envío a domicilio para Olímpica, ya que actualmente es desconocido. También se debe verificar que los precios publicados en la tienda en línea sean los mismos para la sede de Bello y confirmar la cobertura de domicilio en esa ubicación. Además, no se han considerado promociones condicionadas ni posibles sustitutos, por lo que estos aspectos podrían afectar la decisión final."
+    "criterio": "cobertura completa con productos equivalentes y menor total estimado ($27.880).",
+    "punto_equilibrio_domicilio": null,
+    "texto": "Se recomienda la opción de Olímpica porque ofrece cobertura completa con productos equivalentes a un menor total estimado de $27.880, que incluye un domicilio estimado en $5.000, aunque este costo de envío no está confirmado por la tienda. En comparación, la opción de Jumbo tiene un total conocido de $27.770 y un total estimado con domicilio de $32.770, lo que implica que es $4.890 más cara que Olímpica. La compra combinada no aplica porque la mejor oferta de cada producto está en Olímpica, por lo que coincide con comprar todo allí.\n\nAntes de concretar la compra, es necesario confirmar el envío a domicilio en Olímpica, ya que no se verificó la cobertura ni el costo real en la sede de Bello. También falta confirmar que los precios publicados en línea sean iguales en esa sede y revisar posibles promociones condicionadas que no se consideraron. Estas verificaciones son importantes para asegurar que la cotización refleje el costo final real."
   },
   "condiciones_no_verificadas": [
     "Olímpica: el precio es el publicado en la tienda en línea sin seleccionar sede ni dirección; no se verificó que sea igual en Bello.",

@@ -39,6 +39,8 @@ def construir_grafo(
     permitir_sustitutos: bool = True,
     dir_salida: Optional[Path] = None,
     checkpointer=None,
+    envio_estimado: Optional[float] = None,
+    usar_envio_de_config: bool = True,
 ):
     """Arma y compila el grafo. Las dependencias se inyectan (LLM o reglas, web o catálogo)."""
     if interprete is None or juez is None or redactor is None:
@@ -49,6 +51,8 @@ def construir_grafo(
         juez = juez or construir_juez(modelo)
         redactor = redactor or construir_redactor(modelo)
     registro = registro or cargar_registro()
+    if envio_estimado is None and usar_envio_de_config:
+        envio_estimado = registro.envio_estimado[0]
 
     g = StateGraph(EstadoCotizacion)
     g.add_node("interpretar_solicitud", nodos.crear_nodo_interpretar(interprete))
@@ -57,7 +61,7 @@ def construir_grafo(
     g.add_node("normalizar_solicitud", nodos.crear_nodo_normalizar(registro))
     g.add_node("consultar_proveedor", nodos.crear_nodo_consultar(registro))
     g.add_node("comparar_ofertas", nodos.crear_nodo_comparar(juez))
-    g.add_node("armar_presupuesto", nodos.crear_nodo_presupuestar(registro, permitir_sustitutos))
+    g.add_node("armar_presupuesto", nodos.crear_nodo_presupuestar(registro, permitir_sustitutos, envio_estimado))
     g.add_node("redactar_recomendacion", nodos.crear_nodo_redactar(redactor))
     g.add_node("generar_reporte", nodos.crear_nodo_reporte(dir_salida))
 

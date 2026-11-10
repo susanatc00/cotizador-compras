@@ -50,6 +50,12 @@ class Registro:
     def ciudad_por_defecto(self) -> str:
         return self.config.get("ciudad_por_defecto", "Medellín")
 
+    @property
+    def envio_estimado(self) -> tuple[float | None, str]:
+        """(valor por pedido, nota) del envío estimado configurado, o (None, '')."""
+        cfg = self.config.get("envio_estimado") or {}
+        return cfg.get("valor_por_pedido"), cfg.get("nota", "")
+
     def buscar_id(self, nombre: str) -> tuple[str | None, str | None]:
         """Devuelve (id_soportado, motivo_si_no_soportado)."""
         n = normalizar(nombre)

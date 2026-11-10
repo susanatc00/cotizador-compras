@@ -64,10 +64,17 @@ def _cerrar_opcion(op: PresupuestoOpcion, costos_por_proveedor: dict[str, list[C
             op.costos_adicionales.append(c.model_copy(update={"concepto": f"{c.concepto} ({nombres[pid]})"}))
     conocidos = sum(c.valor for c in op.costos_adicionales if c.valor is not None)
     op.total_conocido = op.subtotal_productos + conocidos
+    desconocidos = [c for c in op.costos_adicionales if c.valor is None]
+    if all(c.estimado is not None for c in desconocidos):
+        op.total_estimado = op.total_conocido + sum(c.estimado for c in desconocidos)
+    else:
+        op.total_estimado = None
 
     op.pendientes = []
-    for c in op.costos_adicionales:
-        if c.valor is None:
+    for c in desconocidos:
+        if c.estimado is not None:
+            op.pendientes.append(f"{c.concepto}: no confirmado (se estimó en {cop(c.estimado)})")
+        else:
             op.pendientes.append(f"{c.concepto}: costo desconocido")
     if op.items_sin_cotizacion:
         op.pendientes.append("productos sin cotización: " + ", ".join(op.items_sin_cotizacion))
@@ -83,7 +90,18 @@ def armar_presupuestos(
     proveedores: dict[str, str],  # id -> nombre
     costos_por_proveedor: dict[str, list[CostoAdicional]],
     permitir_sustitutos: bool = True,
+    envio_estimado: float | None = None,
+    nota_envio_estimado: str = "",
 ) -> list[PresupuestoOpcion]:
+    """`envio_estimado`: valor de referencia por pedido para los envíos de costo
+    desconocido. Se usa en el total ESTIMADO y en la recomendación; el total final
+    confirmado sigue vacío mientras la tienda no confirme el costo."""
+    if envio_estimado is not None:
+        costos_por_proveedor = {
+            pid: [c.model_copy(update={"estimado": envio_estimado, "nota_estimado": nota_envio_estimado})
+                  if c.valor is None and c.concepto.lower().startswith("envío") else c for c in lista]
+            for pid, lista in costos_por_proveedor.items()
+        }
     opciones: list[PresupuestoOpcion] = []
 
     for pid, nombre in proveedores.items():
@@ -122,10 +140,14 @@ def armar_presupuestos(
 def recomendar(opciones: list[PresupuestoOpcion]) -> Recomendacion:
     """Regla de decisión explícita:
     1. Mayor cobertura (completa > completa con sustitutos > parcial).
-    2. Dentro de la misma cobertura, menor total conocido.
-    3. La combinada solo gana si ahorra >= AHORRO_MINIMO_COMBINADA frente al mejor
-       proveedor único con la misma cobertura (cada pedido extra suma un envío
-       de costo desconocido).
+    2. Dentro de la misma cobertura:
+       a. Si hay envío estimado: menor TOTAL ESTIMADO (productos + un domicilio
+          estimado por cada tienda usada). La combinada paga un domicilio por tienda.
+       b. Si no hay estimación: menor total conocido, y la combinada solo gana si
+          ahorra >= AHORRO_MINIMO_COMBINADA (cada pedido extra suma un envío de
+          costo desconocido).
+    En ambos casos se informa el punto de equilibrio: lo máximo que puede costar
+    cada domicilio adicional para que la compra combinada convenga.
     """
     rango = {"completa": 0, "completa_con_sustitutos": 1, "parcial": 2, "nula": 3}
     viables = [o for o in opciones if o.viable and o.cobertura != "nula"]
@@ -137,26 +159,59 @@ def recomendar(opciones: list[PresupuestoOpcion]) -> Recomendacion:
         max_items = max(len(o.lineas) - len(o.items_sin_cotizacion) for o in candidatas)
         candidatas = [o for o in candidatas if len(o.lineas) - len(o.items_sin_cotizacion) == max_items]
 
-    unicos = sorted([o for o in candidatas if o.tipo == "proveedor_unico"], key=lambda o: o.total_conocido)
+    usar_estimado = all(o.total_estimado is not None for o in candidatas)
+
+    def total(o: PresupuestoOpcion) -> float:
+        return o.total_estimado if usar_estimado else o.total_conocido
+
+    unicos = sorted([o for o in candidatas if o.tipo == "proveedor_unico"], key=total)
     combinada = next((o for o in candidatas if o.tipo == "combinada"), None)
     cob = {0: "cobertura completa con productos equivalentes", 1: "cobertura completa usando sustitutos",
            2: "la mayor cobertura disponible (parcial)"}[mejor_rango]
 
+    if unicos and combinada and usar_estimado:
+        u = unicos[0]
+        ahorro_prod = u.subtotal_productos - combinada.subtotal_productos
+        extra = max(1, len(combinada.proveedores) - len(u.proveedores))
+        equilibrio = max(0.0, ahorro_prod / extra)
+        envio = next((c.estimado for c in combinada.costos_adicionales if c.estimado is not None), None)
+        txt_extra = f"{extra} domicilio adicional" if extra == 1 else f"{extra} domicilios adicionales"
+        dif = total(u) - total(combinada)
+        if dif > 0:
+            return Recomendacion(
+                opcion=combinada.nombre, punto_equilibrio_domicilio=equilibrio,
+                criterio=(f"{cob}; con un domicilio estimado de {cop(envio)} por pedido, la compra combinada "
+                          f"suma {cop(total(combinada))} frente a {cop(total(u))} comprando todo en {u.nombre}: "
+                          f"ahorra {cop(dif)} aun pagando {txt_extra}. Conviene mientras cada domicilio "
+                          f"adicional cueste menos de {cop(equilibrio)}."),
+            )
+        return Recomendacion(
+            opcion=u.nombre, punto_equilibrio_domicilio=equilibrio,
+            criterio=(f"{cob} y menor total estimado en un solo pedido ({cop(total(u))}, con domicilio estimado de "
+                      f"{cop(envio)}). La compra combinada ahorra {cop(ahorro_prod)} en productos, pero necesita "
+                      f"{txt_extra}: solo convendría si cada domicilio adicional costara menos de "
+                      f"{cop(equilibrio)}."),
+        )
+
     if unicos and combinada:
         ahorro = unicos[0].total_conocido - combinada.total_conocido
         pct = ahorro / unicos[0].total_conocido if unicos[0].total_conocido else 0
+        extra = max(1, len(combinada.proveedores) - 1)
+        equilibrio = max(0.0, (unicos[0].subtotal_productos - combinada.subtotal_productos) / extra)
         if pct >= AHORRO_MINIMO_COMBINADA:
             return Recomendacion(
-                opcion=combinada.nombre,
+                opcion=combinada.nombre, punto_equilibrio_domicilio=equilibrio,
                 criterio=(f"{cob}; la compra combinada ahorra {cop(ahorro)} ({pct:.1%}) en productos frente a "
                           f"{unicos[0].nombre}, por encima del umbral de {AHORRO_MINIMO_COMBINADA:.0%} que "
                           "compensa hacer más de un pedido."),
             )
         return Recomendacion(
-            opcion=unicos[0].nombre,
+            opcion=unicos[0].nombre, punto_equilibrio_domicilio=equilibrio,
             criterio=(f"{cob} y menor subtotal en un solo pedido; la compra combinada solo ahorraría "
                       f"{cop(ahorro)} ({pct:.1%}), menos del {AHORRO_MINIMO_COMBINADA:.0%} que justifica un "
                       "segundo pedido con envío de costo desconocido."),
         )
     elegida = unicos[0] if unicos else combinada
-    return Recomendacion(opcion=elegida.nombre, criterio=f"{cob} y menor subtotal conocido.")
+    criterio = f"{cob} y menor total estimado ({cop(total(elegida))})." if usar_estimado \
+        else f"{cob} y menor subtotal conocido."
+    return Recomendacion(opcion=elegida.nombre, criterio=criterio)

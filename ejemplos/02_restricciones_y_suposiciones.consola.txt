@@ -1,7 +1,7 @@
 
 # Presupuesto de compra — Medellín
 
-_Generado el 2026-11-09 20:29. Precios en pesos colombianos (COP) tal como los publica cada fuente._
+_Generado el 2026-11-09 22:45. Precios en pesos colombianos (COP) tal como los publica cada fuente._
 
 ## 1. Solicitud interpretada
 
@@ -29,16 +29,16 @@ _Generado el 2026-11-09 20:29. Precios en pesos colombianos (COP) tal como los p
 
 | Proveedor | Término | Mecanismo | Estado | Resultados | Fecha de consulta | Fuente |
 |---|---|---|---|---|---|---|
-| Jumbo | arroz | JSON-LD público (consulta en vivo) | ok | 28 | 2026-11-09T20:28:58-05:00 | [página consultada](https://www.jumbocolombia.com/arroz?map=ft) |
-| Jumbo | aceite | JSON-LD público (consulta en vivo) | ok | 28 | 2026-11-09T20:28:59-05:00 | [página consultada](https://www.jumbocolombia.com/aceites) |
-| Jumbo | huevos | JSON-LD público (consulta en vivo) | ok | 28 | 2026-11-09T20:29:04-05:00 | [página consultada](https://www.jumbocolombia.com/huevos?map=ft) |
-| Jumbo | lenteja | JSON-LD público (consulta en vivo) | ok | 16 | 2026-11-09T20:29:05-05:00 | [página consultada](https://www.jumbocolombia.com/lenteja?map=ft) |
-| Jumbo | detergente | JSON-LD público (consulta en vivo) | ok | 28 | 2026-11-09T20:29:07-05:00 | [página consultada](https://www.jumbocolombia.com/detergente?map=ft) |
-| Olímpica | arroz | JSON-LD público (consulta en vivo) | ok | 15 | 2026-11-09T20:28:58-05:00 | [página consultada](https://www.olimpica.com/arroz?map=ft) |
-| Olímpica | aceite | JSON-LD público (consulta en vivo) | ok | 15 | 2026-11-09T20:28:59-05:00 | [página consultada](https://www.olimpica.com/aceites) |
-| Olímpica | huevos | JSON-LD público (consulta en vivo) | ok | 15 | 2026-11-09T20:29:03-05:00 | [página consultada](https://www.olimpica.com/huevos?map=ft) |
-| Olímpica | lenteja | JSON-LD público (consulta en vivo) | ok | 15 | 2026-11-09T20:29:05-05:00 | [página consultada](https://www.olimpica.com/lenteja?map=ft) |
-| Olímpica | detergente | — | sin_resultados | 0 | 2026-11-09T20:29:06-05:00 | [página consultada](https://www.olimpica.com/detergente?map=ft) |
+| Jumbo | arroz | JSON-LD público (consulta en vivo) | ok | 28 | 2026-11-09T22:44:31-05:00 | [página consultada](https://www.jumbocolombia.com/arroz?map=ft) |
+| Jumbo | aceite | JSON-LD público (consulta en vivo) | ok | 28 | 2026-11-09T22:44:31-05:00 | [página consultada](https://www.jumbocolombia.com/aceite?map=ft) |
+| Jumbo | huevos | JSON-LD público (consulta en vivo) | ok | 28 | 2026-11-09T22:44:33-05:00 | [página consultada](https://www.jumbocolombia.com/huevos?map=ft) |
+| Jumbo | lenteja | JSON-LD público (consulta en vivo) | ok | 16 | 2026-11-09T22:44:37-05:00 | [página consultada](https://www.jumbocolombia.com/lenteja?map=ft) |
+| Jumbo | detergente | JSON-LD público (consulta en vivo) | ok | 28 | 2026-11-09T22:44:40-05:00 | [página consultada](https://www.jumbocolombia.com/detergente?map=ft) |
+| Olímpica | arroz | JSON-LD público (consulta en vivo) | ok | 15 | 2026-11-09T22:44:31-05:00 | [página consultada](https://www.olimpica.com/arroz?map=ft) |
+| Olímpica | aceite | JSON-LD público (consulta en vivo) | ok | 15 | 2026-11-09T22:44:31-05:00 | [página consultada](https://www.olimpica.com/aceites) |
+| Olímpica | huevos | JSON-LD público (consulta en vivo) | ok | 15 | 2026-11-09T22:44:36-05:00 | [página consultada](https://www.olimpica.com/huevos?map=ft) |
+| Olímpica | lenteja | JSON-LD público (consulta en vivo) | ok | 15 | 2026-11-09T22:44:44-05:00 | [página consultada](https://www.olimpica.com/lenteja?map=ft) |
+| Olímpica | detergente | — | sin_resultados | 0 | 2026-11-09T22:44:48-05:00 | [página consultada](https://www.olimpica.com/detergente?map=ft) |
 
 ## 3. Ofertas encontradas por producto
 
@@ -76,16 +76,16 @@ _0 resultados descartados por no corresponder al producto._
 | Jumbo | [Aceite Premier girasol x900ml](https://www.jumbocolombia.com/aceite-premier-girasol-x900ml/p) | PREMIER | 900 ml = 0.9 L | $21.050 | $23.389/L | Equivalente | disponible | 2 → $42.100 | Aceite girasol cumple especificación |
 | Jumbo | [Aceite Oleocali girasol x3000ml](https://www.jumbocolombia.com/aceite-girasol-oleocali-x-3000-cm3/p) | OLEOCALI | 3000 ml = 3 L | $50.250 | $16.750/L | Equivalente | disponible | 1 → $50.250 | Aceite girasol cumple especificación |
 | Jumbo | [Aceite Premier girasol x2700ml](https://www.jumbocolombia.com/aceite-premier-girasol-x2700ml/p) | PREMIER | 2700 ml = 2.7 L | $58.300 | $21.593/L | Equivalente | disponible | 1 → $58.300 | Aceite girasol cumple especificación |
-| Jumbo | [Aceite Cuisine&Co Mezcla Vegetal x900Ml](https://www.jumbocolombia.com/aceite-cuisine-co-mezcla-vegetal-x900ml/p) | CUISINE & CO NBE MP | 900 ml = 0.9 L | $7.890 | $8.767/L | Sustituto | disponible | 2 → $15.780 | Aceite mezcla, no girasol |
-| Jumbo | [Aceite Cuisine&Co Mezcla Vegetal x3000Ml](https://www.jumbocolombia.com/aceite-cuisine-co-mezcla-vegetal-x3000ml/p) | CUISINE & CO NBE MP | 3000 ml = 3 L | $22.890 | $7.630/L | Sustituto | disponible | 1 → $22.890 | Aceite mezcla, no girasol |
+| Jumbo | [Aceite Cuisine&Co Mezcla Vegetal x900Ml](https://www.jumbocolombia.com/aceite-cuisine-co-mezcla-vegetal-x900ml/p) | CUISINE & CO NBE MP | 900 ml = 0.9 L | $7.890 | $8.767/L | Sustituto | disponible | 2 → $15.780 | Mezcla vegetal, no solo girasol |
+| Jumbo | [Aceite Cuisine&Co Mezcla Vegetal x3000Ml](https://www.jumbocolombia.com/aceite-cuisine-co-mezcla-vegetal-x3000ml/p) | CUISINE & CO NBE MP | 3000 ml = 3 L | $22.890 | $7.630/L | Sustituto | disponible | 1 → $22.890 | Mezcla vegetal, no solo girasol |
 | Jumbo | [Aceite Canola Life bajo en grasa saturada x1L](https://www.jumbocolombia.com/aceite-canola-life-bajo-en-grasa-saturado-x-1l/p) | CANOLA LIFE | 1 l = 1 L | $29.910 | $29.910/L | Sustituto | disponible | 1 → $29.910 | Aceite canola, diferente variedad |
 | Jumbo | _… y 20 ofertas más (ver JSON)_ | | | | | | | | |
 | Olímpica | [Aceite Premier de Girasol 1800 Ml](https://www.olimpica.com/aceite-premier-girasol-1800ml/p) | Premier | 1800 ml = 1.8 L | $40.190 | $22.328/L | Equivalente | disponible | 1 → $40.190 | Aceite girasol cumple especificación |
 | Olímpica | [Aceite Premier de Girasol 900 Ml](https://www.olimpica.com/aceite-premier-girasol-900ml/p) | Premier | 900 ml = 0.9 L | $20.590 | $22.878/L | Equivalente | disponible | 2 → $41.180 | Aceite girasol cumple especificación |
 | Olímpica | [Aceite Premier de Girasol 2700 Ml](https://www.olimpica.com/aceite-premier-girasol-2700ml/p) | Premier | 2700 ml = 2.7 L | $58.300 | $21.593/L | Equivalente | disponible | 1 → $58.300 | Aceite girasol cumple especificación |
-| Olímpica | [Aceite Medalla de Oro Mezcla 900 Ml](https://www.olimpica.com/aceite-medalla-oro-mezc-900-cm3/p) | Medalla De Oro | 900 ml = 0.9 L | $6.490 | $7.211/L | Sustituto | disponible | 2 → $12.980 | Aceite mezcla, no girasol |
+| Olímpica | [Aceite Medalla de Oro Mezcla 900 Ml](https://www.olimpica.com/aceite-medalla-oro-mezc-900-cm3/p) | Medalla De Oro | 900 ml = 0.9 L | $6.490 | $7.211/L | Sustituto | disponible | 2 → $12.980 | Mezcla vegetal, no solo girasol |
 | Olímpica | [Aceite Olimpica de Soya 900 Ml](https://www.olimpica.com/aceite-de-soya-olimpica-900-ml-7701008626058--2034081/p) | Olimpica | 900 ml = 0.9 L | $7.890 | $8.767/L | Sustituto | disponible | 2 → $15.780 | Aceite soya, diferente variedad |
-| Olímpica | [Aceite Medalla de Oro Mezcla 3 Lt](https://www.olimpica.com/aceite-medalla-oro-mezcla-3-l/p) | Medalla De Oro | 3 lt = 3 L | $20.490 | $6.830/L | Sustituto | disponible | 1 → $20.490 | Aceite mezcla, no girasol |
+| Olímpica | [Aceite Medalla de Oro Mezcla 3 Lt](https://www.olimpica.com/aceite-medalla-oro-mezcla-3-l/p) | Medalla De Oro | 3 lt = 3 L | $20.490 | $6.830/L | Sustituto | disponible | 1 → $20.490 | Mezcla vegetal, no solo girasol |
 | Olímpica | _… y 9 ofertas más (ver JSON)_ | | | | | | | | |
 
 _0 resultados descartados por no corresponder al producto._
@@ -94,20 +94,20 @@ _0 resultados descartados por no corresponder al producto._
 
 | Proveedor | Producto | Marca | Presentación | Precio | Precio por unidad | Clasificación | Disponibilidad | Empaques → costo | Observaciones |
 |---|---|---|---|---|---|---|---|---|---|
-| Jumbo | [Huevos Kikes rojos XL x15und](https://www.jumbocolombia.com/huevos-kikes-rojo-aa-x-15-und/p) | KIKES | 15 und | $13.590 | $906/und | Equivalente | disponible | 1 → $13.590 | Huevos rojos XL, mismo producto sin especificaciones |
-| Jumbo | [Huevos San Pio x30und](https://www.jumbocolombia.com/huevo-a-bandeja--30unidades-san-pio/p) | SAN PIO | 30 und | $13.990 | $466/und | Equivalente | disponible | 1 → $13.990 | Huevos sin especificaciones, mismo producto |
-| Jumbo | [Huevo Cuisine & Co AAA blanco x 30 un](https://www.jumbocolombia.com/huevo-cuisine---co-aaa-blanco-x-30-un--445151/p) | CUISINE & CO NBE MP | 30 und | $17.590 | $586/und | Equivalente | disponible | 1 → $17.590 | Huevos AAA blancos, mismo producto sin especificaciones |
+| Jumbo | [Huevos Kikes rojos XL x15und](https://www.jumbocolombia.com/huevos-kikes-rojo-aa-x-15-und/p) | KIKES | 15 und | $13.590 | $906/und | Equivalente | disponible | 1 → $13.590 | Huevos rojos XL, mismo producto pedido |
+| Jumbo | [Huevos San Pio x30und](https://www.jumbocolombia.com/huevo-a-bandeja--30unidades-san-pio/p) | SAN PIO | 30 und | $13.990 | $466/und | Equivalente | disponible | 1 → $13.990 | Huevos rojos, mismo producto pedido |
+| Jumbo | [Huevo Cuisine & Co AAA blanco x 30 un](https://www.jumbocolombia.com/huevo-cuisine---co-aaa-blanco-x-30-un--445151/p) | CUISINE & CO NBE MP | 30 und | $17.590 | $586/und | Equivalente | disponible | 1 → $17.590 | Huevos blancos AAA, mismo producto pedido |
 | Jumbo | [Huevos AA rojos Cuisine&Co x30und](https://www.jumbocolombia.com/huevos-cuisine-co-aa-rojo-x30und-3339473/p) | CUISINE & CO NBE MP | 30 und | $19.290 | $643/und | Equivalente | disponible | 1 → $19.290 | Huevos rojos sin especificaciones, mismo producto pedido |
-| Jumbo | [Huevos AA rojos Santa Anita x24und](https://www.jumbocolombia.com/huevo-santa-anita-tradicional-aa-rojo-x-24-und/p) | SANTA ANITA | 24 und | $19.290 | $804/und | Equivalente | disponible | 1 → $19.290 | Huevos AA rojos, mismo producto sin especificaciones |
+| Jumbo | [Huevos AA rojos Santa Anita x24und](https://www.jumbocolombia.com/huevo-santa-anita-tradicional-aa-rojo-x-24-und/p) | SANTA ANITA | 24 und | $19.290 | $804/und | Equivalente | disponible | 1 → $19.290 | Huevos rojos AA, mismo producto pedido |
 | Jumbo | _… y 23 ofertas más (ver JSON)_ | | | | | | | | |
-| Olímpica | [Huevo Kikes Rojo AA X12 Unds](https://www.olimpica.com/huevo-aa-rojo-pet-kikes-12un-7707304621360-1353937/p) | Kikes | 12 und | $11.300 | $942/und | Equivalente | disponible | 1 → $11.300 | Huevos rojos AA, mismo producto sin especificaciones |
-| Olímpica | [Huevo La Granja Orgánica Rojo X6 Unds](https://www.olimpica.com/huevo-ojo-laganja-organica-6-un-7707301780015-1323089/p) | La Granja | 6 und | $6.690 | $1.115/und | Equivalente | disponible | 2 → $13.380 | Huevos orgánicos rojos, mismo producto sin especificaciones |
-| Olímpica | [Huevo Santa Anita Rojo B Amarrado X30 Unds](https://www.olimpica.com/huevo-santa-anita-panal-amarrado-tipo-b-30-und-7706772300319-916381/p) | Santa Anita | 30 und | $14.900 | $497/und | Equivalente | disponible | 1 → $14.900 | Huevos rojos B, mismo producto sin especificaciones |
-| Olímpica | [HUEVO X 30 UND TIPO B](https://www.olimpica.com/huevo-x-30-un-t-b/p) | SIN MARCA 2 | 30 und | $15.800 | $527/und | Equivalente | disponible | 1 → $15.800 | Huevos tipo B, mismo producto sin especificaciones |
-| Olímpica | [Huevo Santa Anita Rojo A X30 Unds](https://www.olimpica.com/huevo-santa-anita-a-rojo-30-und-panal-7706772301071-851093/p) | Santa Anita | 30 und | $15.900 | $530/und | Equivalente | disponible | 1 → $15.900 | Huevos rojos A, mismo producto sin especificaciones |
-| Olímpica | _… y 8 ofertas más (ver JSON)_ | | | | | | | | |
+| Olímpica | [Huevo Kikes Rojo AA X12 Unds](https://www.olimpica.com/huevo-aa-rojo-pet-kikes-12un-7707304621360-1353937/p) | Kikes | 12 und | $11.300 | $942/und | Equivalente | disponible | 1 → $11.300 | Huevos rojos AA, mismo producto pedido |
+| Olímpica | [Huevo Santa Anita Rojo B Amarrado X30 Unds](https://www.olimpica.com/huevo-santa-anita-panal-amarrado-tipo-b-30-und-7706772300319-916381/p) | Santa Anita | 30 und | $14.900 | $497/und | Equivalente | disponible | 1 → $14.900 | Huevos rojos B, mismo producto pedido |
+| Olímpica | [HUEVO X 30 UND TIPO B](https://www.olimpica.com/huevo-x-30-un-t-b/p) | SIN MARCA 2 | 30 und | $15.800 | $527/und | Equivalente | disponible | 1 → $15.800 | Huevos tipo B, mismo producto pedido |
+| Olímpica | [Huevo Santa Anita Rojo A X30 Unds](https://www.olimpica.com/huevo-santa-anita-a-rojo-30-und-panal-7706772301071-851093/p) | Santa Anita | 30 und | $15.900 | $530/und | Equivalente | disponible | 1 → $15.900 | Huevos rojos A, mismo producto pedido |
+| Olímpica | [HUEVO AAA RJO PET X15 un KIKES](https://www.olimpica.com/huevo-aaa-rjo-pet-x15-un-kikes/p) | SIN MARCA 2 | 15 und | $15.990 | $1.066/und | Equivalente | disponible | 1 → $15.990 | Huevos AAA rojos, mismo producto pedido |
+| Olímpica | _… y 7 ofertas más (ver JSON)_ | | | | | | | | |
 
-_2 resultados descartados por no corresponder al producto._
+_3 resultados descartados por no corresponder al producto._
 
 ### 4. lenteja — 1 kg
 
@@ -118,13 +118,13 @@ _2 resultados descartados por no corresponder al producto._
 | Jumbo | [Lenteja Cuisine&Co x500g](https://www.jumbocolombia.com/lenteja-cuisine-co-x500g/p) | CUISINE & CO NBE MP | 500 g = 0.5 kg | $2.790 | $5.580/kg | Equivalente | disponible | 2 → $5.580 | Lenteja común sin especificaciones |
 | Jumbo | [Lenteja Maritza premium x1000g](https://www.jumbocolombia.com/lenteja-maritza-premiumx1000g/p) | MARITZA | 1000 g = 1 kg | $5.990 | $5.990/kg | Equivalente | disponible | 1 → $5.990 | Lenteja común sin especificaciones |
 | Jumbo | [Lenteja Maritza Marrón x1000grs](https://www.jumbocolombia.com/lenteja-maritza-marron-x1000grs-3655367/p) | MARITZA | 1000 grs = 1 kg | $5.990 | $5.990/kg | Equivalente | disponible | 1 → $5.990 | Lenteja marrón considerada común |
-| Jumbo | [Lenteja Maritza Roja x500g](https://www.jumbocolombia.com/lenteja-maritza-roja-500g-345349/p) | MARITZA | 500 g = 0.5 kg | $4.590 | $9.180/kg | Sustituto | disponible | 2 → $9.180 | Lenteja roja variedad diferente |
+| Jumbo | [Lenteja Maritza Roja x500g](https://www.jumbocolombia.com/lenteja-maritza-roja-500g-345349/p) | MARITZA | 500 g = 0.5 kg | $4.590 | $9.180/kg | Sustituto | disponible | 2 → $9.180 | Lenteja roja, variedad diferente |
 | Jumbo | _… y 4 ofertas más (ver JSON)_ | | | | | | | | |
 | Olímpica | [Lenteja Olimpica 1 Kg](https://www.olimpica.com/lenteja-olimpica-1-kg-7701008001367-990477/p) | Olimpica | 1 kg = 1 kg | $3.800 | $3.800/kg | Equivalente | disponible | 1 → $3.800 | Lenteja común sin especificaciones |
 | Olímpica | [Lenteja Olimpica 500 G](https://www.olimpica.com/lenteja-olimpica--500-g-7701008001374-2000171/p) | Olimpica | 500 g = 0.5 kg | $1.950 | $3.900/kg | Equivalente | disponible | 2 → $3.900 | Lenteja común sin especificaciones |
 | Olímpica | [LENTEJA DIANA 500G](https://www.olimpica.com/lenteja-diana-500g/p) | Diana | 500 g = 0.5 kg | $2.990 | $5.980/kg | Equivalente | disponible | 2 → $5.980 | Lenteja común sin especificaciones |
-| Olímpica | [Lentejas Rojas Prodelagro 500 G](https://www.olimpica.com/lenteja-roj-fithub-prodelagro-500g/p) | FITHUB | 500 g = 0.5 kg | $11.150 | $22.300/kg | Sustituto | disponible | 2 → $22.300 | Lenteja roja variedad diferente |
-| Olímpica | [Lenteja a Granel](https://www.olimpica.com/lenteja-a-granel-24652391-2000147/p) | Sin Marca | no se pudo leer la presentación | $5.400 | — | No comparable (no elegible) | disponible | — | Lenteja a granel sin especificaciones; no se pudo leer el contenido del empaque |
+| Olímpica | [Lentejas Rojas Prodelagro 500 G](https://www.olimpica.com/lenteja-roj-fithub-prodelagro-500g/p) | FITHUB | 500 g = 0.5 kg | $11.150 | $22.300/kg | Sustituto | disponible | 2 → $22.300 | Lentejas rojas, variedad diferente |
+| Olímpica | [Lenteja a Granel](https://www.olimpica.com/lenteja-a-granel-24652391-2000147/p) | Sin Marca | no se pudo leer la presentación | $5.400 | — | No comparable (no elegible) | disponible | — | Lenteja común sin especificaciones; no se pudo leer el contenido del empaque |
 
 _16 resultados descartados por no corresponder al producto._
 
@@ -138,7 +138,7 @@ _16 resultados descartados por no corresponder al producto._
 | Jumbo | [Detergente Blancox sin cloro antibacterial liquido x 2 unidades x 1.8 l c-u](https://www.jumbocolombia.com/detergente-blancox-sin-cloro-antibacterial-liquido-x-2-unidades-x-1-8-l-c-u/p) | BLANCOX | 2 x 1.8 l = 3.6 L | $42.450 | $21.225/und | Equivalente | disponible | 1 → $42.450 | Detergente líquido cumple especificación líquida |
 | Jumbo | [Detergente Top Terra Liquido 3000ml](https://www.jumbocolombia.com/detergente-top-terra-liquido-3000ml-398318/p) | TOP TERRA | 3000 ml = 3 L | $44.790 | $44.790/und | Equivalente | disponible | 1 → $44.790 | Detergente líquido cumple especificación líquida; se asume que el empaque es 1 unidad |
 | Jumbo | [Detergente Dersa Polvo Bicarbonato + Jabon Rey x2000grs](https://www.jumbocolombia.com/detergente-dersa-polvo-bicarbonato-jabon-rey-x2000grs/p) | DERSA | 2000 grs = 2 kg | $21.700 | $21.700/und | Sustituto | disponible | 1 → $21.700 | Detergente en polvo sirve mismo uso, no líquido; se asume que el empaque es 1 unidad |
-| Jumbo | [Detergente en Polvo Ariel Revitacolor de 2kg](https://www.jumbocolombia.com/detergente-en-polvo-ariel-revitacolor-de-2kg/p) | ARIEL | 2 kg = 2 kg | $32.800 | $32.800/und | Sustituto | disponible | 1 → $32.800 | Detergente en polvo sirve mismo uso, no líquido; se asume que el empaque es 1 unidad |
+| Jumbo | [Detergente en Polvo Ariel Revitacolor de 2kg](https://www.jumbocolombia.com/detergente-en-polvo-ariel-revitacolor-de-2kg/p) | ARIEL | 2 kg = 2 kg | $33.370 | $33.370/und | Sustituto | disponible | 1 → $33.370 | Detergente en polvo sirve mismo uso, no líquido; se asume que el empaque es 1 unidad |
 | Jumbo | [Detergente en Polvo Ariel Triple Poder 2kg](https://www.jumbocolombia.com/ariel-con-perlas-limpiadoras-detergente-en-polvo-x-2-kg/p) | ARIEL | 2 kg = 2 kg | $36.400 | $36.400/und | Sustituto | disponible | 1 → $36.400 | Detergente en polvo sirve mismo uso, no líquido; se asume que el empaque es 1 unidad |
 | Jumbo | _… y 20 ofertas más (ver JSON)_ | | | | | | | | |
 
@@ -159,13 +159,14 @@ _0 resultados descartados por no corresponder al producto._
 | Concepto | Valor |
 |---|---|
 | Subtotal de productos | **$86.170** |
-| Envío a domicilio (Jumbo) | desconocido — El costo del domicilio depende de la dirección, la franja y el valor del pedido y solo se calcula en el checkout (/checkout/ está prohibido por robots.txt). |
+| Envío a domicilio (Jumbo) | no confirmado — **estimado $5.000** (promedio de un domicilio en la ciudad; la tienda lo calcula en el checkout) |
 | Total con costos conocidos | $86.170 |
+| **Total estimado (con domicilio estimado)** | **$91.170** |
 | Total final confirmado | **No confirmado** |
 
 Cobertura: **Completa**.
 
-Pendiente para confirmar el total: Envío a domicilio (Jumbo): costo desconocido.
+Pendiente para confirmar el total: Envío a domicilio (Jumbo): no confirmado (se estimó en $5.000).
 
 ### Compra completa en Olímpica
 
@@ -180,13 +181,14 @@ Pendiente para confirmar el total: Envío a domicilio (Jumbo): costo desconocido
 | Concepto | Valor |
 |---|---|
 | Subtotal de productos | **$67.890** |
-| Envío a domicilio (Olímpica) | desconocido — El costo del domicilio depende de la dirección, la franja y el valor del pedido y solo se calcula en el carrito/checkout, que este sistema no consulta. |
+| Envío a domicilio (Olímpica) | no confirmado — **estimado $5.000** (promedio de un domicilio en la ciudad; la tienda lo calcula en el checkout) |
 | Total con costos conocidos | $67.890 |
+| **Total estimado (con domicilio estimado)** | **$72.890** |
 | Total final confirmado | **No confirmado** |
 
 Cobertura: **Parcial**.
 
-Pendiente para confirmar el total: Envío a domicilio (Olímpica): costo desconocido; productos sin cotización: detergente.
+Pendiente para confirmar el total: Envío a domicilio (Olímpica): no confirmado (se estimó en $5.000); productos sin cotización: detergente.
 
 ### Compra combinada
 
@@ -203,14 +205,15 @@ _Requiere 2 pedidos separados (Jumbo, Olímpica)._
 | Concepto | Valor |
 |---|---|
 | Subtotal de productos | **$82.180** |
-| Envío a domicilio (Jumbo) | desconocido — El costo del domicilio depende de la dirección, la franja y el valor del pedido y solo se calcula en el checkout (/checkout/ está prohibido por robots.txt). |
-| Envío a domicilio (Olímpica) | desconocido — El costo del domicilio depende de la dirección, la franja y el valor del pedido y solo se calcula en el carrito/checkout, que este sistema no consulta. |
+| Envío a domicilio (Jumbo) | no confirmado — **estimado $5.000** (promedio de un domicilio en la ciudad; la tienda lo calcula en el checkout) |
+| Envío a domicilio (Olímpica) | no confirmado — **estimado $5.000** (promedio de un domicilio en la ciudad; la tienda lo calcula en el checkout) |
 | Total con costos conocidos | $82.180 |
+| **Total estimado (con domicilio estimado)** | **$92.180** |
 | Total final confirmado | **No confirmado** |
 
 Cobertura: **Completa**.
 
-Pendiente para confirmar el total: Envío a domicilio (Jumbo): costo desconocido; Envío a domicilio (Olímpica): costo desconocido.
+Pendiente para confirmar el total: Envío a domicilio (Jumbo): no confirmado (se estimó en $5.000); Envío a domicilio (Olímpica): no confirmado (se estimó en $5.000).
 
 ## 5. Productos sin cotización y condiciones no verificadas
 
@@ -222,6 +225,7 @@ Pendiente para confirmar el total: Envío a domicilio (Jumbo): costo desconocido
 - Olímpica: el precio es el publicado en la tienda en línea sin seleccionar sede ni dirección; no se verificó que sea igual en Medellín.
 - Olímpica: no se verificó cobertura de domicilio en Medellín.
 - Olímpica: promociones condicionadas (tarjeta propia, 'lleve X pague Y') no se consideran.
+- Domicilio: se usa un **estimado de $5.000 por pedido** (Promedio de referencia de un domicilio dentro de la misma ciudad; no es una tarifa publicada por las tiendas, por eso no confirma el total final). Entra en el total estimado y en la comparación, pero no en el total final confirmado.
 - Los costos de envío desconocidos **no** se suman como cero: por eso el total final queda sin confirmar.
 - El contenido de cada empaque se leyó del nombre del producto; las presentaciones marcadas como "inferidas" deben confirmarse en la página.
 
@@ -229,27 +233,29 @@ Pendiente para confirmar el total: Envío a domicilio (Jumbo): costo desconocido
 
 **Opción recomendada: Jumbo.**
 
-Criterio aplicado: cobertura completa con productos equivalentes y menor subtotal en un solo pedido; la compra combinada solo ahorraría $3.990 (4.6%), menos del 5% que justifica un segundo pedido con envío de costo desconocido.
+Criterio aplicado: cobertura completa con productos equivalentes y menor total estimado en un solo pedido ($91.170, con domicilio estimado de $5.000). La compra combinada ahorra $3.990 en productos, pero necesita 1 domicilio adicional: solo convendría si cada domicilio adicional costara menos de $3.990.
 
-Se recomienda la opción de Jumbo porque ofrece cobertura completa con productos equivalentes y un subtotal menor en un solo pedido, lo que simplifica la compra. Aunque la compra combinada también cubre todos los productos, solo ahorraría $3.990 frente a Jumbo, un 4.6% menos, que no justifica realizar un segundo pedido con un costo de envío desconocido. En comparación, Olímpica es $18.280 más barata que Jumbo, pero su cobertura es parcial y falta cotizar el detergente, por lo que no garantiza tener todos los productos necesarios.
+_Punto de equilibrio: la compra combinada conviene solo si cada domicilio adicional cuesta menos de $3.990._
 
-Antes de concretar la compra, es importante confirmar el costo del envío a domicilio con Jumbo, ya que es desconocido y puede afectar el costo total. También se deben verificar los precios y la cobertura de domicilio en Medellín para Jumbo y Olímpica, así como la disponibilidad de promociones o sustitutos que podrían modificar la comparación actual. Esto asegurará que la opción recomendada sea realmente la más conveniente.
+Se recomienda la opción de Jumbo porque ofrece cobertura completa con productos equivalentes y un menor total estimado en un solo pedido, con un subtotal de $86.170 y un domicilio estimado de $5.000, sumando $91.170. Esta opción es más económica que Olímpica, que es parcial y cuesta $18.280 más, y que la compra combinada, que ahorra $3.990 en productos pero requiere un domicilio adicional, lo que incrementaría el costo total. El punto de equilibrio para que la compra combinada sea conveniente es que cada domicilio adicional cueste menos de $3.990.
+
+Antes de concretar la compra, es necesario confirmar el costo y la cobertura del envío a domicilio en Medellín para Jumbo, así como verificar que los precios sean los mismos en la sede local. También hay que considerar que Olímpica no cotizó el detergente y que las promociones condicionadas no se incluyeron en ninguna opción. La recomendación incluye un domicilio estimado, no confirmado por la tienda, por lo que el total final podría variar.
 
 ## 7. Fuentes
 
-- [Jumbo — Arroz Diana blanco x3kg (consultado 2026-11-09T20:28:58-05:00)](https://www.jumbocolombia.com/arroz-diana-x-3-kg/p)
-- [Jumbo — Aceite Cuisine&Co Girasol x3000Ml (consultado 2026-11-09T20:28:59-05:00)](https://www.jumbocolombia.com/aceite-cuisine-co-girasol-x3000ml/p)
-- [Jumbo — Huevos Kikes rojos XL x15und (consultado 2026-11-09T20:29:04-05:00)](https://www.jumbocolombia.com/huevos-kikes-rojo-aa-x-15-und/p)
-- [Jumbo — Lenteja Diana x500g (consultado 2026-11-09T20:29:05-05:00)](https://www.jumbocolombia.com/lenteja-diana-x-500g/p)
-- [Jumbo — Detergente Líquido Ariel Limpieza Profunda 1.2L (consultado 2026-11-09T20:29:07-05:00)](https://www.jumbocolombia.com/detergente-liquido-ariel-doble-poder-concentrado-de-1-2l/p)
-- [Olímpica — Arroz Diana 500 G (consultado 2026-11-09T20:28:58-05:00)](https://www.olimpica.com/arroz-diana-500-gr-7702511000014-518231/p)
-- [Olímpica — Aceite Premier de Girasol 1800 Ml (consultado 2026-11-09T20:28:59-05:00)](https://www.olimpica.com/aceite-premier-girasol-1800ml/p)
-- [Olímpica — Huevo Kikes Rojo AA X12 Unds (consultado 2026-11-09T20:29:03-05:00)](https://www.olimpica.com/huevo-aa-rojo-pet-kikes-12un-7707304621360-1353937/p)
-- [Olímpica — Lenteja Olimpica 1 Kg (consultado 2026-11-09T20:29:05-05:00)](https://www.olimpica.com/lenteja-olimpica-1-kg-7701008001367-990477/p)
+- [Jumbo — Arroz Diana blanco x3kg (consultado 2026-11-09T22:44:31-05:00)](https://www.jumbocolombia.com/arroz-diana-x-3-kg/p)
+- [Jumbo — Aceite Cuisine&Co Girasol x3000Ml (consultado 2026-11-09T22:44:31-05:00)](https://www.jumbocolombia.com/aceite-cuisine-co-girasol-x3000ml/p)
+- [Jumbo — Huevos Kikes rojos XL x15und (consultado 2026-11-09T22:44:33-05:00)](https://www.jumbocolombia.com/huevos-kikes-rojo-aa-x-15-und/p)
+- [Jumbo — Lenteja Diana x500g (consultado 2026-11-09T22:44:37-05:00)](https://www.jumbocolombia.com/lenteja-diana-x-500g/p)
+- [Jumbo — Detergente Líquido Ariel Limpieza Profunda 1.2L (consultado 2026-11-09T22:44:40-05:00)](https://www.jumbocolombia.com/detergente-liquido-ariel-doble-poder-concentrado-de-1-2l/p)
+- [Olímpica — Arroz Diana 500 G (consultado 2026-11-09T22:44:31-05:00)](https://www.olimpica.com/arroz-diana-500-gr-7702511000014-518231/p)
+- [Olímpica — Aceite Premier de Girasol 1800 Ml (consultado 2026-11-09T22:44:31-05:00)](https://www.olimpica.com/aceite-premier-girasol-1800ml/p)
+- [Olímpica — Huevo Kikes Rojo AA X12 Unds (consultado 2026-11-09T22:44:36-05:00)](https://www.olimpica.com/huevo-aa-rojo-pet-kikes-12un-7707304621360-1353937/p)
+- [Olímpica — Lenteja Olimpica 1 Kg (consultado 2026-11-09T22:44:44-05:00)](https://www.olimpica.com/lenteja-olimpica-1-kg-7701008001367-990477/p)
 
 Páginas de búsqueda consultadas:
 
-- Jumbo: <https://www.jumbocolombia.com/aceites>
+- Jumbo: <https://www.jumbocolombia.com/aceite?map=ft>
 - Jumbo: <https://www.jumbocolombia.com/arroz?map=ft>
 - Jumbo: <https://www.jumbocolombia.com/detergente?map=ft>
 - Jumbo: <https://www.jumbocolombia.com/huevos?map=ft>
@@ -266,11 +272,11 @@ Páginas de búsqueda consultadas:
 [normalizar_solicitud] 5 artículos; proveedores=['jumbo', 'olimpica']; 4 suposiciones
 [consultar_proveedor:jumbo] arroz:ok(28), aceite:ok(28), huevos:ok(28), lenteja:ok(16), detergente:ok(28)
 [consultar_proveedor:olimpica] arroz:ok(15), aceite:ok(15), huevos:ok(15), lenteja:ok(15), detergente:sin_resultados(0)
-[comparar_ofertas] 188 ofertas evaluadas: {'equivalente': 113, 'sustituto': 56, 'descartado': 18, 'no_comparable': 1}
+[comparar_ofertas] 188 ofertas evaluadas: {'equivalente': 112, 'sustituto': 56, 'descartado': 19, 'no_comparable': 1}
 [armar_presupuesto] 3 opciones; recomendada=Jumbo
 [redactar_recomendacion] explicación generada
-[generar_reporte] 260 líneas; guardado en ejemplos\t\presupuesto_20261109_202928.md
+[generar_reporte] 266 líneas; guardado en ejemplos\t\presupuesto_20261109_224511.md
 
-Tiempo total: 33.2 s
-Archivo generado: ejemplos\t\presupuesto_20261109_202928.md
-Archivo generado: ejemplos\t\presupuesto_20261109_202928.json
+Tiempo total: 43.9 s
+Archivo generado: ejemplos\t\presupuesto_20261109_224511.md
+Archivo generado: ejemplos\t\presupuesto_20261109_224511.json

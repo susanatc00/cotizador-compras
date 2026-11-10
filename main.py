@@ -76,7 +76,8 @@ def construir(args):
         kwargs = dict(interprete=reglas.interprete_reglas(alias), juez=reglas.juez_reglas(),
                       redactor=reglas.redactor_reglas())
     return construir_grafo(registro=registro, permitir_sustitutos=not args.sin_sustitutos,
-                           dir_salida=Path(args.salida), **kwargs)
+                           dir_salida=Path(args.salida), envio_estimado=args.envio_estimado,
+                           usar_envio_de_config=not args.sin_envio_estimado, **kwargs)
 
 
 def main() -> None:
@@ -90,6 +91,11 @@ def main() -> None:
                         "catalogo = solo el CSV de referencia.")
     p.add_argument("--sin-llm", action="store_true", help="Usar reglas en lugar de OpenAI.")
     p.add_argument("--sin-sustitutos", action="store_true", help="No incluir sustitutos en los presupuestos.")
+    p.add_argument("--envio-estimado", type=float, default=None, metavar="COP",
+                   help="Domicilio estimado por pedido (por defecto el de config/proveedores.json: 5000). "
+                        "Solo alimenta el total estimado; el total final sigue sin confirmar.")
+    p.add_argument("--sin-envio-estimado", action="store_true",
+                   help="No estimar el domicilio: los envíos quedan como desconocidos.")
     p.add_argument("--salida", default=str(RAIZ / "salidas"), help="Carpeta para el reporte .md y .json.")
     p.add_argument("--mermaid", action="store_true", help="Imprime el diagrama Mermaid del grafo y termina.")
     p.add_argument("--capturar-catalogo", nargs="+", metavar="TERMINO",

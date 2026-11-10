@@ -120,3 +120,38 @@ def test_sustitutos_y_cobertura_parcial():
     assert comb.cobertura == "completa_con_sustitutos"
     sin_sust = armar_presupuestos([arroz, aceite], ev, {"a": "A", "b": "B"}, costos, permitir_sustitutos=False)
     assert sin_sust[-1].items_sin_cotizacion == ["arroz"]
+
+
+def _dos_items_dos_tiendas(precio_aceite_b):
+    arroz, aceite = _item(0), _item(1, "aceite", 2.0, "volumen", "L")
+    pares = [
+        (arroz, _oferta("Arroz 5 kg", 20000, "a", sku="1"), "equivalente"),
+        (arroz, _oferta("Arroz 5 kg", 30000, "b", sku="2"), "equivalente"),
+        (aceite, _oferta("Aceite 2 L", 20000, "a", sku="3"), "equivalente"),
+        (aceite, _oferta("Aceite 2 L", precio_aceite_b, "b", sku="4"), "equivalente"),
+    ]
+    costos = {"a": [CostoAdicional(concepto="Envío a domicilio", valor=None)],
+              "b": [CostoAdicional(concepto="Envío a domicilio", valor=None)]}
+    return [arroz, aceite], _evaluar_todo([arroz, aceite], pares), costos
+
+
+def test_envio_estimado_no_confirma_pero_entra_al_total_estimado():
+    items, ev, costos = _dos_items_dos_tiendas(9000)
+    ops = armar_presupuestos(items, ev, {"a": "A", "b": "B"}, costos, envio_estimado=5000)
+    a, b, comb = ops
+    assert a.total_estimado == 45000 and b.total_estimado == 44000
+    assert comb.total_estimado == 29000 + 2 * 5000  # un domicilio por tienda
+    assert all(o.total_final_confirmado is None for o in ops)
+    assert any("se estimó en $5.000" in p for p in a.pendientes)
+    # Combinada 39.000 < B 44.000 -> gana; equilibrio = ahorro en productos (39.000 - 29.000)
+    rec = recomendar(ops)
+    assert rec.opcion == "Compra combinada" and rec.punto_equilibrio_domicilio == 10000
+
+
+def test_envio_estimado_hace_perder_a_la_combinada_si_ahorra_poco():
+    items, ev, costos = _dos_items_dos_tiendas(17000)
+    ops = armar_presupuestos(items, ev, {"a": "A", "b": "B"}, costos, envio_estimado=5000)
+    # A = 40.000 + 5.000; combinada = 37.000 + 10.000 -> gana A
+    rec = recomendar(ops)
+    assert rec.opcion == "A" and rec.punto_equilibrio_domicilio == 3000
+    assert "menos de $3.000" in rec.criterio
