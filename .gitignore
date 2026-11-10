@@ -8,3 +8,4 @@ __pycache__/
 .vscode/
 salidas/*
 !salidas/.gitkeep
+.streamlit/secrets.toml

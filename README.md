@@ -38,6 +38,8 @@ uv run pytest                                 # 47 pruebas, sin red ni API
 
 La interfaz web (`app.py`, Streamlit) usa el mismo grafo: muestra el avance nodo por nodo, pide las aclaraciones en la página y presenta la recomendación, los presupuestos, las ofertas con sus enlaces y el reporte descargable.
 
+**Publicarla en Streamlit Community Cloud:** crear la app desde el repo (archivo principal `app.py`, Python 3.11) y pegar en *Secrets* el contenido de [`.streamlit/secrets.toml.example`](.streamlit/secrets.toml.example) con los valores reales. Si se define `CODIGO_ACCESO`, la app pública solo usa OpenAI cuando se ingresa ese código; sin él funciona con las reglas de respaldo y no gasta la clave.
+
 En la terminal, cada ejecución imprime el reporte y guarda `salidas/presupuesto_<fecha>.md` (el reporte) y `.json` (todo el estado del grafo, para auditar la ejecución). En [`ejemplos/`](ejemplos/) hay tres ejecuciones reales del 9 de noviembre de 2026:
 
 | Ejemplo | Qué muestra |

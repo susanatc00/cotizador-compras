@@ -7,21 +7,41 @@ sesión para poder reanudar después de una aclaración (interrupt).
 """
 from __future__ import annotations
 
+import hmac
 import json
+import os
 import uuid
 
 import pandas as pd
 import streamlit as st
 from langgraph.types import Command
 
-from cotizador import reglas
-from cotizador.config import hay_api_key
-from cotizador.grafo import construir_grafo
-from cotizador.proveedores import cargar_registro
-from cotizador.schemas import EstadoCotizacion
-from cotizador.texto import cop
-
 st.set_page_config(page_title="Cotizador de mercado", page_icon="🛒", layout="wide")
+
+
+def _cargar_secrets() -> None:
+    """En Streamlit Community Cloud la clave va en *Secrets*; se pasa al entorno
+    para que cotizador.config la lea igual que desde .env."""
+    try:
+        for k, v in st.secrets.items():
+            if isinstance(v, (str, int, float)):
+                os.environ.setdefault(k, str(v))
+    except Exception:  # noqa: BLE001 — en local no hay secrets.toml
+        pass
+
+
+_cargar_secrets()
+
+from cotizador import reglas  # noqa: E402
+from cotizador.config import hay_api_key  # noqa: E402
+from cotizador.grafo import construir_grafo  # noqa: E402
+from cotizador.proveedores import cargar_registro  # noqa: E402
+from cotizador.schemas import EstadoCotizacion  # noqa: E402
+from cotizador.texto import cop  # noqa: E402
+
+# Si se define CODIGO_ACCESO (en Secrets o .env), el LLM solo se activa con ese código:
+# así la app puede ser pública sin que cualquiera gaste la clave de OpenAI.
+CODIGO_ACCESO = os.getenv("CODIGO_ACCESO", "").strip()
 
 EJEMPLOS = {
     "Enunciado": "Necesito 5 kg de arroz, 2 litros de aceite y 3 kg de azúcar. Consulta dos supermercados y "
@@ -98,8 +118,16 @@ def ejecutar(entrada) -> None:
 with st.sidebar:
     st.header("Opciones")
     tiene_key = hay_api_key()
-    usar_llm = st.toggle("Usar LLM (OpenAI)", value=tiene_key, disabled=not tiene_key,
-                         help="Sin OPENAI_API_KEY en .env se usan las reglas de respaldo.")
+    autorizado = True
+    if tiene_key and CODIGO_ACCESO:
+        codigo = st.text_input("Código de acceso para usar el LLM", type="password",
+                               help="Sin el código, la app funciona con reglas (sin OpenAI).")
+        autorizado = hmac.compare_digest(codigo.strip(), CODIGO_ACCESO)
+        if codigo and not autorizado:
+            st.error("Código incorrecto.")
+    puede_llm = tiene_key and autorizado
+    usar_llm = st.toggle("Usar LLM (OpenAI)", value=puede_llm, disabled=not puede_llm,
+                         help="Sin OPENAI_API_KEY (o sin el código de acceso) se usan las reglas de respaldo.")
     fuente = st.radio("Fuente de precios", ["auto", "web", "catalogo"], index=0,
                       format_func={"auto": "Web (con respaldo en catálogo)", "web": "Solo web en vivo",
                                    "catalogo": "Catálogo de referencia (sin internet)"}.get)
